@@ -4,6 +4,6 @@
     <group>
         <clip-path android:pathData="M0,0h206v390h-206z" />
         <path android:fillColor="#ff000000" android:pathData="M0,0h206v390h-206z" />
-        <path android:fillColor="@drawable/$fold_screen_dialog_background__0" android:pathData="M111.5,170.5m-249.5,0a249.5,249.5 0,1 1,499 0a249.5,249.5 0,1 1,-499 0" android:fillAlpha="0.3" />
+        <path android:fillColor="@drawable/sub_fold_screen_dialog_background__0" android:pathData="M111.5,170.5m-249.5,0a249.5,249.5 0,1 1,499 0a249.5,249.5 0,1 1,-499 0" android:fillAlpha="0.3" />
     </group>
 </vector>

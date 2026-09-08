@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/sub_coui_plane_arrow_expanded_anim__2" android:duration="83" android:startOffset="0" android:valueFrom="M-10.5 7.4 C-10.5,7.4 -21.85,-6.74 -21.85,-6.74 C-21.85,-6.74 -10.49,-6.74 -10.49,-6.74 C-10.49,-6.74 0.94,-6.74 0.94,-6.74 C0.94,-6.74 -10.5,7.4 -10.5,7.4c " android:valueTo="M-10.5 5.47 C-10.5,5.47 -21.85,4.98 -21.85,4.98 C-21.85,4.98 -10.48,2.89 -10.48,2.89 C-10.48,2.89 0.93,4.98 0.93,4.98 C0.93,4.98 -10.5,5.47 -10.5,5.47c " android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@drawable/sub_coui_plane_arrow_expanded_anim__3" android:duration="117" android:startOffset="83" android:valueFrom="M-10.5 5.47 C-10.5,5.47 -21.85,4.98 -21.85,4.98 C-21.85,4.98 -10.48,2.89 -10.48,2.89 C-10.48,2.89 0.93,4.98 0.93,4.98 C0.93,4.98 -10.5,5.47 -10.5,5.47c " android:valueTo="M-10.5 6.97 C-10.5,6.97 -21.85,6.97 -21.85,6.97 C-21.85,6.97 -10.49,-6.74 -10.49,-6.74 C-10.49,-6.74 0.93,6.97 0.93,6.97 C0.93,6.97 -10.5,6.97 -10.5,6.97c " android:valueType="pathType" android:propertyName="pathData" />
+</set>

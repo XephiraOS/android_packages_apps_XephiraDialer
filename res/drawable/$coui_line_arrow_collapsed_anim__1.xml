@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<set android:ordering="together"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <objectAnimator android:interpolator="@drawable/$coui_line_arrow_collapsed_anim__2" android:duration="350" android:startOffset="0" android:valueFrom="M-16.5 10.61 C-16.5,10.61 3.06,-8.99 3.06,-8.99 C3.06,-8.99 22.5,10.61 22.5,10.61 " android:valueTo="M-16.5 -10.5 C-16.5,-10.5 3.06,9.11 3.06,9.1 C3.06,9.11 22.5,-10.5 22.5,-10.5 " android:valueType="pathType" android:propertyName="pathData" />
-</set>

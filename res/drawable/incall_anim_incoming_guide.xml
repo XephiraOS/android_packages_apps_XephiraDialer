@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animated-vector android:drawable="@drawable/$incall_anim_incoming_guide__0"
+<animated-vector android:drawable="@drawable/sub_incall_anim_incoming_guide__0"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <target android:name="guide" android:animation="@drawable/$incall_anim_incoming_guide__1" />
-    <target android:name="arrow_guide" android:animation="@drawable/$incall_anim_incoming_guide__4" />
-    <target android:name="first_arrow" android:animation="@drawable/$incall_anim_incoming_guide__6" />
-    <target android:name="second_arrow" android:animation="@drawable/$incall_anim_incoming_guide__7" />
-    <target android:name="third_arrow" android:animation="@drawable/$incall_anim_incoming_guide__8" />
+    <target android:name="guide" android:animation="@drawable/sub_incall_anim_incoming_guide__1" />
+    <target android:name="arrow_guide" android:animation="@drawable/sub_incall_anim_incoming_guide__4" />
+    <target android:name="first_arrow" android:animation="@drawable/sub_incall_anim_incoming_guide__6" />
+    <target android:name="second_arrow" android:animation="@drawable/sub_incall_anim_incoming_guide__7" />
+    <target android:name="third_arrow" android:animation="@drawable/sub_incall_anim_incoming_guide__8" />
 </animated-vector>

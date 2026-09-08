@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animated-vector android:drawable="@drawable/$coui_icon_btn_selected_to_unselected__0"
+<animated-vector android:drawable="@drawable/sub_coui_icon_btn_selected_to_unselected__0"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <target android:name="_R_G_L_3_G_N_1_T_0" android:animation="@drawable/$coui_icon_btn_selected_to_unselected__1" />
-    <target android:name="_R_G_L_2_G_D_0_P_0" android:animation="@drawable/$coui_icon_btn_selected_to_unselected__6" />
-    <target android:name="_R_G_L_2_G_N_1_T_0" android:animation="@drawable/$coui_icon_btn_selected_to_unselected__8" />
-    <target android:name="_R_G_L_1_G_N_1_T_0" android:animation="@drawable/$coui_icon_btn_selected_to_unselected__13" />
-    <target android:name="_R_G_L_0_G_N_1_T_0" android:animation="@drawable/$coui_icon_btn_selected_to_unselected__18" />
-    <target android:name="_R_G_L_0_G_N_1_T_1" android:animation="@drawable/$coui_icon_btn_selected_to_unselected__23" />
-    <target android:name="_R_G_L_0_G_D_0_P_0" android:animation="@drawable/$coui_icon_btn_selected_to_unselected__28" />
-    <target android:name="_R_G_L_0_G_D_0_P_1" android:animation="@drawable/$coui_icon_btn_selected_to_unselected__30" />
-    <target android:name="time_group" android:animation="@drawable/$coui_icon_btn_selected_to_unselected__32" />
+    <target android:name="_R_G_L_3_G_N_1_T_0" android:animation="@drawable/sub_coui_icon_btn_selected_to_unselected__1" />
+    <target android:name="_R_G_L_2_G_D_0_P_0" android:animation="@drawable/sub_coui_icon_btn_selected_to_unselected__6" />
+    <target android:name="_R_G_L_2_G_N_1_T_0" android:animation="@drawable/sub_coui_icon_btn_selected_to_unselected__8" />
+    <target android:name="_R_G_L_1_G_N_1_T_0" android:animation="@drawable/sub_coui_icon_btn_selected_to_unselected__13" />
+    <target android:name="_R_G_L_0_G_N_1_T_0" android:animation="@drawable/sub_coui_icon_btn_selected_to_unselected__18" />
+    <target android:name="_R_G_L_0_G_N_1_T_1" android:animation="@drawable/sub_coui_icon_btn_selected_to_unselected__23" />
+    <target android:name="_R_G_L_0_G_D_0_P_0" android:animation="@drawable/sub_coui_icon_btn_selected_to_unselected__28" />
+    <target android:name="_R_G_L_0_G_D_0_P_1" android:animation="@drawable/sub_coui_icon_btn_selected_to_unselected__30" />
+    <target android:name="time_group" android:animation="@drawable/sub_coui_icon_btn_selected_to_unselected__32" />
 </animated-vector>
