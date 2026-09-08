@@ -1,5 +1,5 @@
 *.class
-*.dex
+!classes*.dex
 .gradle/
 build/
 *.iml

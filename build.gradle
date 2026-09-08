@@ -1,58 +1,59 @@
 plugins {
-    id("com.android.application") version "8.13.2" apply true
+    id 'base'
 }
 
-android {
-    namespace 'com.oplus.dialer'
-    compileSdk 35
+def apktoolJar = file("tools/apktool.jar")
+def debugKeystore = file("debug.keystore")
+def outputDir = file("build/outputs/apk/debug")
+def unsignedApk = file("${outputDir}/XephiraDialer-unsigned.apk")
+def signedApk = file("${outputDir}/XephiraDialer-debug.apk")
 
-    defaultConfig {
-        applicationId "com.oplus.dialer"
-        minSdkVersion 26
-        targetSdkVersion 34
-        versionCode 1
-        versionName "1.0.0"
-        multiDexEnabled true
-    }
-
-    signingConfigs {
-        debug {
-            // Uses standard debug keystore
+task ensureApktool {
+    doLast {
+        if (!apktoolJar.exists()) {
+            apktoolJar.parentFile.mkdirs()
+            println "Downloading Apktool 2.10.0..."
+            ant.get(src: 'https://github.com/iBotPeaches/Apktool/releases/download/v2.10.0/apktool_2.10.0.jar', dest: apktoolJar)
         }
-    }
-
-    buildTypes {
-        debug {
-            applicationIdSuffix ""
-            signingConfig signingConfigs.debug
-        }
-        release {
-            minifyEnabled false
-            signingConfig signingConfigs.debug
-        }
-    }
-
-    sourceSets {
-        main {
-            manifest.srcFile 'AndroidManifest.xml'
-            java.srcDirs = ['src']
-            res.srcDirs = ['res']
-            assets.srcDirs = ['assets']
-        }
-    }
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
-    }
-
-    lint {
-        abortOnError false
-        checkReleaseBuilds false
     }
 }
 
-dependencies {
-    // All AndroidX, Material, COUI, Kotlin, and HeyTap libraries and resources
-    // are already included in src/ and res/.
+task ensureKeystore(type: Exec) {
+    onlyIf { !debugKeystore.exists() }
+    commandLine 'keytool', '-genkey', '-v', '-keystore', debugKeystore.absolutePath,
+            '-storepass', 'android', '-alias', 'androiddebugkey', '-keypass', 'android',
+            '-keyalg', 'RSA', '-keysize', '2048', '-validity', '10000',
+            '-dname', 'CN=Android Debug,O=Android,C=US'
 }
+
+task buildUnsignedApk(type: JavaExec) {
+    dependsOn ensureApktool
+    classpath = files(apktoolJar)
+    mainClass = 'brut.apktool.Main'
+    args = ['b', projectDir.absolutePath, '-o', unsignedApk.absolutePath]
+
+    doFirst {
+        outputDir.mkdirs()
+    }
+}
+
+task signDebugApk(type: Exec) {
+    dependsOn buildUnsignedApk, ensureKeystore
+    commandLine 'jarsigner', '-keystore', debugKeystore.absolutePath,
+            '-storepass', 'android', '-keypass', 'android',
+            '-signedjar', signedApk.absolutePath,
+            unsignedApk.absolutePath, 'androiddebugkey'
+}
+
+task assembleDebug {
+    dependsOn signDebugApk
+    group = 'build'
+    description = 'Builds and signs the debug APK'
+
+    doLast {
+        println "Successfully built and signed: ${signedApk.absolutePath}"
+    }
+}
+
+assemble.dependsOn assembleDebug
+build.dependsOn assemble

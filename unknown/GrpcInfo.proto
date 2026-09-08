@@ -1,0 +1,17 @@
+syntax = "proto3";
+import "google/protobuf/any.proto";
+
+option java_package = "com.android.contacts.framework.virtualsupport";
+
+message RequestChat{
+    int32 index = 1;
+    string request = 2;
+}
+
+message ResponseChat{
+    string result = 1;
+}
+
+service RouteChat {
+    rpc chat (stream google.protobuf.Any) returns (stream google.protobuf.Any) {}
+}
