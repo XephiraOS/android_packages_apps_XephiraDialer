@@ -53,12 +53,6 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.11.0'
-    implementation 'androidx.recyclerview:recyclerview:1.3.2'
-    implementation 'androidx.viewpager2:viewpager2:1.0.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.lifecycle:lifecycle-runtime:2.7.0'
-    implementation 'androidx.core:core:1.12.0'
-    implementation 'androidx.multidex:multidex:2.0.1'
+    // All AndroidX, Material, COUI, Kotlin, and HeyTap libraries and resources
+    // are already included in src/ and res/.
 }
