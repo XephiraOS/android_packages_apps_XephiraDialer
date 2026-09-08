@@ -150,7 +150,6 @@
     <uses-permission android:name="com.oplus.omoji.permission.readProvider"/>
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
     <uses-permission android:name="com.oplus.permission.safe.SETTINGS"/>
-    <original-package android:name="com.android.incallui"/>
     <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <uses-permission android:name="android.permission.STATUS_BAR_SERVICE"/>
