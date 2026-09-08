@@ -1,0 +1,36 @@
+name: Build XephiraDialer
+
+on:
+  push:
+    branches: [ lineage-23.2, main ]
+  pull_request:
+    branches: [ lineage-23.2, main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+          cache: 'gradle'
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Build Debug APK with Gradle
+        run: ./gradlew assembleDebug --stacktrace
+
+      - name: Upload Debug APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: XephiraDialer-debug.apk
+          path: build/outputs/apk/debug/*.apk
+          if-no-files-found: error
