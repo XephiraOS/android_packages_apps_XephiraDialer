@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$coui_shape_checkbox_unselected_to_part__7" android:duration="20" android:startOffset="0" android:valueFrom="1" android:valueTo="1.2" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$coui_shape_checkbox_unselected_to_part__8" android:duration="20" android:startOffset="0" android:valueFrom="1" android:valueTo="1.2" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/$coui_shape_checkbox_unselected_to_part__9" android:duration="160" android:startOffset="20" android:valueFrom="1.2" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$coui_shape_checkbox_unselected_to_part__10" android:duration="160" android:startOffset="20" android:valueFrom="1.2" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+</set>

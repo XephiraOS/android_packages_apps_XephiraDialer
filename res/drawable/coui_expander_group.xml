@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_expanded="true" android:drawable="@drawable/coui_app_expander_open" />
+    <item android:drawable="@drawable/coui_app_expander_close" />
+</selector>

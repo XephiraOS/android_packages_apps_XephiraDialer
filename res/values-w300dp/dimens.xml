@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coui_full_page_statement_button_width">220.0dip</dimen>
+    <dimen name="coui_larger_btn_width">220.0dip</dimen>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.customize.contacts.widget.ScrollRelativeLayout android:id="@id/dialpad_container" android:background="@null" android:paddingBottom="@dimen/DP_20" android:layout_width="fill_parent" android:layout_height="@dimen/new_dialpad_container_empty_height" android:layout_alignParentBottom="true" android:layoutDirection="ltr" android:forceDarkAllowed="false" app:layout_constraintBottom_toBottomOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.contacts.dialpad.view.DialpadBottomView android:id="@id/dialpad_bottom_sub_container" android:layout_width="fill_parent" android:layout_height="@dimen/DP_56" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/DP_16" android:layout_marginEnd="@dimen/DP_16">
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/switch_sim_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ViewStub android:id="@id/sim_switcher_stub" android:layout="@layout/switch_sim_prompt_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+            <ImageButton android:id="@id/dial_hide" android:background="@drawable/pb_bg_dialpad_bottom_ripple" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pb_ic_hide_dial" android:scaleType="center" android:layout_centerInParent="true" android:contentDescription="@string/hide_dialpad_description" />
+            <ViewStub android:id="@id/ust_rcs_video_stub" android:layout="@layout/ust_rcs_video_call_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/dial_btn_panel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ViewStub android:layout_gravity="center_horizontal" android:id="@id/single_sim_layout_satellite" android:layout="@layout/single_sim_layout_satellite" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ViewStub android:layout_gravity="center_horizontal" android:id="@id/single_sim_layout" android:layout="@layout/single_sim_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/dual_sim_layout" android:layout="@layout/dual_sim_layout" android:layout_width="fill_parent" android:layout_height="@dimen/DP_40" />
+        </LinearLayout>
+        <com.customize.contacts.widget.DialDeleteImageButton android:layout_gravity="center_vertical" android:id="@id/dial_del" android:background="@drawable/pb_bg_dialpad_bottom_ripple" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/pb_dr_dial_delete" android:scaleType="center" android:layout_weight="1.0" android:contentDescription="@string/delete_description" />
+    </com.android.contacts.dialpad.view.DialpadBottomView>
+    <LinearLayout android:orientation="vertical" android:id="@id/dialpad_upper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/dialpad_bottom_sub_container" />
+</com.customize.contacts.widget.ScrollRelativeLayout>

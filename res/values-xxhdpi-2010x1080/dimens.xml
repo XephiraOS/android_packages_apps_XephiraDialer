@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="oplus_call_button_margin_bottom">92.0dip</dimen>
+    <dimen name="oplus_call_card_first_line_above_margin_top">109.0dip</dimen>
+    <dimen name="oplus_second_line_marginBottom">51.329987dip</dimen>
+</resources>

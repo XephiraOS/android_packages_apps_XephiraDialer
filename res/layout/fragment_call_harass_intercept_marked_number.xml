@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.grid.COUIPercentWidthRecyclerView android:id="@id/list_info" android:paddingTop="@dimen/list_padding_top" android:paddingBottom="@dimen/DP_32" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/tool_bar_height" app:couiRecyclerGridNumber="@integer/grid_guide_column_preference"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/fold_screen_video_anim_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/fold_screen_view_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.anim.EffectiveAnimationView android:id="@id/video_anim_fold" android:tag="binding_1" android:layout_width="@dimen/fold_video_call_anim_width" android:layout_height="@dimen/fold_video_call_anim_height" app:anim_autoPlay="false" app:anim_loop="true" app:anim_rawRes="@raw/dragonfly_unfold_phone_tips_anim" />
+    <com.android.incallui.mvvm.widget.SuitableSizeTextView android:textAppearance="@style/couiTextAppearanceSmallButton" android:textColor="@color/coui_color_primary_neutral_dark" android:ellipsize="end" android:gravity="center" android:id="@id/video_call_tips_fold" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fold_video_call_tips_view_margin_top" />
+</LinearLayout>

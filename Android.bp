@@ -1,0 +1,46 @@
+//
+// Copyright (C) 2026 XephiraOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+android_app {
+    name: "XephiraDialer",
+    platform_apis: true,
+    certificate: "platform",
+    privileged: true,
+    system_ext_specific: true,
+
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt",
+    ],
+
+    resource_dirs: ["res"],
+
+    static_libs: [
+        "androidx.core_core",
+        "androidx.appcompat_appcompat",
+        "androidx.recyclerview_recyclerview",
+        "androidx.viewpager2_viewpager2",
+        "androidx.lifecycle_lifecycle-runtime",
+        "com.google.android.material_material",
+    ],
+
+    overrides: [
+        "Dialer",
+        "InCallUI",
+        "CarDialerApp",
+    ],
+
+    optimize: {
+        enabled: false,
+    },
+
+    dex_preopt: {
+        enabled: false,
+    },
+}

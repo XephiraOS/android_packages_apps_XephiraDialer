@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.COUIDividerAppBarLayout android:id="@id/appBarLayout" android:tag="layout/divider_appbar_layout_0" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.toolbar.COUIToolbar android:id="@id/coui_toolbar" app:layout_scrollFlags="noScroll" style="@style/AppCollapsedToolbarStyle" />
+</com.google.android.material.appbar.COUIDividerAppBarLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/DP_24" android:paddingEnd="@dimen/TouchSearchView_width" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.imageview.COUIRoundImageView android:id="@id/Photo" android:clickable="false" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/photo_margin_right" android:layout_alignParentStart="true" style="@style/PhotoStyle" />
+    <TextView android:id="@id/text" android:paddingTop="@dimen/padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:fontFamily="sans-serif-medium" android:layout_toStartOf="@id/icon" android:layout_toEndOf="@id/Photo" style="@style/LargeTextStyle" />
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?couiButtonNextStyle" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/DP_6" android:layout_alignParentEnd="true" />
+</RelativeLayout>

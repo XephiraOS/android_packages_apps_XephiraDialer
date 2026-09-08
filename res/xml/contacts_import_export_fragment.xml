@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/import_and_export"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/oplus_title_import_phonebook_title" android:key="pref_key_import_contacts" app:isFirstCategory="true" app:top_margin_type="small">
+        <com.android.contacts.framework.baseui.highlight.HighlightJumpPreference android:title="@string/oplus_import_from_sdcard" android:key="from_sdcard" />
+        <com.android.contacts.framework.baseui.highlight.HighlightJumpPreference android:layout="@layout/coui_preference" android:title="@string/from_other_device_tablet" android:key="from_bluetooth" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:key="pref_key_import_from_sim_1" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:key="pref_key_import_from_sim_2" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/oplus_title_export_phonebook_title" android:key="pref_key_export_contacts">
+        <com.coui.appcompat.preference.COUIJumpPreference android:layout="@layout/coui_preference" android:title="@string/move_contacts_to_google" android:key="pref_key_export_to_google" />
+        <com.android.contacts.framework.baseui.highlight.HighlightJumpPreference android:layout="@layout/coui_preference" android:title="@string/oplus_export_from_sdcard" android:key="export_sdcard" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:key="pref_key_export_to_sim_1" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:key="pref_key_export_to_sim_2" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/send_contacts" android:key="pref_key_share_contacts">
+        <com.android.contacts.framework.baseui.highlight.HighlightJumpPreference android:layout="@layout/coui_preference" android:title="@string/send_contacts" android:key="share_contacts" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</androidx.preference.PreferenceScreen>

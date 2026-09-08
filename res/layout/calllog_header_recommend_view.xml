@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.framework.baseui.widget.ContactsRecommendView android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/container" android:background="@drawable/pb_bg_shape_top_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_8" android:layout_marginBottom="@dimen/DP_16" android:layout_marginStart="@dimen/list_common_margin" android:layout_marginEnd="@dimen/list_common_margin">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_10" android:layout_marginBottom="@dimen/DP_12" android:scaleType="center" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/DP_12" />
+        <TextView android:id="@id/recommend_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_12" android:layout_marginBottom="@dimen/DP_16" android:layout_centerVertical="false" android:textAlignment="viewStart" android:layout_marginStart="@dimen/top_tip_text_margin_start" android:layout_marginEnd="@dimen/DP_16" android:layout_alignParentStart="true" style="@style/DialRecommendContentTextStyle" />
+        <LinearLayout android:id="@id/top_tips_action_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_15" android:layout_marginBottom="@dimen/DP_12" android:layout_marginEnd="@dimen/DP_4" android:layout_alignParentEnd="true">
+            <TextView android:id="@id/dismiss_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/RecommendActionTextStyle" />
+            <TextView android:id="@id/action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/RecommendActionTextStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.android.contacts.framework.baseui.widget.ContactsRecommendView>

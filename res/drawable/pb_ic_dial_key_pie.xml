@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="8.0dip" android:width="8.0dip" android:viewportWidth="8.0" android:viewportHeight="8.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/pb_color_dialpad_letter" android:pathData="M1.9314,7.116C2.4594,6.748 2.8887,6.4013 3.2194,6.076C3.5501,5.7506 3.8061,5.4093 3.9874,5.0519C4.1527,4.7213 4.2727,4.3266 4.3474,3.8679C4.4221,3.4093 4.4594,2.844 4.4594,2.172V0.252H5.2434V2.172C5.2434,2.9026 5.2007,3.5213 5.1154,4.0279C5.0301,4.5293 4.8887,4.9853 4.6914,5.3959C4.4887,5.8173 4.2087,6.2173 3.8514,6.596C3.4941,6.9746 3.0381,7.3586 2.4834,7.748L1.9314,7.116Z" />
+</vector>

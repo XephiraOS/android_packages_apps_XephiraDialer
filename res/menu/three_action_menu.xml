@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/pb_dr_menu_sms" android:id="@id/menu_sms" android:title="@string/mark_items" />
+    <item android:icon="@drawable/pb_dr_menu_email" android:id="@id/menu_email" android:title="@string/mark_items" />
+    <item android:icon="@drawable/pb_dr_menu_remove_group_member" android:id="@id/menu_remove_member" android:title="@string/mark_items" />
+</menu>

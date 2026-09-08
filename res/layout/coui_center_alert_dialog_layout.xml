@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.dialog.widget.COUIAlertDialogMaxLinearLayout android:id="@id/parentPanel" style="@style/COUIAlertDialogLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:coui="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.dialog.widget.COUIAlertDialogClipCornerLinearLayout android:id="@id/rootView" style="@style/COUIAlertDialogClipCornerLayoutStyle">
+        <LinearLayout android:id="@id/topPanel" style="@style/COUIAlertDialogTopPanelStyle">
+            <LinearLayout android:id="@id/title_template" style="@style/COUIAlertDialogTitleTemplateStyle">
+                <ImageView android:id="@android:id/icon" style="@style/COUIAlertDialogIconStyle" />
+                <com.coui.appcompat.statement.COUIMaxHeightScrollView android:id="@id/alert_title_scroll_view" style="@style/COUIAlertDialogTitleScrollViewStyle">
+                    <com.coui.appcompat.dialog.widget.COUIDialogTitle android:id="@id/alertTitle" style="@style/COUIAlertDialogTitleStyle" />
+                </com.coui.appcompat.statement.COUIMaxHeightScrollView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/contentPanel" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/COUIAlertDialogContentPanelStyle">
+            <com.coui.appcompat.dialog.widget.COUIMaxHeightNestedScrollView android:id="@id/scrollView" coui:scrollViewMaxHeight="@dimen/coui_alert_dialog_builder_content_max_height" style="@style/COUIAlertDialogMessageScrollViewStyle">
+                <com.coui.appcompat.dialog.widget.COUIAlertDialogMessageView android:id="@android:id/message" style="@style/COUIAlertDialogMessageStyle" />
+            </com.coui.appcompat.dialog.widget.COUIMaxHeightNestedScrollView>
+            <LinearLayout android:id="@id/listPanel" style="@style/COUIAlertDialogListPanelStyle" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/customPanel" android:paddingBottom="@dimen/coui_alert_dialog_customer_layout_padding_bottom" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/COUIAlertDialogCustomPanelStyle">
+            <FrameLayout android:id="@id/custom" style="@style/COUIAlertDialogCustomStyle" />
+        </FrameLayout>
+        <include layout="@layout/coui_center_alert_dialog_button_panel" />
+    </com.coui.appcompat.dialog.widget.COUIAlertDialogClipCornerLinearLayout>
+</com.coui.appcompat.dialog.widget.COUIAlertDialogMaxLinearLayout>

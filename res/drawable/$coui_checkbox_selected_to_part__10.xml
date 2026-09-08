@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$coui_checkbox_selected_to_part__11" android:duration="100" android:startOffset="0" android:valueFrom="M-15 -3 C-15,-3 -15,-3 -15,-3 C-15,-3 -14.98,3 -14.98,3 C-14.98,3 -15.01,3 -15.01,3 C-15.01,3 -15,-3 -15,-3c " android:valueTo="M-15 -3 C-15,-3 -15,-3 -15,-3 C-15,-3 -14.98,3 -14.98,3 C-14.98,3 -15.01,3 -15.01,3 C-15.01,3 -15,-3 -15,-3c " android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@drawable/$coui_checkbox_selected_to_part__12" android:duration="200" android:startOffset="100" android:valueFrom="M-15 -3 C-15,-3 -15,-3 -15,-3 C-15,-3 -14.98,3 -14.98,3 C-14.98,3 -15.01,3 -15.01,3 C-15.01,3 -15,-3 -15,-3c " android:valueTo="M15 -3 C15,-3 -15,-3 -15,-3 C-15,-3 -14.98,3 -14.98,3 C-14.98,3 14.99,3 14.99,3 C14.99,3 15,-3 15,-3c " android:valueType="pathType" android:propertyName="pathData" />
+</set>

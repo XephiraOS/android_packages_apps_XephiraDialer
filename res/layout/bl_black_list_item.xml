@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start" android:id="@id/item_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blacklist_margin_top" android:layout_marginBottom="@dimen/DP_8" android:layout_marginStart="@dimen/DP_32" android:layout_marginEnd="@dimen/DP_32" style="@style/BLSmallTitleStyle" />
+    <com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:orientation="vertical" android:id="@id/list_card_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/item_title">
+        <RelativeLayout android:id="@id/list_card_item_view" android:paddingTop="@dimen/list_padding_top" android:paddingBottom="@dimen/list_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/DP_52" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_marginStart="@dimen/DP_32" android:layout_marginEnd="@dimen/DP_28" android:layout_alignParentStart="true">
+            <FrameLayout android:id="@id/listview_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <CheckBox android:layout_gravity="center_vertical" android:id="@id/listview_scrollchoice_checkbox" android:background="@null" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/DP_0" android:paddingEnd="@dimen/DP_0" />
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/function_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@id/function" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/DP_100" android:maxLines="2" style="@style/BLSmallTextStyle" />
+                    <ImageView android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/coui_btn_next" />
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/name_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_marginEnd="@dimen/text_margin_common" android:layout_toStartOf="@id/listview_end" android:layout_alignParentStart="true">
+                <TextView android:ellipsize="end" android:id="@id/item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BLLargeTextStyle" />
+                <TextView android:ellipsize="end" android:id="@id/number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="ltr" style="@style/BLSmallTextStyle" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView android:id="@id/bottom_divider" android:layout_marginStart="@dimen/DP_32" android:layout_marginEnd="@dimen/DP_32" style="@style/BLBottomDividerStyle" />
+    </com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>
+</RelativeLayout>

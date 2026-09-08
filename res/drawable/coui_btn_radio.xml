@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true" android:id="@id/radio_on" android:drawable="@drawable/coui_btn_radio_on" />
+    <item android:state_enabled="true" android:state_checked="false" android:id="@id/radio_off" android:drawable="@drawable/coui_btn_radio_off" />
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/coui_btn_radio_on_disabled" />
+    <item android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/coui_btn_radio_off_disabled" />
+    <transition android:drawable="@drawable/coui_btn_radio_on_to_off_animation" android:toId="@id/radio_off" android:fromId="@id/radio_on" />
+    <transition android:drawable="@drawable/coui_btn_radio_off_to_on_animation" android:toId="@id/radio_on" android:fromId="@id/radio_off" />
+</animated-selector>

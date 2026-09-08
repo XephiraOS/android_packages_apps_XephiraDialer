@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="large_photo_letter_to_tile_ratio">40.999996%</fraction>
+    <fraction name="letter_to_tile_ratio">50.0%</fraction>
+    <fraction name="oplus_letter_to_tile_ratio">50.0%</fraction>
+    <fraction name="tab_height_screen_width_percentage">50.0%</fraction>
+    <fraction name="tab_width_screen_width_percentage">75.0%</fraction>
+</resources>

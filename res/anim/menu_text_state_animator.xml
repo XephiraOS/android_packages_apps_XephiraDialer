@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <set>
+            <objectAnimator android:duration="@android:integer/config_shortAnimTime" android:valueTo="1.1" android:valueType="floatType" android:propertyName="scaleX" />
+            <objectAnimator android:duration="@android:integer/config_shortAnimTime" android:valueTo="1.1" android:valueType="floatType" android:propertyName="scaleY" />
+            <objectAnimator android:duration="0" android:valueFrom="@android:color/white" android:valueTo="?couiColorContainerTheme" android:propertyName="textColor" />
+        </set>
+    </item>
+    <item android:state_selected="false">
+        <set>
+            <objectAnimator android:duration="@android:integer/config_shortAnimTime" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleX" />
+            <objectAnimator android:duration="@android:integer/config_shortAnimTime" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleY" />
+            <objectAnimator android:duration="0" android:valueFrom="?couiColorContainerTheme" android:valueTo="@android:color/white" android:propertyName="textColor" />
+        </set>
+    </item>
+</selector>

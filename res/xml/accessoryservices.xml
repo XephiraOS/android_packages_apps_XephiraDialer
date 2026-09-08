@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles>
+    <provider connectionType="BT|BLE|WIFI" impl="com.android.contacts.framework.virtualsupport.ChatCallProvider" limit="ANY" name="contacts_grpc_provider" timeout="10" urn="contacts.icdf.service:1.0">
+        <channel id="101" priority="low" reliability="disable" />
+        <channel id="111" priority="low" reliability="disable" />
+    </provider>
+    <consumer connectionType="BT|BLE|WIFI" impl="com.android.contacts.framework.virtualsupport.ChatCallConsumer" limit="ANY" name="contacts_grpc_consumer" timeout="10" urn="contacts.icdf.service:1.0">
+        <channel id="101" priority="low" reliability="disable" />
+        <channel id="111" priority="low" reliability="disable" />
+    </consumer>
+</profiles>

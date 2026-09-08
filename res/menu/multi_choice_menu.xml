@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/bl_dr_add" android:id="@id/add_list" android:title="@string/add_blacklist" app:showAsAction="always" />
+    <item android:icon="@drawable/bl_ic_call_edit" android:id="@id/edit" android:visible="false" android:title="@string/edit" app:showAsAction="always" />
+</menu>

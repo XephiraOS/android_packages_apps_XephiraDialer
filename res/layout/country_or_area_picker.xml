@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <view android:layout_gravity="center_horizontal" android:id="@android:id/list" android:paddingBottom="@dimen/DP_30" android:scrollbars="none" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:fastScrollEnabled="false" android:fastScrollAlwaysVisible="false" app:couiListGridNumber="@integer/grid_guide_column_preference" app:paddingType="listType" class="com.android.contacts.widget.PinnedHeaderListView" style="@style/ListViewStyle" />
+    <com.customize.contacts.widget.ContactTouchSearchView android:layout_gravity="end" android:id="@id/spell_bar" android:paddingTop="@dimen/DP_0" android:paddingBottom="@dimen/DP_0" android:layout_width="@dimen/TouchSearchView_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/DP_84" android:layout_marginBottom="@dimen/TouchSearchView_margin" android:layout_marginEnd="0.0dip" app:firstIsCharacter="true" app:marginLeft="0.0dip" app:marginRight="0.0dip" app:unionEnable="true" />
+    <include layout="@layout/appbar_toolbar_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

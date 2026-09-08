@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.contacts.list.widget.ContactsMainListCollapsableAppBarLayout android:id="@id/appBarLayout" android:tag="layout/contacts_main_list_collapsing_appbar_layout_0" style="@style/AppCollapsableAppBarLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.COUICollapsingToolbarLayout android:id="@id/collapsingToolbarLayout" style="@style/AppCollapsingToolbarLayoutStyle">
+        <com.coui.appcompat.toolbar.COUIToolbar android:id="@id/coui_toolbar" style="@style/AppCollapsedToolbarStyle" />
+    </com.google.android.material.appbar.COUICollapsingToolbarLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/coui_appbar_subtitle_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/DP_19">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/subtitle_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:paddingEnd="@dimen/DP_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.oplus.foundation.appsupport.ui.widget.SuitableSizeTextView android:textColorHighlight="@android:color/transparent" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/coui_appbar_subtitle_text_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginEnd="@dimen/TouchSearchView_width" app:fontScaleLevel="G2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/subtitle_icon" app:layout_constraintTop_toTopOf="parent" style="@style/DescriptionTextStyle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.oplus.contacts.list.widget.ContactsMainListCollapsableAppBarLayout>

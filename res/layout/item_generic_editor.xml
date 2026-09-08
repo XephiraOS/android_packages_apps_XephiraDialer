@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.customize.contacts.widget.GenericEditorView android:gravity="center_vertical" android:id="@id/phone_generic_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_min_line_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/edit_left_icon" />
+    <com.coui.appcompat.edittext.COUIEditText android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/phone_edit_field" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_min_line_item_height" android:maxLength="20" android:textAlignment="viewStart" style="@style/ContactEditorEditTextStyle" />
+</com.customize.contacts.widget.GenericEditorView>

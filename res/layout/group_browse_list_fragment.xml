@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/group_list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.foundation.appsupport.ui.widget.recyclerview.HeaderFooterRecyclerView android:id="@id/list" android:paddingBottom="@dimen/DP_30" android:scrollbars="vertical" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:couiRecyclerGridNumber="@integer/grid_guide_column_preference" app:isParentChildHierarchy="true" app:paddingSize="small" app:paddingType="cardListType" style="@style/ListViewStyle" />
+    <TextView android:gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

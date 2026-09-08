@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.RawContactEditorView android:orientation="vertical" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/edit_photo" layout="@layout/item_photo_editor" />
+        <include layout="@layout/editor_account_header_with_dropdown" />
+        <com.android.contacts.framework.baseui.widget.SelectedCardView android:orientation="vertical" android:id="@id/edit_name_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/text_fields_editor_view_margin_bottom">
+            <include android:id="@id/edit_name" layout="@layout/structured_name_editor_view" />
+            <include android:id="@id/edit_phonetic_name" layout="@layout/phonetic_name_editor_view" />
+        </com.android.contacts.framework.baseui.widget.SelectedCardView>
+        <include layout="@layout/chipgroup_layout" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/sect_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.android.contacts.editor.RawContactEditorView>

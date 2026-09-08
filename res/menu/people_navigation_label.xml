@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/pb_dr_dialer" android:id="@id/menu_dialer" android:checked="true" android:title="@string/call_title" android:checkable="true" />
+    <item android:icon="@drawable/pb_dr_contacts" android:id="@id/menu_contacts" android:checked="true" android:title="@string/oplus_contacts_label" android:checkable="true" />
+    <item android:icon="@drawable/pb_dr_voice_mail" android:id="@id/menu_voice_mail" android:checked="true" android:visible="false" android:title="@string/voicemail" android:checkable="true" />
+    <item android:icon="@drawable/pb_dr_business" android:id="@id/menu_business" android:checked="true" android:visible="true" android:title="@string/business" android:checkable="true" />
+</menu>

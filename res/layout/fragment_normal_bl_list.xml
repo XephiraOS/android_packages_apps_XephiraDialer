@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/BLBackgroundCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.grid.COUIPercentWidthFrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" app:gridNumber="@integer/grid_guide_column_preference" app:paddingType="listType">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.oplus.widget.MultiChoiceListview android:id="@id/listView" android:paddingBottom="@dimen/DP_30" android:visibility="invisible" android:fitsSystemWindows="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:requiresFadingEdge="vertical" style="@style/BLListViewStyle" />
+            <com.oplus.widget.EmptyViewGroup android:layout_gravity="center_horizontal" android:id="@id/empty_page_content_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </com.coui.appcompat.grid.COUIPercentWidthFrameLayout>
+    <View android:layout_gravity="center_horizontal" android:id="@id/bl_divider_line" android:background="?couiColorDivider" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_divider_height" android:layout_marginLeft="@dimen/bl_common_margin" android:layout_marginRight="@dimen/bl_common_margin" android:alpha="0.0" android:forceDarkAllowed="false" />
+    <include layout="@layout/bl_navigation_view_layout" />
+</FrameLayout>

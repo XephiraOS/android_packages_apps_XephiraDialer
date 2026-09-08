@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.edittext.COUIEditText android:textSize="@dimen/SP_16" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/date_view" android:background="@null" android:paddingTop="@dimen/padding_top" android:paddingBottom="@dimen/padding_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/editor_min_line_item_height" android:editable="false" android:layout_weight="1.0" android:paddingStart="@dimen/DP_20" android:layout_marginEnd="@dimen/DP_3" style="@style/LargeTextRegularStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.45" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/guideline" app:layout_constraintTop_toTopOf="@id/guideline">
+            <com.oplus.anim.EffectiveAnimationView android:id="@id/image" android:layout_width="@dimen/coui_empty_status_image_width" android:layout_height="@dimen/coui_empty_status_image_height" app:anim_autoPlay="true" />
+            <TextView android:textSize="@dimen/coui_empty_status_text_size" android:textColor="?couiColorDisabledNeutral" android:gravity="center" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/coui_empty_status_text_margin_left" android:layout_marginEnd="@dimen/coui_empty_status_text_margin_right" />
+            <TextView android:textSize="@dimen/coui_empty_status_second_text_size" android:textColor="?couiColorDisabledNeutral" android:gravity="center" android:id="@id/second_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/coui_empty_status_text_margin_left" android:layout_marginEnd="@dimen/coui_empty_status_text_margin_right" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.coui.appcompat.button.COUIButton android:layout_gravity="center_horizontal" android:id="@id/btn" android:layout_width="fill_parent" android:layout_height="@dimen/coui_empty_status_button_height" android:layout_marginBottom="@dimen/coui_empty_status_button_margin_bottom" android:layout_marginStart="@dimen/coui_empty_status_button_margin_left" android:layout_marginEnd="@dimen/coui_empty_status_button_margin_right" style="?couiTinyFullButtonColorStyle" />
+</LinearLayout>

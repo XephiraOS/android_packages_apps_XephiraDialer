@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/DP_12" android:paddingBottom="@dimen/DP_30" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/SP_14" android:textColor="@color/coui_color_label_primary" android:gravity="start" android:id="@id/ted_about_info_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="3.0sp" android:textIsSelectable="true" android:textDirection="locale" android:textAlignment="viewStart" style="@style/SmallTextStyle" />
+</LinearLayout>

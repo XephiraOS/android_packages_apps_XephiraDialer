@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.widget.MultiChoiceListview android:id="@android:id/list" android:paddingBottom="@dimen/DP_30" android:fitsSystemWindows="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:requiresFadingEdge="vertical" style="@style/BLListViewStyle" />
+    <com.oplus.widget.EmptyViewGroup android:layout_gravity="center_horizontal" android:id="@id/empty_page_content_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include layout="@layout/bl_navigation_view_layout" />
+    <include layout="@layout/bl_appbar_with_divider_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

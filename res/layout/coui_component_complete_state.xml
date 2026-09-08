@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center_horizontal" android:id="@id/complete_anim" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginStart="@dimen/complete_page_text_padding_hor" android:layout_marginEnd="@dimen/complete_page_text_padding_hor" android:forceDarkAllowed="false" app:anim_autoPlay="true" />
+    <TextView android:textAppearance="?couiTextHeadlineM" android:textColor="?couiColorLabelPrimary" android:gravity="center_horizontal" android:id="@id/complete_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/complete_page_text_title_margin_top" android:layout_below="@id/complete_anim" android:layout_marginStart="@dimen/complete_page_text_padding_hor" android:layout_marginEnd="@dimen/complete_page_text_padding_hor" />
+    <TextView android:textAppearance="?couiTextBodyXS" android:textColor="?couiColorLabelSecondary" android:gravity="center_horizontal" android:id="@id/complete_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/complete_page_text_subtitle_margin_top" android:layout_marginStart="@dimen/complete_page_text_padding_hor" android:layout_marginEnd="@dimen/complete_page_text_padding_hor" />
+</merge>

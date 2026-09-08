@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.HorizontalScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/DP_16" android:layout_marginEnd="@dimen/DP_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.contacts.business.calllog.breenocall.detail.widget.ChipGroupView android:id="@id/candidates" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/text_fields_editor_view_margin_bottom" app:selectionRequired="true" app:singleLine="true" app:singleSelection="true" />
+</android.widget.HorizontalScrollView>

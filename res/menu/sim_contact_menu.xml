@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/pb_dr_menu_add" android:id="@id/add_menu" android:visible="true" app:showAsAction="always" />
+    <item android:icon="@drawable/coui_toolbar_menu_icon_more" android:id="@id/setting_menu" android:visible="true" android:title="@string/oplus_button_set" app:showAsAction="always" />
+</menu>

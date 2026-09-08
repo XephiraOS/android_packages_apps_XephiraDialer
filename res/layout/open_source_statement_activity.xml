@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/coordinator" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.customize.contacts.widget.HtmlRecyclerView android:layout_gravity="center_horizontal" android:id="@id/recyclerView" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" app:couiListGridNumber="@integer/grid_guide_column_preference" app:paddingType="listType" />
+    <include layout="@layout/appbar_toolbar_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

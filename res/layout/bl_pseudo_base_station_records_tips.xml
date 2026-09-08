@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pseudo_base_station_records" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/color_pinned_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:paddingTop="@dimen/notice_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pseudo_base_station_records" android:layout_alignParentBottom="true" android:paddingStart="@dimen/list_padding" android:paddingEnd="@dimen/list_padding" style="@style/BLSmallTitleStyle" />
+</RelativeLayout>

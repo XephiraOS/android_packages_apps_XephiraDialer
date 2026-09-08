@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:paddingTop="@dimen/text_margin_common" android:paddingBottom="@dimen/text_margin_common" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/DP_32" android:paddingEnd="@dimen/DP_32"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/COUIPreferenceTitleStyle" />
+    <TextView android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" style="@style/COUIPreferenceSummaryStyle" />
+</RelativeLayout>

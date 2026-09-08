@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.widget.SelectItemLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.checkbox.COUICheckBox android:id="@id/check_box" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" android:layout_marginEnd="@dimen/DP_21" android:layout_alignParentEnd="true" />
+    <RelativeLayout android:id="@id/province_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="?android:listPreferredItemHeightSmall" android:layout_alignWithParentIfMissing="true" android:layout_marginStart="@dimen/list_padding" android:layout_toStartOf="@id/check_box">
+        <RelativeLayout android:id="@id/contact_and_calltype" android:paddingTop="@dimen/DP_12" android:paddingBottom="@dimen/DP_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/DP_10" android:layout_toStartOf="@id/end_view">
+            <TextView android:ellipsize="end" android:id="@id/province" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="@dimen/DP_8" style="@style/BLLargeTextStyle" />
+            <TextView android:ellipsize="end" android:id="@id/overseas_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exclude_sim_and_roaming_areas" android:singleLine="false" android:layout_below="@id/province" android:textDirection="anyRtl" android:layout_marginEnd="@dimen/DP_8" style="@style/BLSmallTextStyle" />
+            <TextView android:ellipsize="end" android:id="@id/detail_area" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/province" android:textAlignment="viewStart" android:layout_alignParentStart="true" style="@style/BLSmallTextStyle" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/end_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/DP_12" android:layout_alignParentEnd="true">
+            <com.coui.appcompat.rotateview.COUIRotateView android:id="@id/drag_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/coui_line_arrow" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/bottom_divider" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/list_padding" android:layout_alignStart="@id/province_layout" style="@style/BLBottomDividerStyle" />
+</com.oplus.widget.SelectItemLayout>

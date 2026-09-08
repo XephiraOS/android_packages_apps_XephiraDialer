@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.framework.baseui.widget.SelectItemLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.checkbox.COUICheckBox android:layout_gravity="center_vertical" android:id="@id/check_box" android:background="@null" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/list_common_margin" android:layout_marginEnd="@dimen/DP_4" android:layout_alignParentStart="true" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/account_detail" android:paddingTop="@dimen/padding_top" android:paddingBottom="@dimen/padding_bottom" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/DP_8" android:layout_toStartOf="@id/arrow_view" android:layout_toEndOf="@id/check_box">
+        <TextView android:ellipsize="marquee" android:id="@id/account_name" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LargeTextStyle" />
+        <TextView android:id="@id/account_type" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/account_name" android:layout_alignStart="@id/account_name" style="@style/SmallTextStyle" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/arrow_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <com.coui.appcompat.rotateview.COUIRotateView android:layout_gravity="center_vertical" android:id="@id/rotate_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/coui_line_arrow" android:layout_marginEnd="@dimen/list_common_margin" />
+    </LinearLayout>
+    <ImageView android:id="@id/bottom_divider" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/list_common_margin" android:layout_marginEnd="@dimen/list_common_margin" style="@style/BottomDividerStyle" />
+</com.android.contacts.framework.baseui.widget.SelectItemLayout>

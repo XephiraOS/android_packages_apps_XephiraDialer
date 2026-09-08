@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$coui_shape_checkbox_selected_to_unselected__2" android:duration="150" android:startOffset="0" android:valueFrom="0.05" android:valueTo="0.05" android:valueType="floatType" android:propertyName="strokeAlpha" />
+    <objectAnimator android:interpolator="@drawable/$coui_shape_checkbox_selected_to_unselected__3" android:duration="17" android:startOffset="150" android:valueFrom="0.05" android:valueTo="0.4" android:valueType="floatType" android:propertyName="strokeAlpha" />
+</set>

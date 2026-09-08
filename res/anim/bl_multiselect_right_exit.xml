@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:duration="@integer/color_multichoice_duration"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:interpolator="@interpolator/color_multichoice_interpolator_right_out" android:fromXDelta="0.0" android:toXDelta="100.0%" android:fromYDelta="0.0" android:toYDelta="0.0" />
+    <alpha android:interpolator="@interpolator/color_multichoice_interpolator_fade_out" android:fromAlpha="1.0" android:toAlpha="0.0" />
+</set>

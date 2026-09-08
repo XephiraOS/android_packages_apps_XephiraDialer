@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_assisted_dialing_setting" app:isFirstCategory="true" app:top_margin_type="small">
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/assisted_dialing_title" android:key="assisted_dialing_switch" android:summary="@string/roaming_dial_assist_summary" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/default_country_area" android:key="show_default_country_iso">
+        <com.coui.appcompat.preference.COUIJumpPreference android:key="sim_one_country_iso_setting" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:key="sim_two_country_iso_setting" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:enabled="false" android:title="@string/without_sim_card" android:key="show_without_sim_card" android:summary="@string/insert_sim_card_and_select_country_area" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</androidx.preference.PreferenceScreen>

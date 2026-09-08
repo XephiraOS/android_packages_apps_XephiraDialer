@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coui_component_statement_land_panel_left_view_end_margin">21.0dip</dimen>
+    <dimen name="coui_component_statement_land_panel_left_view_layout_width">272.0dip</dimen>
+    <dimen name="coui_component_statement_land_panel_left_view_start_margin">18.0dip</dimen>
+</resources>

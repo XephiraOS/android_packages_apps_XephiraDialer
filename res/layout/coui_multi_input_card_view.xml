@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:orientation="vertical" android:id="@id/single_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:id="@id/input_layout" android:layout_width="fill_parent" android:layout_height="@dimen/coui_card_multi_input_height" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/edittext_container" android:paddingBottom="@dimen/coui_input_edit_count_margin_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textAppearance="@style/couiTextBodyXS" android:textColor="?couiColorLabelTertiary" android:layout_gravity="end|bottom|center" android:id="@id/input_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/coui_input_edit_count_margin_bottom" />
+        </FrameLayout>
+    </com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

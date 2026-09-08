@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="210.0dip" android:width="210.0dip" android:viewportWidth="210.0" android:viewportHeight="210.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/incallGreenTintControlNormal" android:pathData="M105,105m-105,0a105,105 0,1 1,210 0a105,105 0,1 1,-210 0" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M122.5,77c3.9,0 7,3.1 7,7v42c0,3.9 -3.1,7 -7,7h-56c-3.9,0 -7,-3.1 -7,-7V84c0,-3.9 3.1,-7 7,-7H122.5zM150,81.8c0.3,0.5 0.5,1.1 0.5,1.7v43c0,1.7 -1.3,3 -2.9,3c-0.6,0 -1.2,-0.2 -1.7,-0.5l-12.8,-9.2L133,90.3l12.9,-9.3C147.2,80.1 149.1,80.4 150,81.8zM94,115.6c-1.7,0 -3,1.3 -3,3s1.3,3 3,3s3,-1.3 3,-3S95.6,115.6 94,115.6zM94,106c-4,0 -7.7,1.5 -10.4,4.1l0,0l2.7,3.7c2,-2 4.7,-3.3 7.7,-3.3s5.8,1.3 7.7,3.3l0,0l2.7,-3.7C101.6,107.5 98,106 94,106zM94,97c-6,0 -11.5,2.2 -15.7,5.7l0,0l2.6,3.7c3.5,-3.1 8.1,-4.9 13,-4.9c5,0 9.6,1.9 13,4.9l0,0l2.6,-3.7C105.4,99.2 100,97 94,97zM94,88c-8,0 -15.3,2.8 -21,7.4l0,0l2.6,3.7c5,-4.1 11.4,-6.6 18.3,-6.6c7,0 13.4,2.5 18.3,6.6l0,0l2.6,-3.7C109.2,90.8 101.9,88 94,88z" />
+</vector>

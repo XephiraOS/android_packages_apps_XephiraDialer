@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/scene_no_call_log_0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:paddingTop="@dimen/DP_35" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/call_title" android:paddingStart="@dimen/DP_16" android:paddingEnd="@dimen/DP_16" style="@style/SceneTitleStyle" />
+    <ImageView android:layout_width="@dimen/DP_85" android:layout_height="@dimen/DP_85" android:layout_marginTop="@dimen/DP_93" android:src="@drawable/scene_no_call_log" />
+    <TextView android:textSize="@dimen/DP_16" android:textColor="@color/scene_color_secondary_neutral" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_24" android:text="@string/no_call_log" />
+</LinearLayout>

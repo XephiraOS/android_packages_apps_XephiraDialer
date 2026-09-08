@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/control_panel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_panel" android:layout_width="@dimen/camera_vertical_scroll_tab_width" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/DP_16" android:layout_alignParentEnd="true">
+        <com.customize.contacts.camera.RotateImageView android:id="@id/flash_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pb_ic_flash_switch_off_tablet" android:scaleType="centerInside" android:layout_above="@id/shutterbtn" android:layout_centerHorizontal="true" android:contentDescription="@string/oplus_flashlight_description" />
+        <ImageButton android:id="@id/shutterbtn" android:background="@drawable/pb_dr_take_picture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thumbnail_margin_top" android:layout_centerInParent="true" android:contentDescription="@string/oplus_take_picture_description" />
+        <com.customize.contacts.camera.RotateImageView android:id="@id/thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thumbnail_margin_top" android:src="@drawable/pb_ic_scan_photo_tablet" android:layout_below="@id/shutterbtn" android:layout_centerHorizontal="true" android:contentDescription="@string/oplus_album_description" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_menu_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/DP_60" android:layout_alignParentBottom="true">
+        <View android:id="@id/menu_line" android:background="@drawable/pb_bg_menu_line_tablet" android:visibility="gone" android:layout_width="@dimen/camera_menu_line_top" android:layout_height="@dimen/filter_menu_stroke" android:layout_centerInParent="true" android:forceDarkAllowed="false" />
+        <com.customize.contacts.widget.ScrollTabLayout android:id="@id/widescreen_menu_panel" android:background="@android:color/transparent" android:focusableInTouchMode="false" android:visibility="gone" android:scrollbars="none" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/camera_menu_height" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?couiColorSurface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_text_tiny" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.coui.appcompat.statement.COUIMaxHeightScrollView android:scrollbars="vertical" android:fadingEdgeLength="@dimen/coui_full_page_statement_tiny_scroll_fade_length" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coui_component_statement_tiny_scrollview_margin_top" android:overScrollMode="ifContentScrolls" android:requiresFadingEdge="vertical" app:scrollViewMaxHeight="@dimen/coui_full_page_statement_scroll_max_height">
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/statement_content_wrapper_tiny" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/coui_full_page_statement_tiny_padding_horizontal">
+                <TextView android:textSize="@dimen/coui_full_page_statement_tiny_title_text_size" android:textColor="?couiColorPrimaryNeutral" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/txt_title_tiny" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="sans-serif-medium" />
+                <TextView android:textSize="@dimen/coui_full_page_statement_tiny_text_size" android:textColor="?couiColorSecondNeutral" android:textColorHighlight="@android:color/transparent" android:id="@id/txt_statement_tiny" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coui_full_page_statement_tiny_padding_top" android:fontFamily="sans-serif-regular" android:textAlignment="viewStart" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </com.coui.appcompat.statement.COUIMaxHeightScrollView>
+    </RelativeLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/custom_functional_area_wrapper" android:paddingTop="@dimen/coui_component_statement_tiny_custom_functional_area_wrapper_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:maxHeight="@dimen/coui_full_page_statement_tiny_functional_area_max_height">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/custom_functional_area" android:paddingTop="@dimen/coui_component_statement_tiny_custom_functional_area_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/coui_full_page_statement_tiny_padding_horizontal" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <ScrollView android:id="@id/scroll_button_tiny" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coui_component_statement_tiny_scroll_button_tiny_margin_top">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.coui.appcompat.button.COUIButton android:ellipsize="end" android:gravity="center" android:id="@id/btn_confirm_tiny" android:layout_marginBottom="@dimen/coui_component_statement_tiny_btn_confirm_tiny_margin_bottom" android:text="@string/coui_allow_text" android:fontFamily="sans-serif-medium" style="?couiTinyFullButtonColorStyle" />
+            <com.coui.appcompat.button.COUIButton android:gravity="center" android:id="@id/txt_exit_tiny" android:layout_marginBottom="@dimen/coui_component_statement_tiny_txt_exit_tiny_margin_bottom" android:text="@string/coui_reject_text" android:fontFamily="sans-serif-medium" style="?couiTinyFullButtonSecondaryColorStyle" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

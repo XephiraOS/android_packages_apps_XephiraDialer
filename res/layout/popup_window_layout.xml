@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.framework.baseui.widget.RoundLinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="normal" android:gravity="center" android:id="@id/popup_window_copy_body" android:background="@drawable/copy_popup_window_ripple_bg" android:focusable="true" android:clickable="true" android:layout_width="@dimen/copy_window_width" android:layout_height="@dimen/copy_window_height" android:text="@string/copy_text" style="@style/couiTextBodyM" />
+</com.android.contacts.framework.baseui.widget.RoundLinearLayout>

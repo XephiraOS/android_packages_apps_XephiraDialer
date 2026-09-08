@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="_R_G">
+        <group android:name="_R_G_L_3_G_N_1_T_0" android:pivotX="12.0" android:pivotY="12.0" android:scaleX="1.0" android:scaleY="1.0">
+            <group android:name="_R_G_L_3_G">
+                <path android:name="_R_G_L_3_G_D_0_P_0" android:pathData="M7.5,3.7L16.5,3.7A3.8,3.8 0,0 1,20.3 7.5L20.3,16.5A3.8,3.8 0,0 1,16.5 20.3L7.5,20.3A3.8,3.8 0,0 1,3.7 16.5L3.7,7.5A3.8,3.8 0,0 1,7.5 3.7z" android:strokeColor="#ffffffff" android:strokeWidth="1.3" android:strokeLineCap="butt" android:strokeLineJoin="miter" android:strokeAlpha="0.3" />
+            </group>
+        </group>
+        <group android:name="_R_G_L_2_G_N_1_T_0" android:pivotX="12.0" android:pivotY="12.0" android:scaleX="1.0" android:scaleY="1.0">
+            <group android:name="_R_G_L_2_G">
+                <path android:name="_R_G_L_2_G_D_0_P_0" android:fillColor="@color/coui_shape_btn_check_fill_color_off_normal" android:pathData="M7.5,4.5L16.5,4.5A3,3 0,0 1,19.5 7.5L19.5,16.5A3,3 0,0 1,16.5 19.5L7.5,19.5A3,3 0,0 1,4.5 16.5L4.5,7.5A3,3 0,0 1,7.5 4.5z" android:fillType="nonZero" />
+            </group>
+        </group>
+        <group android:name="_R_G_L_1_G_N_1_T_0" android:pivotX="12.0" android:pivotY="12.0" android:scaleX="1.0" android:scaleY="1.0">
+            <group android:name="_R_G_L_1_G">
+                <path android:name="_R_G_L_1_G_D_0_P_0" android:fillColor="?couiColorPrimary" android:pathData="M7,3L17,3A4,4 0,0 1,21 7L21,17A4,4 0,0 1,17 21L7,21A4,4 0,0 1,3 17L3,7A4,4 0,0 1,7 3z" android:fillAlpha="0.0" android:fillType="nonZero" />
+            </group>
+        </group>
+        <group android:name="_R_G_L_0_G_N_1_T_0" android:pivotX="12.0" android:pivotY="12.0">
+            <group android:name="_R_G_L_0_G" android:scaleX="0.3333" android:scaleY="0.3333" android:translateX="12.0" android:translateY="12.0">
+                <path android:name="_R_G_L_0_G_D_0_P_0" android:pathData=" M-14.12 -1 C-14.12,-1 -3.44,9.69 -3.44,9.69 C-3.44,9.69 16.97,-10.91 16.97,-10.91 " android:strokeColor="#ffffffff" android:strokeWidth="4.5" android:trimPathStart="0.0" android:trimPathEnd="0.0" android:trimPathOffset="0.0" android:strokeLineCap="butt" android:strokeLineJoin="round" android:strokeAlpha="1.0" />
+            </group>
+        </group>
+    </group>
+    <group android:name="time_group" />
+</vector>

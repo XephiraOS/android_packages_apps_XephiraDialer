@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.RawContactReadOnlyEditorView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/editor_account_header" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
+        <include android:id="@id/edit_photo" layout="@layout/item_photo_editor" />
+        <com.android.contacts.framework.baseui.widget.SelectedCardView android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_24" android:layout_marginBottom="@dimen/text_fields_editor_view_margin_bottom" android:paddingStart="@dimen/DP_16" android:paddingEnd="@dimen/DP_32">
+            <ImageView android:id="@id/left_icon_view" android:duplicateParentState="true" android:layout_width="@dimen/edit_left_icon_container_width" android:layout_height="@dimen/editor_min_line_item_height" android:src="@drawable/pb_ic_name" android:paddingStart="@dimen/DP_16" android:paddingEnd="@dimen/DP_12" />
+            <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/read_only_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_min_line_item_height" android:layout_marginEnd="@dimen/DP_24" style="@style/ContactEditorEditTextStyle" />
+        </com.android.contacts.framework.baseui.widget.SelectedCardView>
+    </LinearLayout>
+    <Button android:id="@id/button_edit_externally" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" android:text="@string/edit_contact" android:layout_marginStart="13.0dip" />
+    <com.android.contacts.framework.baseui.widget.SelectedCardView android:orientation="vertical" android:id="@id/phone_sect_general" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/text_fields_editor_view_margin_bottom" />
+    <com.android.contacts.framework.baseui.widget.SelectedCardView android:orientation="vertical" android:id="@id/email_sect_general" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/text_fields_editor_view_margin_bottom" />
+</com.android.contacts.editor.RawContactReadOnlyEditorView>

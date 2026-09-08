@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/pb_dr_menu_sms" android:enabled="false" android:id="@id/oppo_send_message" android:title="@string/oplus_send_group_message" />
+    <item android:icon="@drawable/pb_dr_menu_email" android:enabled="false" android:id="@id/oppo_send_email" android:title="@string/oplus_send_email" />
+    <item android:icon="@drawable/pb_dr_menu_delete" android:enabled="false" android:id="@id/menu_delete" android:title="@string/delete_button" />
+</menu>

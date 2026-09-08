@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.preference.ListSelectedItemLayout android:layout_width="fill_parent" android:layout_height="34.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/support_preference_category_layout_tv_title" android:textStyle="bold" android:textColor="@color/coui_preference_title_color" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/coui_list_item_left_padding" style="@style/preferenceClassificationTextStyle" />
+        <LinearLayout android:gravity="end|center" android:layout_gravity="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/coui_list_item_right_padding">
+            <TextView android:textColor="?couiColorSecondNeutral" android:gravity="center_vertical" android:id="@id/coui_statusText1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:forceDarkAllowed="false" style="@style/couiTextAppearanceBody" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_coui_btn_next" android:forceDarkAllowed="false" />
+        </LinearLayout>
+    </LinearLayout>
+</com.coui.appcompat.preference.ListSelectedItemLayout>

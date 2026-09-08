@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/pb_color_contact_detail_top_tips_background" />
+    <corners android:radius="@dimen/coui_preference_card_radius" />
+</shape>

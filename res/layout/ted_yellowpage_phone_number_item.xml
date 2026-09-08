@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:orientation="vertical" android:id="@id/number_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/common_padding" android:paddingEnd="@dimen/common_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:paddingTop="@dimen/DP_12" android:paddingBottom="@dimen/DP_12" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/common_padding">
+            <TextView android:ellipsize="end" android:id="@id/main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" android:layout_alignParentStart="true" style="@style/LargeTextStyle" />
+            <TextView android:id="@id/sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/main_text" android:textAlignment="viewStart" android:layout_alignStart="@id/main_text" style="@style/SmallTextStyle" />
+        </RelativeLayout>
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/sms" android:background="@drawable/pb_bg_click_icon_ripple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pb_dr_list_sms" android:contentDescription="@string/send_sms" android:layout_marginStart="@dimen/DP_18" android:layout_marginEnd="@dimen/common_padding" />
+    </LinearLayout>
+    <ImageView android:id="@id/bottom_divider" android:layout_marginStart="@dimen/list_common_margin" android:layout_marginEnd="@dimen/list_common_margin" style="@style/BottomDividerStyle" />
+</com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>

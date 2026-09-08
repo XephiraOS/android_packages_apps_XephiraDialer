@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/bottomButtons" android:tag="layout/oplus_call_button_fragment_0" android:background="@null" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.incallui.oplus.widgets.OplusGoneIncallUIImageView android:gravity="center" android:id="@id/endButton" android:background="@drawable/incall_btn_reject" android:layout_width="@dimen/oplus_end_button_size" android:layout_height="@dimen/oplus_end_button_size" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom|center" android:id="@id/call_buttons" android:tag="binding_1" android:paddingTop="@dimen/oplus_button_padding_top" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:overScrollMode="never" android:importantForAccessibility="no" android:paddingHorizontal="@dimen/oplus_button_padding_horizontal" />
+    <fragment android:name="com.android.incallui.mvvm.view.OplusDialpadFragment" android:layout_gravity="bottom|center" android:id="@id/oplusDialpadFragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

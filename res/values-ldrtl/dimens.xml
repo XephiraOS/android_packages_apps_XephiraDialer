@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coui_popup_list_window_item_title_margin_left">24.0dip</dimen>
+    <dimen name="coui_popup_list_window_item_title_margin_right">16.0dip</dimen>
+    <dimen name="coui_popup_list_window_item_title_margin_with_no_icon">24.0dip</dimen>
+</resources>

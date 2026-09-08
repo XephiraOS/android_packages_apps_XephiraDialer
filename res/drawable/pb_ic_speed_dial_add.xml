@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="66.0dip" android:width="66.0dip" android:viewportWidth="66.0" android:viewportHeight="66.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/pb_color_speed_dial_add_bg" android:pathData="M33,0L33,0A33,33 0,0 1,66 33L66,33A33,33 0,0 1,33 66L33,66A33,33 0,0 1,0 33L0,33A33,33 0,0 1,33 0z" />
+    <path android:fillColor="@color/pb_color_speed_dial_add" android:pathData="M33.933,21.125C33.933,20.61 33.515,20.192 33,20.192C32.485,20.192 32.067,20.61 32.067,21.125V32.067H21.125C20.61,32.067 20.192,32.485 20.192,33C20.192,33.515 20.61,33.933 21.125,33.933H32.067V44.875C32.067,45.39 32.485,45.808 33,45.808C33.515,45.808 33.933,45.39 33.933,44.875V33.933H44.875C45.39,33.933 45.808,33.515 45.808,33C45.808,32.485 45.39,32.067 44.875,32.067H33.933V21.125Z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.framework.baseui.widget.EmptyViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/no_content_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/empty_view_horizontal_padding" app:additional_bottom_margin="@dimen/contact_bottom_tab_unfold_height" app:additional_top_margin="@dimen/DP_129" app:need_resize="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/no_content" android:layout_width="@dimen/DP_168" android:layout_height="@dimen/DP_120" android:src="@drawable/pb_ic_no_calls" />
+    <TextView android:gravity="center" android:id="@id/empty_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_2" android:text="@string/no_call_log" style="@style/NoContentStyle" />
+</com.android.contacts.framework.baseui.widget.EmptyViewGroup>

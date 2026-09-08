@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/BLBackgroundCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.grid.COUIPercentWidthFrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" app:gridNumber="@integer/grid_guide_column_preference" app:paddingType="listType">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.oplus.widget.EmptyViewGroup android:layout_gravity="center_horizontal" android:id="@id/empty_page_content_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.oplus.widget.MultiChoiceListview android:id="@id/list" android:visibility="gone" android:fitsSystemWindows="false" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:requiresFadingEdge="vertical" style="@style/BLListViewStyle" />
+        </FrameLayout>
+    </com.coui.appcompat.grid.COUIPercentWidthFrameLayout>
+    <include layout="@layout/bl_navigation_view_layout" />
+    <include layout="@layout/appbar_with_divider_card_style_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

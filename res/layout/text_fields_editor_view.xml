@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.TextFieldsEditorView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="@dimen/DP_16" android:paddingEnd="@dimen/DP_28">
+        <include android:id="@id/editor_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_divider_height" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/edit_left_icon_container_width" android:layout_marginEnd="@dimen/DP_4" layout="@layout/edittext_underline" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/edit_contact_section_filed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_min_line_item_height">
+            <include layout="@layout/edit_left_icon" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/spinner_editor_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/spinner" layout="@layout/edit_spinner" />
+                    <ImageView android:id="@id/vertical_divider" android:background="@drawable/pb_ic_editor_vertical_divider" android:layout_width="wrap_content" android:layout_height="14.0dip" android:forceDarkAllowed="false" />
+                    <include layout="@layout/edit_field_list_with_anchor_view" />
+                </LinearLayout>
+                <com.coui.appcompat.edittext.COUIEditText android:ellipsize="end" android:gravity="start|center" android:id="@id/replaced_edit_field" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_min_line_item_height" android:textAlignment="viewStart" style="@style/ContactEditorEditTextStyle" />
+            </FrameLayout>
+            <include android:id="@id/delete_button_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/edit_delete_button" />
+            <include android:id="@id/expansion_view_container" android:visibility="gone" layout="@layout/edit_expansion_view" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.android.contacts.editor.TextFieldsEditorView>

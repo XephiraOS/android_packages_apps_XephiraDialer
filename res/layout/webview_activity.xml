@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:layout_gravity="center_horizontal" android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/large_toolbar_height" />
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout_yang" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/appbar_layout" layout="@layout/appbar_toolbar_layout" />
+        <com.android.contacts.framework.baseui.widget.FlashProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/DP_1" android:max="100" android:progressDrawable="@drawable/progressbar_bg" style="@style/Widget.COUI.ProgressBar.Horizontal" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

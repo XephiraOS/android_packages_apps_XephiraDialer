@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="couiGreenTintControlNormal">#FF368645</color>
+    <color name="couiGreenTintControlPressed">#FF0D914F</color>
+    <color name="pb_color_theme_green">#FF368645</color>
+</resources>

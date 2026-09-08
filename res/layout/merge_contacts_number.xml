@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.grid.COUIPercentWidthListView android:scrollbarStyle="outsideOverlay" android:layout_gravity="center_horizontal" android:id="@id/list" android:paddingBottom="@dimen/DP_30" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" app:couiListGridNumber="@integer/grid_guide_column_preference" app:paddingSize="small" app:paddingType="cardListType" style="@style/ListViewStyle" />
+    <include layout="@layout/navigation_view_layout" />
+    <include layout="@layout/appbar_toolbar_layout_for_card" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

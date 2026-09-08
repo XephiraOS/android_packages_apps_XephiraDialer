@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/BackgroundNullStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.oplus.foundation.appsupport.ui.widget.recyclerview.HeaderFooterRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/list" android:paddingBottom="@dimen/DP_30" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" app:couiRecyclerGridNumber="@integer/grid_guide_column_preference" app:paddingType="listType" style="@style/ListViewStyle" />
+        <com.android.contacts.framework.baseui.widget.EmptyViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/empty_view_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/empty_view_horizontal_padding" app:additional_top_margin="@dimen/tablayout_small_layout_height" app:need_remove_status_bar="true">
+            <ImageView android:id="@id/no_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pb_ic_no_group" />
+            <TextView android:gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_2" android:text="@string/noGroups" android:layout_below="@id/no_content" style="@style/NoContentStyle" />
+        </com.android.contacts.framework.baseui.widget.EmptyViewGroup>
+    </FrameLayout>
+</RelativeLayout>

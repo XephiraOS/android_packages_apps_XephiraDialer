@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.customize.contacts.widget.EditRingtoneView android:orientation="horizontal" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/text_fields_editor_view_margin_bottom" android:paddingStart="@dimen/DP_16" style="@style/ListItemSelectorStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/edit_left_icon" />
+    <include layout="@layout/item_edit_content_view" />
+</com.customize.contacts.widget.EditRingtoneView>

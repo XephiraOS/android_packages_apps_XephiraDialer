@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/incall_floating_window_video_to_voice_background_normal_color" />
+    <corners android:bottomLeftRadius="@dimen/floating_window_default_type_background_corner_radius" android:bottomRightRadius="@dimen/floating_window_default_type_background_corner_radius" />
+</shape>

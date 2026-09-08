@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/DP_32" android:paddingEnd="@dimen/DP_28" android:paddingVertical="@dimen/DP_10">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+            <TextView android:id="@id/textView_description" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BLLargeTextStyle" />
+            <TextView android:textAppearance="@style/couiTextAppearanceBody" android:textColor="?couiColorSecondNeutral" android:id="@id/textView_tips" android:paddingTop="@dimen/DP_3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/radio_button" android:background="@null" android:padding="@dimen/DP_0" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:id="@id/bottom_divider" android:layout_marginStart="@dimen/DP_32" android:layout_marginEnd="@dimen/DP_32" style="@style/BLBottomDividerStyle" />
+</com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/oplus_sim_selected_dialog_title" android:key="pref_key_sim_accounts" app:isFirstCategory="true" app:top_margin_type="small">
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/sim_contact" android:key="sim1_account" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/sim_contact" android:key="sim2_account" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

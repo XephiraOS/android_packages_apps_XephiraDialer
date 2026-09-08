@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:layout_width="fill_parent" android:layout_height="fill_parent" android:title="@string/pref_title_service_number_recognition" android:key="pref_key_ted_update_root"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory app:isFirstCategory="true">
+        <com.android.contacts.framework.baseui.highlight.HighlightSwitchPreference android:layout="@layout/coui_preference" android:title="@string/pref_title_service_number_recognition" android:key="pref_key_enable_ted_net" android:summary="@string/pref_title_service_number_recognition_summary_v3" android:defaultValue="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_key_category_number_recognition_sub_switches" app:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUISwitchPreference android:layout="@layout/coui_preference" android:title="@string/suspicious_number_confirmed" android:key="pref_key_suspicious_number_confirmed" android:summary="@string/suspicious_number_confirmed_summary_v2" android:defaultValue="false" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:layout="@layout/coui_preference" android:title="@string/title_use_data_network_update" android:key="pref_key_use_data_network_update" android:summary="@string/use_data_network_update_summary" android:defaultValue="false" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:layout="@layout/coui_preference" android:title="@string/number_recognition_experience_improvement" android:key="pref_key_number_recognition_experience_improvement" android:summary="@string/number_recognition_experience_improvement_subtitle" android:defaultValue="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_key_information_list" app:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUIJumpPreference android:layout="@layout/coui_preference" android:title="@string/personal_information_collect_express_list" android:key="pref_key_information_collect_express_list">
+            <intent android:targetPackage="com.android.contacts" android:targetClass="com.ted.number.ui.TedStatementActivity">
+                <extra android:name="source" android:value="@integer/number_recognition_information_collect_express_list" />
+            </intent>
+        </com.coui.appcompat.preference.COUIJumpPreference>
+        <com.coui.appcompat.preference.COUIJumpPreference android:layout="@layout/coui_preference" android:title="@string/personal_information_sharing_third_party_list" android:key="pref_key_personal_information_sharing_third_party_list">
+            <intent android:targetPackage="com.android.contacts" android:targetClass="com.ted.number.ui.TedStatementActivity">
+                <extra android:name="source" android:value="@integer/number_recognition_information_sharing_third_party_list" />
+            </intent>
+        </com.coui.appcompat.preference.COUIJumpPreference>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUIJumpPreference android:layout="@layout/coui_preference" android:title="@string/about" android:key="pref_key_ted_about_info_recognition">
+            <intent android:targetPackage="com.android.contacts" android:targetClass="com.ted.number.ui.TedAboutActivity">
+                <extra android:name="source" android:value="update_setting" />
+                <extra android:name="navigate_title_text" android:value="@string/about" />
+            </intent>
+        </com.coui.appcompat.preference.COUIJumpPreference>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</androidx.preference.PreferenceScreen>

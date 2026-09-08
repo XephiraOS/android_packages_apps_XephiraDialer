@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/touchsearch_popup_content_scrollview" android:background="@drawable/coui_touchsearch_second_name_background" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="@dimen/coui_touchsearch_popupname_max_height">
+        <LinearLayout android:orientation="vertical" android:id="@id/touchsearch_popup_content_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+    </ScrollView>
+</FrameLayout>

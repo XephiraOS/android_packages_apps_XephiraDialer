@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.framework.baseui.widget.SelectItemLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/contact_and_calltype" android:paddingTop="@dimen/padding_top" android:paddingBottom="@dimen/padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/list_common_margin" android:layout_toStartOf="@id/check_box" android:layout_alignParentStart="true">
+        <TextView android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LargeTextStyle" />
+        <TextView android:ellipsize="end" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="ltr" style="@style/SmallTextStyle" />
+    </LinearLayout>
+    <CheckBox android:id="@id/check_box" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/CheckBoxStyle" />
+    <ImageView android:id="@id/bottom_divider" android:layout_below="@id/contact_and_calltype" android:layout_marginEnd="@dimen/list_common_margin" android:layout_alignStart="@id/contact_and_calltype" style="@style/BottomDividerStyle" />
+</com.android.contacts.framework.baseui.widget.SelectItemLayout>

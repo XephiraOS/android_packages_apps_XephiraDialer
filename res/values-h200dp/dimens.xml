@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_dialog_scroll_padding_bottom">3.0dip</dimen>
+    <dimen name="bottom_dialog_scroll_padding_top">4.0dip</dimen>
+    <dimen name="coui_full_page_statement_button_margin">8.0dip</dimen>
+    <dimen name="coui_full_page_statement_button_margin_top">10.0dip</dimen>
+    <dimen name="coui_full_page_statement_content_margin">3.0dip</dimen>
+    <dimen name="coui_full_page_statement_text_button_padding">3.0dip</dimen>
+</resources>

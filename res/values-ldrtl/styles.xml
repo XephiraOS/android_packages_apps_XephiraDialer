@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.COUI" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/coui_textview_text_size</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:elegantTextHeight">@bool/coui_support_elegant_text_height</item>
+    </style>
+    <style name="Widget.COUI.Toolbar" parent="@android:style/Widget">
+        <item name="android:textColor">?couiColorPrimaryNeutral</item>
+        <item name="android:paddingLeft">@dimen/toolbar_normal_menu_padding_right</item>
+        <item name="android:paddingRight">@dimen/toolbar_normal_menu_padding_left</item>
+        <item name="android:minHeight">@dimen/toolbar_min_height</item>
+        <item name="minTitleTextSize">16.0dip</item>
+        <item name="supportButtonGravity">center_vertical</item>
+        <item name="supportCollapseContentDescription">@string/support_abc_toolbar_collapse_description</item>
+        <item name="supportCollapseIcon">?homeAsUpIndicator</item>
+        <item name="supportContentInsetEnd">0.0dip</item>
+        <item name="supportContentInsetStart">0.0dip</item>
+        <item name="supportMaxButtonHeight">@dimen/toolbar_min_height</item>
+        <item name="supportSubtitleTextAppearance">@style/TextAppearance.COUI.AppCompatSupport.Toolbar.SubTitle</item>
+        <item name="supportTitleMarginBottom">1.0dip</item>
+        <item name="supportTitleMarginTop">4.0dip</item>
+        <item name="supportTitleMargins">0.0dip</item>
+        <item name="supportTitleTextAppearance">@style/TextAppearance.COUI.AppCompatSupport.Toolbar.Title</item>
+    </style>
+    <style name="Widget.COUI.Toolbar.Button.Navigation" parent="@style/Widget.AppCompatSupport.Toolbar.Button.Navigation">
+        <item name="android:paddingLeft">@dimen/coui_action_bar_navigation_padding_end_material</item>
+        <item name="android:paddingRight">@dimen/coui_action_bar_navigation_padding_start_material</item>
+    </style>
+</resources>

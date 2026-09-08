@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:interpolator="@anim/floating_window_interpolator" android:duration="340" android:fromAlpha="1.0" android:toAlpha="0.0" />
+    <rotate android:interpolator="@anim/floating_window_rotate_interpolator" android:duration="500" android:fromDegrees="0.0" android:toDegrees="-135.0" android:pivotX="50.0%p" android:pivotY="50.0%p" />
+</set>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.GroupMembershipView android:orientation="horizontal" android:id="@id/edit_group_view" android:background="@drawable/coui_preference_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/text_fields_editor_view_margin_bottom" android:paddingStart="@dimen/DP_16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/edit_left_icon" />
+    <TextView android:ellipsize="end" android:id="@id/group_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_min_line_item_height" android:hint="@string/oplus_groups_label" android:maxLines="1" android:textAlignment="viewStart" android:paddingEnd="@dimen/DP_32" style="@style/LargeTextRegularStyle" />
+</com.android.contacts.editor.GroupMembershipView>

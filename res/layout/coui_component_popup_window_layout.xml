@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="center" android:id="@id/popup_window_copy_body" android:background="@drawable/coui_component_copy_popup_window_ripple_bg" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/coui_component_copy_window_width" android:minHeight="@dimen/coui_component_copy_window_height" android:maxLines="1" android:paddingStart="@dimen/coui_component_copy_text_padding_hor" android:paddingEnd="@dimen/coui_component_copy_text_padding_hor" style="@style/couiTextAppearanceBody" />
+</LinearLayout>

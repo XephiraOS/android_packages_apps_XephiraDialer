@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.COUICollapsableAppBarLayout android:id="@id/appBarLayout" android:tag="layout/collapsing_appbar_layout_0" style="@style/AppCollapsableAppBarLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.COUICollapsingToolbarLayout android:id="@id/collapsingToolbarLayout" style="@style/AppCollapsingToolbarLayoutStyle">
+        <com.coui.appcompat.toolbar.COUIToolbar android:id="@id/coui_toolbar" style="@style/AppCollapsedToolbarStyle" />
+    </com.google.android.material.appbar.COUICollapsingToolbarLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/coui_appbar_subtitle_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="start" android:id="@id/coui_appbar_subtitle_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/COUIAppBarSubtitleStyle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.appbar.COUICollapsableAppBarLayout>

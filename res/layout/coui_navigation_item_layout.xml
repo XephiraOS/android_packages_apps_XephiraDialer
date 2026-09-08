@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_root" android:duplicateParentState="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/coui_tool_navigation_item_height" android:layout_marginStart="@dimen/coui_navigation_item_half_gap" android:layout_marginEnd="@dimen/coui_navigation_item_half_gap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/navigation_bar_item_icon_container" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_gravity="center" android:id="@id/navigation_bar_item_active_indicator_view" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/navigation_bar_item_icon_view" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="@dimen/coui_navigation_icon_size" android:maxHeight="@dimen/coui_navigation_icon_size" />
+    </FrameLayout>
+    <com.google.android.material.internal.BaselineLayout android:id="@id/navigation_bar_item_labels_group" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coui_navigation_text_margin_top">
+        <TextView android:textSize="@dimen/design_bottom_navigation_active_text_size" android:ellipsize="end" android:id="@id/navigation_bar_item_small_label_view" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-medium" android:textAlignment="center" />
+        <TextView android:textSize="@dimen/design_bottom_navigation_active_text_size" android:ellipsize="end" android:id="@id/navigation_bar_item_large_label_view" android:visibility="invisible" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-medium" android:textAlignment="center" />
+    </com.google.android.material.internal.BaselineLayout>
+    <com.coui.appcompat.reddot.COUIHintRedDot android:id="@id/red_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

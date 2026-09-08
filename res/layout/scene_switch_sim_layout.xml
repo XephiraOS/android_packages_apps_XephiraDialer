@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/scene_switch_sim_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.customize.contacts.widget.FeedbackLinearLayout android:id="@id/switch_button_parent" android:layout_width="@dimen/DP_40" android:layout_height="@dimen/DP_40">
+        <ImageSwitcher android:id="@id/button_switch" android:layout_width="wrap_content" android:layout_height="fill_parent" android:inAnimation="@anim/scene_sim_switch_fade_in" android:outAnimation="@anim/scene_sim_switch_fade_out" android:animateFirstView="false">
+            <ImageView android:background="@drawable/scene_bg_sim_switch" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/scene_ic_sim1_prompt" android:scaleType="center" android:layout_centerInParent="true" android:forceDarkAllowed="false" />
+            <ImageView android:background="@drawable/scene_bg_sim_switch" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/scene_ic_sim2_prompt" android:scaleType="center" android:layout_centerInParent="true" android:forceDarkAllowed="false" />
+        </ImageSwitcher>
+    </com.customize.contacts.widget.FeedbackLinearLayout>
+    <com.customize.contacts.widget.FeedbackLinearLayout android:gravity="center" android:id="@id/switch_sim_dial_parent" android:background="@drawable/scene_btn_dial_switch" android:layout_width="fill_parent" android:layout_height="fill_parent" android:forceDarkAllowed="false">
+        <ImageView android:id="@id/dial_sim" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="center" />
+        <TextView android:textSize="@dimen/DP_10" android:textColor="@color/scene_color_dial_btn_text" android:ellipsize="end" android:id="@id/sim_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/DP_4" android:layout_toEndOf="@id/sim2_btn" />
+    </com.customize.contacts.widget.FeedbackLinearLayout>
+</FrameLayout>

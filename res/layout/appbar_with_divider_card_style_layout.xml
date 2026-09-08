@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:id="@id/abl" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.oplus.widget.SecondToolbarBehavior" style="@style/BLBackgroundCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.toolbar.COUIToolbar android:id="@id/tool_bar" style="@style/BLToolbarCardStyle" />
+    <View android:layout_gravity="center_horizontal" android:id="@id/bl_divider_line" android:background="?couiColorDivider" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_divider_height" android:layout_marginLeft="@dimen/tool_bar_line_transverse_margin" android:layout_marginRight="@dimen/tool_bar_line_transverse_margin" android:alpha="0.0" android:forceDarkAllowed="false" />
+</com.google.android.material.appbar.AppBarLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/DP_16" android:paddingEnd="@dimen/DP_16" style="@style/ListItemSelectorStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.imageview.COUIRoundImageView android:id="@id/quick_contact_photo" android:src="@drawable/pb_ic_default_photo" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/photo_margin_right" android:layout_alignParentStart="true" style="@style/PhotoStyle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/name_and_number" android:paddingTop="@dimen/DP_12" android:paddingBottom="@dimen/DP_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_toEndOf="@id/quick_contact_photo">
+        <TextView android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LargeTextStyle" />
+        <TextView android:ellipsize="end" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_3" style="@style/SmallTextStyle" />
+    </LinearLayout>
+    <ImageView android:id="@id/bottom_divider" android:layout_alignParentBottom="true" android:layout_alignStart="@id/name_and_number" style="@style/BottomDividerStyle" />
+</RelativeLayout>

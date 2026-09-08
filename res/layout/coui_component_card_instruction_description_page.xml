@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/anim_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/coui_component_card_instruction_divider" android:showDividers="middle" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.coui.appcompat.card.COUIMutableSizeScrollView android:id="@id/content_container" android:scrollbars="none" android:fadingEdgeLength="@dimen/coui_component_card_instruction_content_fading_edge_length" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:fillViewport="true" android:requiresFadingEdge="vertical" android:forceDarkAllowed="false" app:layout_constraintTop_toBottomOf="@id/anim_container" app:scrollViewMaxHeight="@dimen/coui_component_card_instruction_content_height_complete">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?couiTextAppearanceHeadline6" android:textColor="?couiColorPrimaryNeutral" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:textAlignment="center" />
+            <LinearLayout android:layout_gravity="center" android:id="@id/summary_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                <TextView android:textAppearance="?couiTextAppearanceDescription" android:textColor="?couiColorSecondNeutral" android:id="@id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.coui.appcompat.card.COUIMutableSizeScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

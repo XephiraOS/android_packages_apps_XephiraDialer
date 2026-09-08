@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.customize.contacts.widget.ScrollRelativeLayout android:id="@id/dialpad_container" android:tag="layout/scene_dialpad_0" android:background="@drawable/scene_dialpad_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/dialpad_parent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.contacts.dialpad.view.DialpadView android:id="@id/dialpad" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/sim_layout_parent" android:layout_width="fill_parent" android:layout_height="@dimen/DP_40" android:layout_marginBottom="@dimen/DP_24" android:layout_below="@id/dialpad_parent" android:layout_marginStart="@dimen/DP_16" android:layout_marginEnd="@dimen/DP_16">
+        <ViewStub android:id="@id/switch_sim_layout" android:layout="@layout/scene_switch_sim_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/single_sim_layout" android:layout="@layout/scene_single_sim_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/dual_sim_layout" android:layout="@layout/scene_dual_sim_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</com.customize.contacts.widget.ScrollRelativeLayout>

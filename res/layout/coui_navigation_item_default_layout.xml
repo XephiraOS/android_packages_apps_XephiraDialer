@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/coui_navigation_item_half_gap" android:layout_marginEnd="@dimen/coui_navigation_item_half_gap"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:coui="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coui_navigation_icon_margin_top" android:src="@drawable/coui_navigation_item_icon" android:adjustViewBounds="true" android:maxWidth="@dimen/coui_navigation_icon_size" android:maxHeight="@dimen/coui_navigation_icon_size" android:layout_centerHorizontal="true" />
+        <TextView android:ellipsize="end" android:id="@id/normalLable" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/icon" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-medium" android:textAlignment="center" />
+        <com.coui.appcompat.reddot.COUIHintRedDot android:id="@id/tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coui_navigation_icon_margin_top" style="?couiHintRedDotSmallStyle" />
+    </RelativeLayout>
+</LinearLayout>

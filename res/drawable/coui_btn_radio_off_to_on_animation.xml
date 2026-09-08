@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$coui_btn_radio_off_to_on_animation__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="_R_G_STROKE" android:animation="@drawable/$coui_btn_radio_off_to_on_animation__1" />
+    <target android:name="_R_G_STROKE_PATH" android:animation="@drawable/$coui_btn_radio_off_to_on_animation__6" />
+    <target android:name="_R_G_OUT_CIRCLE_PATH" android:animation="@drawable/$coui_btn_radio_off_to_on_animation__9" />
+    <target android:name="_R_G_OUT_CIRCLE" android:animation="@drawable/$coui_btn_radio_off_to_on_animation__11" />
+    <target android:name="_R_G_INNER_CIRCLE" android:animation="@drawable/$coui_btn_radio_off_to_on_animation__16" />
+    <target android:name="_R_G_INNER_CIRCLE_PATH" android:animation="@drawable/$coui_btn_radio_off_to_on_animation__19" />
+</animated-vector>

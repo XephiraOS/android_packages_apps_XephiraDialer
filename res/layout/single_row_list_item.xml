@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_gravity="center_vertical" android:paddingTop="@dimen/padding_top" android:paddingBottom="@dimen/padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginHorizontal="@dimen/DP_16">
+            <TextView android:ellipsize="end" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/box" android:layout_alignParentStart="true" android:paddingHorizontal="@dimen/DP_16" style="@style/LargeTextStyle" />
+            <FrameLayout android:id="@id/box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingEnd="@dimen/DP_12" android:layout_alignParentEnd="true">
+                <RadioButton android:layout_gravity="center" android:id="@id/radio" android:focusable="false" android:clickable="false" android:layout_width="@dimen/DP_24" android:layout_height="@dimen/DP_24" />
+                <CheckBox android:layout_gravity="center" android:id="@id/check" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="@dimen/DP_24" android:layout_height="@dimen/DP_24" />
+            </FrameLayout>
+        </RelativeLayout>
+        <ImageView android:id="@id/bottom_divider" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/DP_32" android:layout_marginEnd="@dimen/DP_32" style="@style/BottomDividerStyle" />
+    </RelativeLayout>
+</com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>

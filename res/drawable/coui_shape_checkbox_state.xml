@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:coui="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="true" android:id="@id/part_normal" android:drawable="@drawable/coui_btn_part_check_on_normal" coui:coui_state_allSelect="false" coui:coui_state_partSelect="true" />
+    <item android:state_enabled="false" android:drawable="@drawable/coui_btn_part_check_on_disabled" coui:coui_state_allSelect="false" coui:coui_state_partSelect="true" />
+    <item android:state_enabled="true" android:id="@id/selected_normal" android:drawable="@drawable/coui_btn_check_on_normal" coui:coui_state_allSelect="true" coui:coui_state_partSelect="false" />
+    <item android:state_enabled="false" android:drawable="@drawable/coui_btn_check_on_disabled" coui:coui_state_allSelect="true" coui:coui_state_partSelect="false" />
+    <item android:state_enabled="true" android:id="@id/unselected_normal" android:drawable="@drawable/coui_shape_btn_check_off_normal" coui:coui_state_allSelect="false" coui:coui_state_partSelect="false" />
+    <item android:state_enabled="false" android:drawable="@drawable/coui_shape_btn_check_off_disabled" coui:coui_state_allSelect="false" coui:coui_state_partSelect="false" />
+    <transition android:drawable="@drawable/coui_shape_checkbox_selected_to_unselected" android:toId="@id/unselected_normal" android:fromId="@id/selected_normal" />
+    <transition android:drawable="@drawable/coui_shape_checkbox_unselected_to_selected" android:toId="@id/selected_normal" android:fromId="@id/unselected_normal" />
+    <transition android:drawable="@drawable/coui_shape_checkbox_part_to_unselected" android:toId="@id/unselected_normal" android:fromId="@id/part_normal" />
+    <transition android:drawable="@drawable/coui_shape_checkbox_unselected_to_part" android:toId="@id/part_normal" android:fromId="@id/unselected_normal" />
+    <transition android:drawable="@drawable/coui_checkbox_part_to_selected" android:toId="@id/selected_normal" android:fromId="@id/part_normal" />
+    <transition android:drawable="@drawable/coui_checkbox_selected_to_part" android:toId="@id/part_normal" android:fromId="@id/selected_normal" />
+</animated-selector>

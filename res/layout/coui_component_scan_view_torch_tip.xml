@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/torch_tip_root" android:background="@drawable/coui_component_torch_tip_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" android:paddingVertical="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/torch_tip_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/coui_component_flashlight_on" />
+    <TextView android:textAppearance="?couiTextAppearanceButton" android:textColor="#d9000000" android:ellipsize="end" android:id="@id/torch_tip_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:textAlignment="viewStart" android:layout_marginStart="10.0dip" />
+</LinearLayout>

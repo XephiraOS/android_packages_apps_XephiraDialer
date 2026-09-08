@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/coui_draggable_vertical_linear_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.toolbar.COUIToolbar android:id="@id/bottom_sheet_toolbar" android:background="@null" android:visibility="gone" style="@style/Widget.COUI.Toolbar.Panel" />
+    <FrameLayout android:id="@id/title_view_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/panel_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

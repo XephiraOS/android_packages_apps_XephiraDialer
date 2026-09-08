@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="false" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/BackgroundNullStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/voicemail_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.customize.contacts.widget.MultiChoiceListView android:scrollbarStyle="outsideOverlay" android:id="@id/vvm_list" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/DP_16" android:layout_marginBottom="@dimen/contact_bottom_tab_height" android:divider="@null" app:couiListGridNumber="@integer/grid_guide_column_preference" app:paddingType="listType" style="@style/ListViewStyle" />
+        <com.android.contacts.framework.baseui.widget.EmptyViewGroup android:orientation="vertical" android:id="@id/empty_view_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/empty_view_horizontal_padding" app:additional_bottom_margin="@dimen/contact_bottom_tab_unfold_height" app:additional_top_margin="@dimen/toolbar_title_init_height" app:need_remove_status_bar="true">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/no_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pb_ic_no_voicemail" />
+            <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/empty_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_2" android:text="@string/oplus_has_no_voicemail" style="@style/NoContentStyle" />
+        </com.android.contacts.framework.baseui.widget.EmptyViewGroup>
+        <FrameLayout android:id="@id/modal_message_container" android:background="?couiColorBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/DP_135" />
+    </RelativeLayout>
+    <com.android.contacts.framework.baseui.widget.AppBarLayoutView android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.android.contacts.framework.baseui.behavior.PrimaryTitleBehavior" style="@style/BackgroundNullStyle">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.coui.appcompat.toolbar.COUIToolbar android:id="@id/toolbar" style="@style/AppCollapsedToolbarStyle" />
+            <View android:layout_gravity="end|center" android:id="@id/tool_tip_view" android:visibility="gone" android:layout_width="@dimen/DP_40" android:layout_height="@dimen/large_toolbar_height" android:layout_marginTop="@dimen/DP_5" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_gravity="start" android:id="@id/toolbar_title" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_title_init_height" android:paddingStart="@dimen/list_common_margin" style="@style/TitleStyle" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/divider_line" android:alpha="0.0" android:layout_marginStart="@dimen/list_common_margin" android:layout_marginEnd="@dimen/list_common_margin" style="@style/BottomDividerStyle" />
+        </LinearLayout>
+    </com.android.contacts.framework.baseui.widget.AppBarLayoutView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

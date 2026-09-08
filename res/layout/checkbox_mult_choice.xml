@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/zen_mode_costom_item" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_item_padding_start" android:paddingEnd="@dimen/list_item_padding_end" style="@style/BLListItemSelectorStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/zen_mode_custom_title" android:paddingTop="@dimen/list_item_padding_top" android:paddingBottom="@dimen/list_item_padding_bottom" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/DP_8" android:layout_alignParentStart="true" style="@style/BLLargeTextStyle" />
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/listview_scrollchoice_checkbox" android:background="@null" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:layout_centerVertical="true" android:paddingStart="0.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

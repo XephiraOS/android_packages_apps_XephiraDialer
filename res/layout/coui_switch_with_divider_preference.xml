@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.preference.COUICardListWithDividerItemLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:coui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/main_layout" android:background="@drawable/coui_preference_bg_selector" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/support_preference_min_height" android:layout_weight="1.0" android:paddingStart="16.0dip" android:paddingEnd="@dimen/coui_switch_with_divider_title_padding_end" android:layout_marginStart="16.0dip">
+        <FrameLayout android:layout_gravity="top" android:id="@id/img_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PreferenceIcon">
+            <com.coui.appcompat.imageview.COUIRoundImageView android:layout_gravity="top" android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" coui:couiType="round" />
+            <com.coui.appcompat.reddot.COUIHintRedDot android:layout_gravity="end|center|top" android:id="@id/img_red_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/support_preference_icon_red_dot_margin_top" android:layout_marginEnd="@dimen/support_preference_icon_red_dot_margin_top" />
+        </FrameLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PreferenceContent">
+            <TextView android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/COUIPreferenceTitleStyle" />
+            <TextView android:id="@android:id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/support_preference_margin_between_line" android:layout_below="@android:id/title" style="@style/COUIPreferenceSummaryStyle" />
+            <TextView android:id="@id/assignment" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/support_preference_margin_between_line" android:layout_below="@android:id/summary" android:forceDarkAllowed="false" style="@style/TextAppearance.COUI.List.Assignment" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/switch_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:soundEffectsEnabled="false" android:paddingEnd="@dimen/support_preference_title_padding_end">
+        <View android:background="?couiColorDivider" android:layout_width="1.0dip" android:layout_height="22.0dip" android:layout_marginEnd="@dimen/android_preference_switch_margin_left" android:forceDarkAllowed="false" />
+        <com.coui.appcompat.couiswitch.COUISwitch android:id="@android:id/switch_widget" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.coui.appcompat.preference.COUICardListWithDividerItemLayout>

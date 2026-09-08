@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/anti_harassment_call_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/customize_preference_contains_title_header" android:selectable="false" android:key="preference_header" />
+    <androidx.preference.Preference android:layout="@layout/customize_tab_preference_header" android:selectable="false" android:key="preference_tab_header" />
+    <androidx.preference.Preference android:layout="@layout/preference_header_single_sim" android:selectable="false" android:key="single_sim_call_intercept_description" android:summary="@string/call_blocking_description" />
+    <androidx.preference.Preference android:layout="@layout/preference_header_dual_sim" android:selectable="false" android:key="dual_sim_call_intercept_description" android:summary="@string/call_blocking_description" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="slot_id_2_category" app:isFirstCategory="true" app:top_margin_type="none">
+        <com.coui.appcompat.preference.COUISwitchPreference android:layout="@layout/coui_preference" android:title="@string/harass_intercept_same_as_sim1" android:key="use_sim1_rules" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="harass_intercept_all_incoming_category" app:isFirstCategory="true" app:top_margin_type="none">
+        <com.coui.appcompat.preference.COUISwitchPreference android:layout="@layout/coui_preference" android:title="@string/harass_intercept_incoming_all" android:key="harass_intercept_all_incoming_calls" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="first_group_category">
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/harass_intercept_all_strangers" android:key="harass_intercept_all_strangers_key" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/harass_intercept_ringing" android:key="harass_intercept_ringing" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:layout="@layout/coui_preference" android:title="@string/harass_intercept_unknown" android:key="harass_intercept_unknown" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/intercept_attribution_number" android:key="harass_intercept_attribution" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/harass_intercept_anonymous_number" android:key="harass_intercept_anonymous" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/harass_intercept_unknown_number" android:key="harass_intercept_unrecognized" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/harass_intercept_payphone_number" android:key="harass_intercept_payphone" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/intercept_marked_number" android:key="harass_intercept_marked_number" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="non_blocked_rules_category">
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/anti_non_blocked_rules" android:key="non_blocked_rules" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h24v24h-24z" />
+        <path android:fillColor="@color/coui_color_label_secondary" android:pathData="M9.138,4.479L5.086,8.531L3.904,7.348C3.508,6.953 3.508,6.311 3.904,5.916L6.523,3.297C6.918,2.901 7.56,2.901 7.955,3.297L9.138,4.479Z" />
+        <path android:fillColor="@color/coui_color_label_secondary" android:pathData="M7.592,11.037L11.644,6.985L9.854,5.195L5.802,9.247L7.592,11.037Z" />
+        <path android:fillColor="@color/coui_color_label_secondary" android:pathData="M9.064,11.713C8.869,11.892 8.505,11.959 8.188,12.018C7.747,12.099 7.398,12.164 7.723,12.488L11.514,16.279C11.838,16.603 11.903,16.254 11.984,15.814C12.044,15.488 12.113,15.112 12.304,14.921L16.405,10.82C17.301,9.924 16.596,8.827 15.927,8.159L15.843,8.074C15.175,7.405 14.078,6.7 13.182,7.597L9.064,11.713Z" />
+        <path android:fillColor="@color/coui_color_label_secondary" android:pathData="M14.755,18.199L18.806,14.148L17.016,12.357L12.964,16.409L14.755,18.199Z" />
+        <path android:fillColor="@color/coui_color_label_secondary" android:pathData="M15.471,18.916L16.652,20.096C17.047,20.492 17.689,20.492 18.084,20.096L20.703,17.477C21.099,17.082 21.099,16.44 20.703,16.045L19.523,14.864L15.471,18.916Z" />
+        <path android:fillColor="@color/coui_color_label_secondary" android:pathData="M3.004,14.516C2.965,14.226 3.198,13.978 3.491,13.978H4.007C4.271,13.978 4.488,14.181 4.529,14.441C4.943,17.021 6.981,19.059 9.561,19.472C9.821,19.514 10.024,19.731 10.024,19.994V20.511C10.024,20.803 9.776,21.037 9.486,20.997C6.126,20.535 3.467,17.876 3.004,14.516Z" />
+        <path android:fillColor="@color/coui_color_label_secondary" android:pathData="M6.05,13.978C5.751,13.978 5.514,14.238 5.577,14.53C5.991,16.478 7.524,18.011 9.471,18.426C9.764,18.488 10.024,18.252 10.024,17.952V17.42C10.024,17.168 9.837,16.958 9.594,16.892C8.389,16.563 7.439,15.613 7.11,14.408C7.044,14.165 6.834,13.978 6.582,13.978H6.05Z" />
+    </group>
+</vector>

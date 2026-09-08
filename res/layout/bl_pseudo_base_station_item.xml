@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.widget.SelectItemLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/listview_scrollchoice_checkbox" android:background="@null" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/DP_14" android:layout_alignParentEnd="true" />
+    <RelativeLayout android:id="@id/station_list" android:paddingTop="@dimen/bl_padding_top" android:paddingBottom="@dimen/bl_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/list_padding" android:layout_marginEnd="@dimen/list_padding" android:layout_toStartOf="@id/listview_scrollchoice_checkbox" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/station_name_and_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/date" android:layout_alignParentStart="true">
+            <TextView android:ellipsize="end" android:id="@id/station_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/BLLargeTextStyle" />
+            <TextView android:ellipsize="end" android:id="@id/station_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="4.0dip" style="@style/BLLargeTextStyle" />
+        </LinearLayout>
+        <TextView android:ellipsize="end" android:id="@id/location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/station_name_and_count" android:layout_toStartOf="@id/date" android:layout_alignStart="@id/station_name_and_count" style="@style/BLSmallTextStyle" />
+        <TextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/BLSmallTextStyle" />
+    </RelativeLayout>
+    <ImageView android:id="@id/bottom_divider" android:layout_below="@id/station_list" android:layout_marginStart="@dimen/list_padding" android:layout_marginEnd="@dimen/list_padding" style="@style/BLBottomDividerStyle" />
+</com.oplus.widget.SelectItemLayout>

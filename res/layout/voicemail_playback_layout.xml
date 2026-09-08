@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/DP_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/DP_32" android:layout_marginEnd="@dimen/DP_32"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.coui.appcompat.reddot.COUIHintRedDot android:id="@id/is_read" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/DP_6" app:couiHintRedPointMode="ponitOnly" />
+        <ImageView android:id="@id/slot_id" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/DP_6" />
+        <TextView android:id="@id/date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/LargeTextStyle" />
+        <ImageView android:id="@id/delete_voicemail" android:background="@drawable/pb_bg_click_icon_ripple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pb_ic_voicemail_delete" />
+        <ImageView android:id="@id/playback_speakerphone" android:background="@drawable/pb_bg_click_icon_ripple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pb_ic_voicemail_volume_on" android:layout_marginStart="@dimen/DP_12" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/DP_44" android:layout_marginTop="@dimen/DP_16" android:layout_marginBottom="@dimen/DP_9">
+        <ImageView android:id="@id/playback_start_stop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pb_ic_voicemail_resume" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/DP_10" />
+        <TextView android:id="@id/total_duration_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/DP_6" android:layout_alignParentEnd="true" style="@style/SmallTextStyle" />
+        <com.coui.appcompat.seekbar.COUISeekBar android:id="@id/playback_seek" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/DP_4" android:max="0" android:progress="0" android:layout_centerVertical="true" android:hapticFeedbackEnabled="false" android:layout_toStartOf="@id/total_duration_text" android:layout_toEndOf="@id/playback_start_stop" />
+    </RelativeLayout>
+    <com.customize.contacts.widget.TelescopicTextView android:textSize="@dimen/SP_14" android:textColor="@color/coui_preference_title_color" android:id="@id/expanded_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/DP_15" app:contract_color="?couiColorContainerTheme" app:expand_color="?couiColorContainerTheme" app:fontFamily="sans-serif-light" app:max_line="2" />
+</LinearLayout>

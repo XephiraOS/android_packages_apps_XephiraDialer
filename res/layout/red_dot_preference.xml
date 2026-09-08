@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:gravity="center_vertical" android:id="@id/coui_preference" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/support_preference_min_height" android:paddingStart="@dimen/support_preference_title_padding_start" android:paddingEnd="@dimen/support_preference_title_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/red_dot_preference_linear_layout" android:layout_width="wrap_content" android:layout_height="@dimen/list_red_dot_preference_height" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <com.coui.appcompat.reddot.COUIHintRedDot android:id="@id/red_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/red_dot_preference_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/coui_pop_up_next" android:layout_marginStart="@dimen/list_red_dot_preference_arrow_margin_start" />
+        </LinearLayout>
+        <TextView android:id="@id/red_dot_preference_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_red_dot_preference_text_margin_top" android:layout_marginBottom="@dimen/list_red_dot_preference_text_margin_bottom" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/list_red_dot_preference_text_margin_end" android:layout_toStartOf="@id/red_dot_preference_linear_layout" android:layout_alignParentStart="true" style="@style/COUIPreferenceTitleStyle" />
+    </RelativeLayout>
+</com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>

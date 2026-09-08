@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.checkbox.COUICheckBox android:layout_gravity="center_vertical" android:id="@android:id/checkbox" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:layout_marginStart="@dimen/coui_preferenc_widget_checkbox_margin_left"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

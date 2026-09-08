@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/textlayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/call_label_text_size" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/greeting" android:background="@android:color/black" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="380.0dip" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+            <TextView android:textSize="@dimen/call_label_text_size" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/missdnaddress" android:background="@android:color/black" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="380.0dip" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:layout_below="@id/greeting" android:marqueeRepeatLimit="marquee_forever" />
+        </RelativeLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/textlayout">
+            <SurfaceView android:layout_gravity="center" android:id="@id/surface" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.suntek.rcs.ui.common.GifMovieView android:enabled="false" android:layout_gravity="center_horizontal" android:id="@id/incallgifview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <ImageView android:gravity="center|top" android:layout_gravity="center_vertical" android:id="@id/rcs_photo" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/rcs_default_enhance_screen" android:scaleType="centerCrop" android:contentDescription="@string/contactPhoto" />
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

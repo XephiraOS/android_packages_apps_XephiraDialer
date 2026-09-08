@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttons_linear_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_weight="1.0" android:layout_marginEnd="@dimen/DP_3">
+            <ImageButton android:id="@id/playback_start_stop" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pb_dr_hold_pause" style="@style/ListItemSelectorStyle" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_weight="1.0">
+            <ImageButton android:id="@id/playback_speakerphone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pb_dr_speakerphone_on" style="@style/ListItemSelectorStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/seek_container" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginTop="@dimen/DP_3" android:layout_below="@id/buttons_linear_layout">
+        <com.coui.appcompat.seekbar.COUISeekBar android:id="@id/playback_seek" android:paddingTop="30.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="0" android:progress="0" android:layout_centerVertical="true" android:hapticFeedbackEnabled="false" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginStart="64.0dip" android:layout_marginEnd="64.0dip" />
+        <TextView android:textSize="@dimen/SP_14" android:id="@id/playback_position_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/SP_14" android:id="@id/playback_speed_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:alpha="0.0" />
+        <ImageButton android:id="@id/rate_decrease_button" android:paddingTop="29.0dip" android:paddingBottom="19.0dip" android:layout_width="64.0dip" android:layout_height="wrap_content" android:src="@drawable/pb_dr_minus" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/ListItemSelectorStyle" />
+        <ImageButton android:id="@id/rate_increase_button" android:paddingTop="29.0dip" android:paddingBottom="19.0dip" android:layout_width="64.0dip" android:layout_height="wrap_content" android:src="@drawable/pb_dr_plus" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/ListItemSelectorStyle" />
+    </RelativeLayout>
+</RelativeLayout>

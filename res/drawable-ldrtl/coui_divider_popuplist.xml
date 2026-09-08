@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="?couiColorDivider" android:insetLeft="@dimen/coui_listview_divider_inset_left" android:insetRight="@dimen/coui_listview_divider_inset_left"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

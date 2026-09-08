@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.dialpad.view.DialpadImageButton android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/dialpad_button" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/dialpad_key_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/DP_28" android:textColor="@color/pb_color_dialpad_number" android:gravity="center" android:layout_gravity="center" android:id="@id/number_text" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/couiTextHeadlineL" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialpad_key_letter_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/dialpad_key_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialpad_button_letter_view_margin" />
+            <TextView android:textSize="@dimen/DP_10" android:gravity="center" android:id="@id/dialpad_key_letter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="0.9" />
+        </LinearLayout>
+        <View android:id="@id/place_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dialpad_place_holder_height" />
+    </LinearLayout>
+</com.android.contacts.dialpad.view.DialpadImageButton>

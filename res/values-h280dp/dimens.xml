@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coui_snack_bar_margin_bottom">64.0dip</dimen>
+</resources>

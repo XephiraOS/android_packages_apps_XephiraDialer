@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center|right|top" android:id="@id/incomingVideoContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/incomingVideoBackground" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextureView android:layout_gravity="center" android:id="@id/incomingVideo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center" android:id="@id/incomingVideoMask" android:background="@color/video_call_mask_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+        <ImageView android:layout_gravity="center" android:id="@id/incomingVideoPause" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="30.0dip" android:textColor="@android:color/white" android:gravity="center|top" android:id="@id/incomingVideoPauseText" android:paddingTop="@dimen/oplus_video_pause_text_paddingTop_large" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/oplus_video_pause_text" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center|right|top" android:id="@id/previewVideoContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/previewVideoBackground" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/previewVideoFrame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center" android:id="@id/previewVideoMask" android:background="@color/video_call_mask_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+        <ImageView android:layout_gravity="center" android:id="@id/previewVideoPause" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="30.0dip" android:textColor="@android:color/white" android:gravity="center|top" android:id="@id/previewVideoPauseText" android:paddingTop="@dimen/oplus_video_pause_text_paddingTop_small" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/oplus_video_pause_text" />
+        <ImageView android:id="@id/previewProfilePhoto" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:adjustViewBounds="false" android:contentDescription="@string/profile_photo_description" />
+        <ImageView android:layout_gravity="bottom|center|right" android:id="@id/previewCameraOff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_toolbar_video_off" android:scaleType="centerCrop" android:contentDescription="@string/camera_off_description" android:layout_marginEnd="10.0dip" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.contacts.framework.omoji.view.OmojiImageView android:id="@id/photo_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:forceDarkAllowed="false" />
+    <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center" android:id="@id/anim_view" android:visibility="gone" android:layout_width="@dimen/DP_40" android:layout_height="@dimen/DP_40" app:anim_rawRes="@raw/omoji_loading" />
+</FrameLayout>

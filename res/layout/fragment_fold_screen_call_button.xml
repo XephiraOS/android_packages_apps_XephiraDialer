@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom|center" android:tag="layout/fragment_fold_screen_call_button_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureAllChildren="true" android:minHeight="@dimen/fold_screen_call_button_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/answer_button_view" android:tag="binding_1" android:layout="@layout/fold_answer_button_layout" android:inflatedId="@id/answer_button_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/call_button_view" android:tag="binding_2" android:layout="@layout/fold_call_button_layout" android:inflatedId="@id/call_button_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/video_anim_view" android:tag="binding_3" android:layout="@layout/fold_screen_video_anim_layout" android:inflatedId="@id/video_anim_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

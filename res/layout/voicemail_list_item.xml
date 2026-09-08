@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.framework.baseui.widget.SelectItemLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/right_layout" android:paddingTop="@dimen/padding_top" android:paddingBottom="@dimen/padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/DP_24">
+        <com.coui.appcompat.imageview.COUIRoundImageView android:layout_gravity="center_vertical" android:id="@id/vvm_photo" android:src="@drawable/pb_ic_default_photo" android:layout_marginEnd="@dimen/DP_18" style="@style/PhotoStyle" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:id="@id/vvm_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:textDirection="ltr" style="@style/LargeTextStyle" />
+            <TextView android:ellipsize="end" android:id="@id/vvm_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="ltr" style="@style/SmallTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.coui.appcompat.reddot.COUIHintRedDot android:gravity="center" android:id="@id/vvm_unread_counts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_marginEnd="@dimen/DP_20" android:layout_toStartOf="@id/listview_scrollchoice_checkbox" style="?couiHintRedDotStyle" />
+    <CheckBox android:id="@id/listview_scrollchoice_checkbox" android:visibility="gone" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/CheckBoxStyle" />
+</com.android.contacts.framework.baseui.widget.SelectItemLayout>

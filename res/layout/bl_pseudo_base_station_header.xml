@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/SP_12" android:ellipsize="end" android:id="@id/station_tips" android:paddingTop="@dimen/notice_top_padding" android:paddingBottom="@dimen/notice_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pseudo_base_station_tips_v2" android:maxLines="@null" android:paddingStart="@dimen/list_padding" android:paddingEnd="@dimen/list_padding" style="@style/BLSmallTextStyle" />
+</LinearLayout>

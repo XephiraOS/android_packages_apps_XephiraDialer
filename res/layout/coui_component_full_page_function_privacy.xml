@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?couiColorSurface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/txt_title" style="@style/COUIComponentStatementTitleStyle" />
+    <com.coui.appcompat.statement.COUIComponentMaxHeightScrollView android:id="@id/scroll_text" android:paddingTop="@dimen/coui_component_individual_padding_top" android:scrollbars="vertical" android:fadingEdgeLength="@dimen/coui_full_page_statement_scroll_fade_length" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:requiresFadingEdge="vertical" app:scrollViewMaxHeight="384.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_scroll_text" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?couiTextAppearanceBody" android:textColorHighlight="@android:color/transparent" android:id="@id/txt_statement" android:paddingBottom="@dimen/coui_component_individual_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" android:paddingHorizontal="24.0dip" />
+        </LinearLayout>
+    </com.coui.appcompat.statement.COUIComponentMaxHeightScrollView>
+    <com.coui.appcompat.button.COUIButton android:layout_gravity="bottom|center" android:id="@id/btn_confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/coui_allow_text" android:layout_marginHorizontal="@dimen/coui_horizontal_single_btn_margin" style="?couiButtonColorfulDefaultStyle" />
+    <TextView android:textSize="@dimen/coui_btn_text_size" android:textColor="?couiColorPrimary" android:layout_gravity="bottom|center" android:id="@id/txt_exit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/coui_component_bottom_sheet_margin" android:text="@string/coui_reject_text" android:fontFamily="sans-serif-medium" />
+    <com.coui.appcompat.button.COUIButtonLayout android:orientation="horizontal" android:id="@id/small_land_button_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/coui_component_bottom_sheet_margin" android:paddingHorizontal="24.0dip" app:horizontalLayoutPadding="24.0dip" app:verticalLayoutPadding="32.0dip">
+        <com.coui.appcompat.button.COUIButton android:id="@id/small_land_btn_exit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/coui_reject_text" android:layout_weight="1.0" android:layout_marginEnd="8.0dip" style="?couiButtonColorfulWhiteStyle" />
+        <com.coui.appcompat.button.COUIButton android:id="@id/small_land_btn_confirm" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/coui_allow_text" android:layout_weight="1.0" style="?couiButtonColorfulDefaultStyle" />
+    </com.coui.appcompat.button.COUIButtonLayout>
+</LinearLayout>

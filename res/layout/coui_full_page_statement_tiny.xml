@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/coui_full_page_statement_tiny_content_margin_top" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.statement.COUIMaxHeightScrollView android:id="@id/scroll_text" android:scrollbars="vertical" android:fadingEdgeLength="@dimen/coui_full_page_statement_tiny_scroll_fade_length" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="0.0dip" android:layout_weight="1.0" android:overScrollMode="ifContentScrolls" android:requiresFadingEdge="vertical" app:scrollViewMaxHeight="@dimen/coui_full_page_statement_scroll_max_height">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/statement_content_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/coui_full_page_statement_tiny_padding_horizontal">
+            <TextView android:textAppearance="?couiTextHeadlineS" android:textSize="@dimen/coui_full_page_statement_tiny_title_text_size" android:textColor="?couiColorPrimaryNeutral" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/txt_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textAppearance="?couiTextBodyM" android:textSize="@dimen/coui_full_page_statement_tiny_text_size" android:textColor="?couiColorSecondNeutral" android:textColorHighlight="@android:color/transparent" android:id="@id/txt_statement" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coui_full_page_statement_tiny_padding_top" android:textAlignment="viewStart" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.coui.appcompat.statement.COUIMaxHeightScrollView>
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/custom_functional_area_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:maxHeight="@dimen/coui_full_page_statement_tiny_functional_area_max_height" android:paddingVertical="6.0dip">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/custom_functional_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/coui_full_page_statement_tiny_padding_horizontal" android:paddingVertical="2.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <ScrollView android:id="@id/scroll_button" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.coui.appcompat.button.COUIButton android:ellipsize="end" android:id="@id/btn_confirm" android:layout_marginBottom="8.0dip" android:text="@string/coui_allow_text" android:fontFamily="sans-serif-medium" style="?couiTinyFullButtonColorStyle" />
+            <com.coui.appcompat.button.COUIButton android:id="@id/txt_exit" android:layout_marginBottom="16.0dip" android:text="@string/coui_reject_text" android:fontFamily="sans-serif-medium" style="?couiTinyFullButtonSecondaryColorStyle" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

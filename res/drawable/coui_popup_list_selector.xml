@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <color android:color="@color/coui_popup_list_selector_color_disable" />
+    </item>
+    <item android:state_pressed="true">
+        <color android:color="?couiColorPress" />
+    </item>
+    <item>
+        <color android:color="?couiColorSurfaceTop" />
+    </item>
+</selector>

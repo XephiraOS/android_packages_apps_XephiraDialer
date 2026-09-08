@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/coui_list_to_ex_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_marginStart="@dimen/support_preference_category_layout_title_margin_start_tiny" android:layout_marginEnd="@dimen/support_preference_category_layout_title_margin_end_tiny" style="@style/Widget.COUI.List.Category.Title.Tiny" />
+</LinearLayout>

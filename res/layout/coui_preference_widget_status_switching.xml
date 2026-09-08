@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.anim.EffectiveAnimationView android:id="@id/coui_anim" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.coui.appcompat.textview.COUITextView android:textColor="?couiColorLabelSecondary" android:id="@id/coui_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/couiTextAppearanceBody" />
+    <ImageView android:id="@id/coui_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

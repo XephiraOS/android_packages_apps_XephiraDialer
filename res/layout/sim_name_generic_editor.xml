@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.customize.contacts.widget.NameGenericEditorView android:gravity="center" android:orientation="vertical" android:id="@id/name_generic_label" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.customize.contacts.widget.ColorRoundLocalImageView android:id="@id/name_edit_sim_contact_photo" android:layout_width="@dimen/color_detail_photo_size" android:layout_height="@dimen/color_detail_photo_size" android:layout_marginTop="@dimen/contact_editor_photo_margin_top" android:src="@drawable/pb_ic_default_sim_photo" android:scaleType="centerCrop" android:cropToPadding="true" android:contentDescription="@string/attach_photo_dialog_title" app:couiBorderRadius="?couiRoundCornerS" app:couiHasDefaultPic="false" app:couiType="circle" />
+    <include layout="@layout/editor_account_header_with_dropdown" />
+    <com.android.contacts.framework.baseui.widget.SelectedCardView android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/DP_16">
+        <include layout="@layout/edit_left_icon" />
+        <com.coui.appcompat.edittext.COUIEditText android:layout_gravity="center" android:id="@id/name_edit_field" android:background="@null" android:nextFocusLeft="@id/edit_label" android:nextFocusUp="@id/edit_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_min_line_item_height" android:layout_marginEnd="@dimen/DP_24" style="@style/ContactEditorEditTextStyle" />
+    </com.android.contacts.framework.baseui.widget.SelectedCardView>
+</com.customize.contacts.widget.NameGenericEditorView>

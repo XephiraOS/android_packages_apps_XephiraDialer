@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/contacts_touchsearch_popupwin_default_textsize" android:textColor="@color/pb_color_touch_search_text" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/touch_search_popup_top_text_view" android:background="@null" android:visibility="visible" android:layout_width="@dimen/DP_64" android:layout_height="@dimen/DP_64" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/touch_search_popup_content" android:background="@null" android:paddingTop="@dimen/DP_6" android:paddingBottom="@dimen/DP_8" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.coui.appcompat.scrollview.COUIScrollView android:layout_gravity="center_horizontal" android:id="@id/name_scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:requiresFadingEdge="vertical">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/touch_search_popup_content_name" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+        </com.coui.appcompat.scrollview.COUIScrollView>
+    </LinearLayout>
+</LinearLayout>

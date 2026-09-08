@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/no_account_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_gravity="center_horizontal" android:paddingBottom="@dimen/DP_24" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:nestedScrollingEnabled="true">
+            <com.coui.appcompat.grid.COUIPercentWidthLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/DP_16" android:layout_marginEnd="@dimen/DP_16">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_24" android:text="@string/move_local_contacts_to_google" android:layout_marginStart="@dimen/DP_16" android:layout_marginEnd="@dimen/DP_16" />
+            </com.coui.appcompat.grid.COUIPercentWidthLinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/login_google_pan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/DP_84">
+            <com.coui.appcompat.button.COUIButton android:id="@id/login_google" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/coui_single_larger_btn_width" android:text="@string/login_google_account" android:contentDescription="@string/login_google_account" android:layout_marginHorizontal="@dimen/coui_horizontal_single_btn_margin" style="@style/Widget.COUI.Button.Large.ButtonNew" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/has_account_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/google_account_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/start_move_pan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/DP_84">
+            <com.coui.appcompat.button.COUIButton android:id="@id/start_move" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/coui_single_larger_btn_width" android:text="@string/start_move" android:contentDescription="@string/start_move" android:layout_marginHorizontal="@dimen/coui_horizontal_single_btn_margin" style="@style/Widget.COUI.Button.Large.ButtonNew" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

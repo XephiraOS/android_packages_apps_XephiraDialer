@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/launcher_odialer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.android.contacts.preference.AppInfoPreference android:layout="@layout/preference_application_info" app:appIcon="@null" app:appName="@string/launcher_odialer" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_about_contacts">
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/open_source_license" android:key="open_source_license" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/right_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_marginStart="@dimen/DP_24" android:layout_marginEnd="@dimen/DP_24">
+        <com.coui.appcompat.imageview.COUIRoundImageView android:id="@id/photo" android:visibility="gone" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/photo_margin_right" style="@style/PhotoStyle" />
+        <LinearLayout android:orientation="vertical" android:id="@id/name_and_number" android:paddingTop="@dimen/padding_top" android:paddingBottom="@dimen/padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/photo">
+            <TextView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/LargeTextStyle" />
+            <TextView android:ellipsize="end" android:id="@id/number" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SmallTextStyle" />
+        </LinearLayout>
+        <View android:id="@id/list_divider" android:layout_alignParentBottom="true" android:layout_alignStart="@id/name_and_number" style="@style/BottomDividerStyle" />
+    </RelativeLayout>
+</RelativeLayout>

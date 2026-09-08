@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingBottom="@dimen/DP_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/name_layout" android:layout_marginStart="@dimen/DP_12" android:layout_marginEnd="@dimen/DP_12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.contacts.framework.baseui.widget.LinearLayoutCardView android:id="@id/layout_call" android:background="@drawable/pb_bg_card" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/DP_4">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_12" android:layout_marginBottom="@dimen/DP_12">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/call" android:layout_width="@dimen/DP_24" android:layout_height="@dimen/DP_24" android:src="@drawable/pb_dr_detail_call" />
+            <TextView android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/call_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_4" android:text="@string/make_dial" android:singleLine="true" android:importantForAccessibility="no" style="@style/DetailSmallTextStyle" />
+        </LinearLayout>
+    </com.android.contacts.framework.baseui.widget.LinearLayoutCardView>
+    <com.android.contacts.framework.baseui.widget.LinearLayoutCardView android:id="@id/layout_sms" android:background="@drawable/pb_bg_card" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/DP_4">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_12" android:layout_marginBottom="@dimen/DP_12">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/sms" android:layout_width="@dimen/DP_24" android:layout_height="@dimen/DP_24" android:src="@drawable/pb_dr_detail_sms" />
+            <TextView android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/sms_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_4" android:text="@string/sms" android:singleLine="true" android:importantForAccessibility="no" style="@style/DetailSmallTextStyle" />
+        </LinearLayout>
+    </com.android.contacts.framework.baseui.widget.LinearLayoutCardView>
+    <com.android.contacts.framework.baseui.widget.LinearLayoutCardView android:id="@id/layout_video" android:background="@drawable/pb_bg_card" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/DP_4">
+        <LinearLayout android:orientation="vertical" android:id="@id/video_call_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_12" android:layout_marginBottom="@dimen/DP_12">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/video_call" android:layout_width="@dimen/DP_24" android:layout_height="@dimen/DP_24" android:src="@drawable/pb_dr_video_call" />
+            <TextView android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/video_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_4" android:text="@string/video_call" android:singleLine="true" android:importantForAccessibility="no" style="@style/DetailSmallTextStyle" />
+        </LinearLayout>
+    </com.android.contacts.framework.baseui.widget.LinearLayoutCardView>
+</LinearLayout>

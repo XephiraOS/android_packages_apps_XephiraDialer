@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/pb_dr_menu_scan_card" android:id="@id/scan_menu" android:visible="false" android:title="@string/scan_business_card_description" app:showAsAction="always" />
+    <item android:icon="@drawable/pb_dr_menu_add_group_member" android:id="@id/add_menu" android:visible="false" app:showAsAction="always" />
+    <item android:icon="@drawable/pb_ic_menu_edit" android:id="@id/edit_menu" android:visible="false" android:title="@string/oplus_menu_edit" app:showAsAction="always" />
+    <item android:icon="@drawable/coui_toolbar_menu_icon_more" android:id="@id/setting_menu" android:visible="true" android:title="@string/oplus_button_set" app:showAsAction="always" />
+</menu>

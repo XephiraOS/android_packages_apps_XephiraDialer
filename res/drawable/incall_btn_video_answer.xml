@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/incall_answer_method_swipe_btn_size" android:width="@dimen/incall_answer_method_swipe_btn_size" android:viewportWidth="68.0" android:viewportHeight="68.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/incall_answer_view_videobtn_in_video_mode_drawable_path_color" android:pathData="M34,34m-33,0a33,33 0,1 1,66 0a33,33 0,1 1,-66 0" />
+    <path android:fillColor="#ffffffff" android:pathData="M22.138,25.9671C22.5278,25.5774 23.0564,25.3584 23.6076,25.3584H38.9213C39.4725,25.3584 40.0011,25.5774 40.3909,25.9671C40.7806,26.3569 40.9996,26.8855 40.9996,27.4367V30.6074L44.901,27.7375C45.2001,27.5175 45.5974,27.4845 45.9287,27.6521C46.26,27.8196 46.4688,28.1593 46.4688,28.5305V39.4689C46.4688,39.8401 46.26,40.1798 45.9287,40.3474C45.5974,40.5149 45.2001,40.4819 44.901,40.2619L40.9996,37.392V40.5627C40.9996,41.1139 40.7806,41.6425 40.3909,42.0323C40.0011,42.4221 39.4725,42.641 38.9213,42.641H21.5293V27.4367C21.5293,26.8855 21.7483,26.3569 22.138,25.9671Z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h24v24h-24z" />
+        <path android:fillColor="#00000000" android:pathData="M7.988,13.992H15.988" android:strokeColor="@color/coui_color_label_primary" android:strokeWidth="1.4" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:fillColor="#00000000" android:pathData="M7.988,10.047H11.988" android:strokeColor="@color/coui_color_label_primary" android:strokeWidth="1.4" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:fillColor="@color/coui_color_label_primary" android:pathData="M12.998,3.293H3.985C3.599,3.293 3.285,3.606 3.285,3.993V16.993C3.285,18.392 2.994,19.284 2.733,19.804C2.601,20.066 2.475,20.24 2.39,20.341C2.348,20.392 2.316,20.424 2.298,20.441C2.291,20.448 2.287,20.452 2.285,20.454C2.06,20.64 1.974,20.947 2.071,21.224C2.169,21.505 2.434,21.693 2.731,21.693H16.985C18.372,21.693 20.685,20.38 20.685,16.993V9.045H19.285V16.993C19.285,19.606 17.599,20.293 16.985,20.293H4.051C4.39,19.564 4.685,18.495 4.685,16.993V4.693H12.998V3.293Z" android:fillType="evenOdd" />
+        <path android:fillColor="#00000000" android:pathData="M22,2.047L17.1,7.047L15,4.904" android:strokeColor="@color/coui_color_label_primary" android:strokeWidth="1.4" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    </group>
+</vector>

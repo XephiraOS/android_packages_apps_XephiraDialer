@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.emptyview.EmptyStateAnimView android:id="@id/empty_view_anim" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.coui.appcompat.statement.COUIMaxHeightScrollView android:id="@id/empty_view_content" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" app:scrollViewMaxHeight="@dimen/coui_component_empty_text_scroll_max_height" style="@style/COUIAlertDialogMessageScrollViewStyle">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?couiTextHeadlineXS" android:textColor="?couiColorLabelPrimary" android:ellipsize="end" android:id="@id/empty_view_title" android:layout_width="@dimen/coui_component_empty_group_width" android:layout_height="wrap_content" android:maxLines="2" android:textAlignment="center" />
+            <TextView android:textAppearance="?couiTextBodyXS" android:textColor="?couiColorLabelSecondary" android:ellipsize="end" android:id="@id/empty_view_subtitle" android:layout_width="@dimen/coui_component_empty_group_width" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="3" android:textAlignment="center" />
+        </LinearLayout>
+    </com.coui.appcompat.statement.COUIMaxHeightScrollView>
+    <TextView android:textAppearance="?couiTextButtonM" android:textColor="?couiColorPrimaryText" android:id="@id/empty_view_action" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:textAlignment="center" />
+</LinearLayout>

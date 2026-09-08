@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.statement.COUIMaxHeightScrollView android:id="@id/scroll_text" android:scrollbars="vertical" android:fadingEdgeLength="@dimen/coui_full_page_statement_scroll_fade_length" android:layout_width="fill_parent" android:layout_height="wrap_content" android:requiresFadingEdge="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/coui_full_page_statement_text_size" android:id="@id/content" android:paddingTop="@dimen/coui_full_page_statement_padding_top" android:paddingBottom="@dimen/coui_full_page_statement_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" android:fontFamily="sans-serif-regular" android:textAlignment="viewStart" android:paddingHorizontal="@dimen/coui_full_page_statement_padding_horizontal" android:forceDarkAllowed="false" style="@style/SmallTextStyle" />
+</com.coui.appcompat.statement.COUIMaxHeightScrollView>

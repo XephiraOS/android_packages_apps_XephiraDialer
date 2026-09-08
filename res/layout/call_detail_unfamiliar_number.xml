@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/controls" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/tips_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/national_anti_fraud_tips" android:layout="@layout/detail_header_national_anti_fraud_tips_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/voicemail_status" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_16" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <include layout="@layout/call_log_voicemail_status" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/voicemail_container" android:background="@android:color/black" android:paddingBottom="@dimen/DP_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/call_log_photo_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tips_layout" android:layout_centerHorizontal="true">
+        <com.customize.contacts.widget.ColorRoundLocalImageView android:layout_gravity="center" android:id="@id/calls_detail_photo" android:focusable="true" android:layout_width="@dimen/color_detail_photo_size" android:layout_height="@dimen/color_detail_photo_size" android:src="@drawable/pb_ic_default_large_photo" android:scaleType="centerCrop" android:contentDescription="@string/attach_photo_dialog_title" android:forceDarkAllowed="false" />
+        <LinearLayout android:orientation="vertical" android:id="@id/number_detail_container" android:paddingTop="@dimen/DP_13" android:paddingBottom="@dimen/DP_24" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/DP_24" android:paddingEnd="@dimen/DP_24">
+            <TextView android:ellipsize="end" android:gravity="center" android:id="@id/number" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="ltr" style="@style/ContactDetailLargeItemType" />
+            <com.customize.contacts.widget.AutoWrapLinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/mark_and_location" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_4_67" app:position="middle">
+                <TextView android:textSize="@dimen/SP_14" android:textColor="@color/coui_color_orange" android:gravity="center_horizontal" android:id="@id/phone_flag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:paddingStart="@dimen/DP_5" android:paddingEnd="@dimen/DP_5" />
+                <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="@dimen/DP_5" android:paddingEnd="@dimen/DP_5" style="@style/ContactDetailItemType" />
+            </com.customize.contacts.widget.AutoWrapLinearLayout>
+            <com.customize.contacts.widget.AutoWrapLinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/type_and_number" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_4_67" app:position="middle">
+                <TextView android:id="@id/phone_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="@dimen/DP_5" android:paddingEnd="@dimen/DP_5" style="@style/ContactDetailItemType" />
+                <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/phone_number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="@dimen/DP_5" android:paddingEnd="@dimen/DP_5" style="@style/ContactDetailItemType" />
+            </com.customize.contacts.widget.AutoWrapLinearLayout>
+        </LinearLayout>
+        <include android:id="@id/detail_header_bottom_layout" layout="@layout/detail_header_bottom_layout" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/more_call_log_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/call_log_photo_background">
+        <include layout="@layout/more_call_log_view" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/call_detail_number_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/more_call_log_container" />
+    <View android:id="@id/ted_more_call_log_bottom_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/DP_16" android:layout_below="@id/call_detail_number_list" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ted_detail_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ted_more_call_log_bottom_divider" />
+    <ViewStub android:id="@id/ust_phone_entry_stub" android:layout="@layout/contact_detail_unfamiliar_ust_phone_entry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ted_detail_view_container" />
+</RelativeLayout>

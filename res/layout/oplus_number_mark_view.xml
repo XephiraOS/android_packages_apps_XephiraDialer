@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/oplus_number_mark_masking" android:background="@drawable/masking_number_mark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/oplus_number_mark_layout" android:background="@null" android:paddingTop="@dimen/oplus_number_mark_view_padding_vertical" android:paddingBottom="@dimen/oplus_number_mark_view_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:id="@id/oplus_number_title_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/incall_ic_numbermark_portrait" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/oplus_number_mark_text_size" android:textColor="@color/number_mark_black_color" android:id="@id/oplusNumberMarkTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/number_mark_title" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/oplus_number_mark_first_line_margin" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/oplus_number_mark_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/oplus_number_mark_button_margin_top" android:layout_below="@id/oplus_number_title_line" android:paddingStart="@dimen/oplus_number_mark_button_margin_horizontal" android:paddingEnd="@dimen/oplus_number_mark_button_margin_horizontal">
+            <com.android.incallui.oplus.widgets.OplusIncallUIButton android:id="@id/saveNumberButton" android:text="@string/oplus_store_number" android:drawableTop="@drawable/incall_btn_numbermark_save_contact" style="@style/OplusNumberMarkButtonStyle" />
+            <com.android.incallui.oplus.widgets.OplusIncallUIButton android:id="@id/addToBlacklistButton" android:text="@string/oplus_block_number" android:drawableTop="@drawable/incall_btn_numbermark_blacklist" android:layout_marginStart="@dimen/oplus_number_mark_button_margin_between" style="@style/OplusNumberMarkButtonStyle" />
+            <com.android.incallui.oplus.widgets.OplusIncallUIButton android:id="@id/markButton" android:text="@string/oplus_mark_number" android:drawableTop="@drawable/incall_btn_numbermark_mark" android:layout_marginStart="@dimen/oplus_number_mark_button_margin_between" style="@style/OplusNumberMarkButtonStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/oplus_number_mark_never_show_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/oplus_number_mark_checkbox_margin_top" android:layout_below="@id/oplus_number_mark_line">
+            <CheckBox android:layout_gravity="center_vertical" android:id="@id/oplusNeverShowCheckbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/oplus_number_mark_text_size" android:textColor="@color/number_mark_tip_color" android:layout_gravity="center_vertical" android:id="@id/oplusNumberMarkNeverShow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/number_mark_never_show" android:singleLine="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

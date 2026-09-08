@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/coui_color_press_background"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/recommended_text_ripple_bg_radius" />
+            <solid android:color="@color/coui_color_white" />
+            <padding android:left="@dimen/recommended_text_ripple_bg_padding_horizontal" android:top="@dimen/recommended_text_ripple_bg_padding_vertical" android:right="@dimen/recommended_text_ripple_bg_padding_horizontal" android:bottom="@dimen/recommended_text_ripple_bg_padding_vertical" />
+        </shape>
+    </item>
+</ripple>

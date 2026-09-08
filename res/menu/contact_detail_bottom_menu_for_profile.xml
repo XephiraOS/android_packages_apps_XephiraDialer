@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/pb_dr_menu_qr_code_normal" android:id="@id/menu_qr_code" android:visible="true" android:title="@string/oplus_qr_code" app:showAsAction="always" />
+    <item android:icon="@drawable/pb_dr_edit_contact_normal" android:id="@id/menu_edit" android:visible="false" android:title="@string/oplus_menu_edit" app:showAsAction="always" />
+    <item android:icon="@drawable/pb_ic_share" android:id="@id/menu_share" android:visible="true" android:title="@string/oplus_share" app:showAsAction="always" />
+    <item android:icon="@drawable/pb_ic_voicemail_delete" android:id="@id/menu_delete" android:visible="true" android:title="@string/delete_button" app:showAsAction="always" />
+</menu>

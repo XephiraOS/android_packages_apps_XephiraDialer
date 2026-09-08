@@ -1,0 +1,16 @@
+package com.customize.contacts.receiver;
+
+import H7.a;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+
+/* loaded from: classes3.dex */
+public class DebugStatusChangeReceiver extends BroadcastReceiver {
+    @Override // android.content.BroadcastReceiver
+    public void onReceive(Context context, Intent intent) {
+        if ("contact.log.switch.broadcast".equals(intent.getAction())) {
+            a.f(context);
+        }
+    }
+}

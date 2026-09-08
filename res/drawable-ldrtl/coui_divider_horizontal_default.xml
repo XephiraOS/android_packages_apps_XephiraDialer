@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetRight="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <nine-patch android:src="@drawable/coui_divider_horizontal_without_padding" />
+</inset>

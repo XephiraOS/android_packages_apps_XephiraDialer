@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/pb_dr_menu_add_group" android:id="@id/menu_add" android:visible="true" android:title="@string/oplus_create_new_group" app:showAsAction="always" />
+    <item android:icon="@drawable/pb_ic_menu_edit" android:textColor="@color/coui_color_label_primary" android:id="@id/menu_select" android:visible="true" android:title="@string/oplus_menu_edit" app:showAsAction="always" />
+</menu>

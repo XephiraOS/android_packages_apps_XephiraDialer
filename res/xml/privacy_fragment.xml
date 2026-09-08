@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_privacy"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_about_privacy" app:top_margin_type="small">
+        <com.coui.appcompat.preference.COUIJumpPreference android:layout="@layout/coui_preference" android:title="@string/personal_information_protection_policy" android:key="pref_key_ted_secret_policy" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/personal_information_collect_express_list" android:key="personal_information_collect_express_list">
+            <intent android:targetPackage="com.android.contacts" android:targetClass="com.ted.number.ui.TedStatementActivity">
+                <extra android:name="source" android:value="@integer/information_collect_express_list" />
+            </intent>
+        </com.coui.appcompat.preference.COUIJumpPreference>
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/personal_information_sharing_third_party_list" android:key="personal_information_sharing_third_party_list">
+            <intent android:targetPackage="com.android.contacts" android:targetClass="com.ted.number.ui.TedStatementActivity">
+                <extra android:name="source" android:value="@integer/information_sharing_third_party_list" />
+            </intent>
+        </com.coui.appcompat.preference.COUIJumpPreference>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</PreferenceScreen>

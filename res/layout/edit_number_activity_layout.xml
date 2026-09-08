@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/BLBackgroundCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/submit_layout" android:paddingBottom="@dimen/DP_24" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="84.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <com.coui.appcompat.button.COUIButton android:textAppearance="@style/couiTextAppearanceButtonL" android:textSize="14.0sp" android:layout_gravity="bottom|center" android:id="@id/submit" android:layout_width="fill_parent" android:layout_height="44.0dip" android:minHeight="44.0dip" android:text="@android:string/ok" android:layout_marginStart="@dimen/DP_32" android:layout_marginEnd="@dimen/DP_32" style="?couiSmallButtonColorStyle" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/submit_layout" />
+</RelativeLayout>

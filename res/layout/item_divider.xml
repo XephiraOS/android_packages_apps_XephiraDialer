@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/divider" android:layout_marginTop="@dimen/DP_12" android:layout_marginBottom="@dimen/DP_12" style="@style/DividerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

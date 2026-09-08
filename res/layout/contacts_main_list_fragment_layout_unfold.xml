@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.customize.contacts.ui.UnfoldContainerView android:id="@id/foldable_contact_main_layout" android:tag="layout/contacts_main_list_fragment_layout_unfold_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/page_root_container" layout="@layout/contacts_main_list_fragment_layout" />
+    <FrameLayout android:id="@id/foldable_contact_right_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.customize.contacts.ui.UnfoldContainerView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:paddingTop="@dimen/support_preference_header_preference_padding_vertical" android:paddingBottom="@dimen/support_preference_header_preference_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/support_preference_header_preference_margin_top" android:paddingStart="@dimen/list_common_margin" android:paddingEnd="@dimen/list_common_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/COUIPreferenceDescriptionStyle" />
+</LinearLayout>

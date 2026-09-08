@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/accountItem" android:paddingTop="@dimen/padding_top" android:paddingBottom="@dimen/padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_common_margin" android:paddingEnd="@dimen/list_common_margin">
+        <TextView android:id="@id/label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" android:layout_alignParentStart="true" style="@style/LargeTextStyle" />
+        <TextView android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/label" android:textAlignment="viewStart" android:layout_alignStart="@id/label" style="@style/SmallTextStyle" />
+    </RelativeLayout>
+    <ImageView android:id="@id/bottom_divider" android:layout_marginStart="@dimen/list_common_margin" android:layout_marginEnd="@dimen/list_common_margin" style="@style/BottomDividerStyle" />
+</LinearLayout>

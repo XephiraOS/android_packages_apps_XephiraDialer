@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="8.0dip" android:width="8.0dip" android:viewportWidth="8.0" android:viewportHeight="8.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/scene_color_dialpad_letter" android:pathData="M3.0401,2.3198C3.3814,2.5972 3.8161,3.0212 4.3441,3.5918C4.8667,4.1625 5.2721,4.6532 5.5601,5.0638L4.8321,5.6798C4.5867,5.3172 4.2081,4.8345 3.6961,4.2318C3.1841,3.6398 2.7654,3.1998 2.4401,2.9118L3.0401,2.3198Z" />
+</vector>

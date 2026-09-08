@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dial_content" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/query_contacts_stub" android:layout="@layout/dialpad_query_contacts_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/paste_and_digit_container" android:background="@drawable/pb_bg_large_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/primary_title_height" android:layout_marginTop="@dimen/DP_70">
+        <ViewStub android:orientation="horizontal" android:id="@id/paste_container_stub" android:layout="@layout/paste_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:orientation="horizontal" android:id="@id/digits_container_stub" android:layout="@layout/digits_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <include layout="@layout/dialpad_container" />
+</RelativeLayout>

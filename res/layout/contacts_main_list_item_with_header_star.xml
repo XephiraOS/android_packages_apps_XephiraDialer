@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/contacts_main_list_item_with_header_star_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/coui_color_label_primary" android:gravity="start|center" android:id="@id/header_view" android:tag="binding_1" android:paddingTop="@dimen/DP_7" android:paddingBottom="@dimen/DP_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/pinned_header_height" android:drawableStart="@drawable/pb_ic_section_star" android:textAlignment="viewStart" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/couiTextButtonM" />
+    <include android:id="@id/content_layout" layout="@layout/contacts_main_list_item" />
+</LinearLayout>

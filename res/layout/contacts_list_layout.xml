@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <view android:id="@android:id/list" android:paddingTop="@dimen/list_padding_top" android:paddingBottom="@dimen/DP_30" android:scrollbars="none" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_alignParentTop="true" android:fastScrollEnabled="false" android:fastScrollAlwaysVisible="false" android:layout_alignParentStart="true" app:couiListGridNumber="@integer/grid_guide_column_preference" app:paddingType="listType" class="com.android.contacts.widget.PinnedHeaderListView" style="@style/ListViewStyle" />
+        <com.android.contacts.framework.baseui.widget.EmptyViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/empty_view_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/empty_view_horizontal_padding">
+            <ImageView android:id="@id/no_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_2" style="@style/NoContentStyle" />
+        </com.android.contacts.framework.baseui.widget.EmptyViewGroup>
+        <com.customize.contacts.widget.ContactTouchSearchView android:layout_gravity="end" android:id="@id/spell_bar" android:paddingTop="@dimen/DP_0" android:paddingBottom="@dimen/DP_0" android:layout_width="@dimen/TouchSearchView_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/TouchSearchView_sim_contacts_margin_top" android:layout_marginBottom="@dimen/TouchSearchView_margin" android:layout_marginEnd="0.0dip" android:layout_alignParentEnd="true" app:firstIsCharacter="true" app:marginLeft="0.0dip" app:marginRight="0.0dip" app:unionEnable="true" />
+    </RelativeLayout>
+    <include layout="@layout/navigation_view_layout" />
+    <include layout="@layout/appbar_toolbar_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

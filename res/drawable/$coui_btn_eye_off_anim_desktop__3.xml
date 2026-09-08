@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$coui_btn_eye_off_anim_desktop__4" android:duration="300" android:startOffset="0" android:valueFrom="M-27.26 -34.34 C-27.26,-34.34 -34.11,-27.69 -34.11,-27.69 C-34.11,-27.69 -34.11,-27.69 -34.11,-27.69 C-34.11,-27.69 -27.26,-34.36 -27.26,-34.36 C-27.26,-34.36 -27.26,-34.34 -27.26,-34.34c " android:valueTo="M-27.26 -34.34 C-27.26,-34.34 -34.11,-27.69 -34.11,-27.69 C-34.11,-27.69 -34.11,-27.69 -34.11,-27.69 C-34.11,-27.69 -27.26,-34.36 -27.26,-34.36 C-27.26,-34.36 -27.26,-34.34 -27.26,-34.34c " android:valueType="pathType" android:propertyName="pathData" />
+</set>

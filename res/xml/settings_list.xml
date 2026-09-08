@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item permission="main_network_permission" value="0" />
+    <item permission="main_network_permission_no_ask" value="0" />
+    <item permission="main_last_op_time" value="0" />
+    <item permission="tm_traffic_save" value="0" />
+    <item permission="tm_traffic_save_resident" value="1" />
+    <item permission="tm_default_app_data" value="0" />
+    <item permission="tm_default_app_wifi" value="0" />
+    <item permission="bl_anti_harassment" value="1" />
+    <item permission="bl_notify_block" value="1" />
+    <item permission="bl_smart_block_spam" value="1" />
+    <item permission="pp_privacy_protect" value="0" />
+    <item permission="pp_privacy_protect_mode" value="0" />
+    <item permission="pp_privacy_protect_pwd" value="0" />
+    <item permission="pp_touch_feedbak" value="0" />
+    <item permission="pp_pattern_visible_when_drawing" value="1" />
+    <item permission="pp_permission_control" value="0" />
+    <item permission="pp_alert_for_permission_denial" value="1" />
+    <item permission="pp_default_desktop" value="0" />
+    <item permission="pp_default_dial" value="0" />
+    <item permission="pp_default_message" value="0" />
+    <item permission="pp_default_contacts" value="0" />
+    <item permission="pp_default_browser" value="0" />
+    <item permission="pp_default_camera" value="0" />
+    <item permission="pp_default_gallery" value="0" />
+    <item permission="pp_default_music" value="0" />
+    <item permission="pp_default_email" value="0" />
+    <item permission="pp_default_video" value="0" />
+    <item permission="vd_auto_update" value="1" />
+    <item permission="vd_last_scan_time" value="0" />
+    <item permission="vd_last_scan_result" value="0" />
+    <item permission="pm_settings_auto_enter_state" value="1" />
+    <item permission="pm_setting_purbackground_notify_switch" value="1" />
+    <item permission="pm_settings_auto_enter_value" value="3" />
+    <item permission="pm_settings_auto_enter_mode" value="0" />
+    <item permission="pm_settings_charge_exit_saving" value="1" />
+    <item permission="pm_settings_notify_enter_saving" value="0" />
+    <item permission="pm_last_enter_mode_and_state" value="-1" />
+</resources>

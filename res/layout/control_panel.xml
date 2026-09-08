@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/control_panel" android:layout_width="fill_parent" android:layout_height="@dimen/camera_control_panel_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_10">
+        <View android:id="@id/menu_line" android:background="@drawable/pb_bg_menu_line" android:visibility="gone" android:layout_width="@dimen/camera_menu_line_top" android:layout_height="@dimen/filter_menu_stroke" android:layout_centerInParent="true" android:forceDarkAllowed="false" />
+        <com.customize.contacts.widget.ScrollTabLayout android:id="@id/menu_panel" android:background="@android:color/transparent" android:focusableInTouchMode="false" android:visibility="gone" android:scrollbars="none" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/camera_menu_height" />
+    </RelativeLayout>
+    <com.customize.contacts.camera.RotateImageView android:id="@id/thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pb_ic_scan_photo" android:layout_centerVertical="true" android:contentDescription="@string/oplus_album_description" android:layout_marginStart="@dimen/DP_40" android:layout_alignParentStart="true" />
+    <ImageButton android:id="@id/shutterbtn" android:background="@drawable/pb_dr_take_picture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/oplus_take_picture_description" />
+    <com.customize.contacts.camera.RotateImageView android:id="@id/flash_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pb_ic_flash_switch_off" android:scaleType="centerInside" android:layout_centerVertical="true" android:contentDescription="@string/oplus_flashlight_description" android:layout_marginEnd="@dimen/DP_40" android:layout_alignParentEnd="true" />
+</RelativeLayout>

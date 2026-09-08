@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:interpolator="@anim/coui_ease_out" android:duration="250" android:fromXDelta="0.0%" android:toXDelta="0.0%" android:fromYDelta="0.0%" android:toYDelta="100.0%" />
+    <alpha android:interpolator="@anim/coui_ease_move" android:duration="150" android:startOffset="100" android:fromAlpha="1.0" android:toAlpha="0.0" />
+</set>

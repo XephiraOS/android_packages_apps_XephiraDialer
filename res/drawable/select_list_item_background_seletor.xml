@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="180" android:exitFadeDuration="360"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="false">
+        <color android:color="@color/coui_list_selector_color_disabled" />
+    </item>
+    <item app:state_list_checked="true">
+        <color android:color="@color/coui_color_container8" />
+    </item>
+    <item android:state_pressed="true">
+        <color android:color="@color/coui_color_container8" />
+    </item>
+    <item>
+        <color android:color="@null" />
+    </item>
+</selector>

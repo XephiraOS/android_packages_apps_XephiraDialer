@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:interpolator="@anim/coui_bottom_dialog_enter_auto_show_keyboard_interpolator" android:duration="250" android:fillBefore="false" android:fillAfter="true" android:fromYDelta="100.0%p" android:toYDelta="0.0%p" android:fillEnabled="true" />
+</set>

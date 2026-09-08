@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dial_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="@dimen/DP_5" />
+    <TextView android:textSize="@dimen/SP_14" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/sim_name" android:layout_width="@dimen/dual_sim_dial_action_layout_width" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:paddingStart="@dimen/DP_3" android:paddingEnd="@dimen/DP_2" android:layout_toEndOf="@id/dial_icon" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_scene_dialtacts_0" android:background="@color/scene_color_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.foundation.appsupport.ui.widget.recyclerview.HeaderFooterRecyclerView android:id="@id/recycler_view" android:paddingBottom="@dimen/DP_72" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/dial_edit_text_container_view_stub" android:layout="@layout/scene_dial_edit_text_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/no_call_log_view_stub" android:layout="@layout/scene_no_call_log" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/permission_or_statement_view_stub" android:visibility="gone" android:layout="@layout/scene_no_agree_permission_or_statement" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/dialpad_container_view_stub" android:visibility="gone" android:layout="@layout/scene_dialpad" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.coui.appcompat.floatingactionbutton.COUIFloatingButton android:layout_gravity="end|bottom|center" android:id="@id/floating_button" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/DP_20" android:layout_marginEnd="@dimen/DP_16" android:transitionName="shared_element_fab" android:elevation="0.0dip" android:forceDarkAllowed="false" app:fabExpandAnimationEnable="true" app:fabNeedElevation="false" app:mainFloatingButtonSrc="@drawable/scene_ic_floating_dial_show" />
+</FrameLayout>

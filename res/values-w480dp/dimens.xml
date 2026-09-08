@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="floating_window_shadow_margin_horizontal">20.0dip</dimen>
+    <dimen name="floating_window_ticker_width">456.0dip</dimen>
+    <dimen name="fragment_call_button_max_width">480.0dip</dimen>
+</resources>

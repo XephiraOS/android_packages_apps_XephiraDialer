@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" android:requiredSplitTypes="base__abi,base__density" android:splitTypes="" package="com.oplus.dialer" platformBuildVersionCode="35" platformBuildVersionName="15">
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-feature android:name="oplus.software.support_gp.region_export"/>
+    <uses-feature android:name="com.google.android.apps.dialer.SUPPORTED"/>
+    <original-package android:name="com.android.contacts"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.WRITE_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_SOCIAL_STREAM"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.mail"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL"/>
+    <uses-permission android:name="com.android.voicemail.permission.READ_WRITE_ALL_VOICEMAIL"/>
+    <uses-permission android:name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
+    <uses-permission android:name="com.android.voicemail.permission.READ_VOICEMAIL"/>
+    <uses-permission android:name="android.permission.ACCESS_BLUETOOTH_SHARE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE"/>
+    <uses-permission android:name="com.ted.sdk.yellow.provider.permission.WRITE"/>
+    <uses-permission android:name="com.ted.sdk.yellow.provider.permission.READ"/>
+    <uses-permission android:name="com.nearme.permission.OCLOUD_OPERATION"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="heytap.permission.cloud.ACCESS_CLOUD"/>
+    <uses-permission android:name="heytap.permission.cloud.ACCESS_SYNC_SERVICE"/>
+    <uses-permission android:name="com.oppo.permission.safe.SAU"/>
+    <uses-permission android:name="com.oplus.permission.safe.SAU"/>
+    <uses-permission android:name="com.oplus.permission.safe.PHONE"/>
+    <uses-permission android:name="com.oppo.permission.safe.UPDATE"/>
+    <uses-permission android:name="com.oppo.permission.safe.SECURITY"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+    <uses-permission android:name="com.oplus.contacts.CALL_RECORDING_PERMISSION"/>
+    <uses-permission android:name="android.permission.SET_DEFAULT_ACCOUNT_FOR_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="com.oplus.permission.safe.WINDOW"/>
+    <uses-permission android:name="android.permission.MANAGE_MEDIA"/>
+    <uses-permission android:name="com.newcall.setting.permission"/>
+    <uses-permission android:name="com.newcall.messagebox.permission.READ_DATA"/>
+    <queries>
+        <package android:name="com.coloros.filemanager"/>
+        <package android:name="com.coloros.bootreg"/>
+        <package android:name="com.gsma.rcs"/>
+        <package android:name="com.android.mms"/>
+        <package android:name="com.android.contacts"/>
+        <package android:name="com.google.android.dialer"/>
+        <package android:name="com.ted.number"/>
+        <package android:name="com.oplus.omoji"/>
+        <package android:name="com.oplus.blacklistapp"/>
+        <package android:name="com.android.settings"/>
+        <package android:name="com.android.phone"/>
+        <package android:name="com.android.providers.contacts"/>
+        <package android:name="com.oplus.calendar"/>
+        <package android:name="com.coloros.gallery3d"/>
+        <package android:name="com.oneplus.gallery"/>
+        <package android:name="com.heytap.cloud"/>
+        <package android:name="com.coloros.backuprestore"/>
+        <package android:name="com.oneplus.backuprestore"/>
+        <package android:name="com.finshell.wallet"/>
+        <package android:name="com.heytap.browser"/>
+        <package android:name="com.oplus.phonenoareainquire"/>
+        <package android:name="com.oplus.camera"/>
+        <package android:name="com.heytap.openid"/>
+        <package android:name="com.oplus.smartengine"/>
+        <package android:name="com.oplus.sos"/>
+        <package android:name="com.oplus.chaken"/>
+        <package android:name="com.oplus.romupdate"/>
+        <package android:name="com.oplus.beaconlink"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:mimeType="vnd.android.cursor.item/event"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.PICK"/>
+            <data android:mimeType="image/*"/>
+        </intent>
+        <intent>
+            <action android:name="com.android.camera.action.CROP"/>
+            <data android:mimeType="image/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+        </intent>
+        <intent>
+            <action android:name="oplus.intent.action.settings.VIBRATE_PICKER"/>
+        </intent>
+        <intent>
+            <action android:name="android.content.SyncAdapter"/>
+        </intent>
+        <intent>
+            <action android:name="oplus.intent.action.voice_nc_page_detail"/>
+        </intent>
+        <package android:name="com.heytap.speechassist"/>
+        <package android:name="com.android.incallui"/>
+        <package android:name="com.android.server.telecom"/>
+        <package android:name="com.coloros.accessibilityassistant"/>
+        <package android:name="com.coloros.translate.engine"/>
+        <package android:name="com.oplus.aiunit"/>
+        <package android:name="com.coloros.note"/>
+        <package android:name="com.heytap.health"/>
+        <package android:name="com.oplus.note"/>
+        <package android:name="com.heytap.themestore"/>
+        <package android:name="com.oplus.themestore"/>
+        <package android:name="com.coloros.soundrecorder"/>
+        <package android:name="com.oplus.dialer"/>
+        <package android:name="com.oplus.callrecorder"/>
+        <intent>
+            <action android:name="com.oplus.mms.intent.RCS_CHATBOT_BLACKLIST"/>
+        </intent>
+        <intent>
+            <action android:name="com.oplus.mms.intent.SHOP_BLACKLIST"/>
+        </intent>
+        <package android:name="com.heytap.accessory"/>
+        <provider android:authorities="com.oplus.statistics.provider"/>
+        <package android:name="com.coloros.ocrservice"/>
+        <package android:name="com.oplus.services"/>
+    </queries>
+    <uses-permission android:name="com.oplus.permission.safe.AI_APP"/>
+    <uses-permission android:name="com.oplus.permission.safe.PROTECT"/>
+    <uses-permission android:name="com.oplus.omoji.permission.readProvider"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="com.oplus.permission.safe.SETTINGS"/>
+    <original-package android:name="com.android.incallui"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.STATUS_BAR_SERVICE"/>
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="android.permission.SEND_RESPOND_VIA_MESSAGE"/>
+    <uses-permission android:name="android.permission.SET_TIME_ZONE"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.BROADCAST_SMS"/>
+    <uses-permission android:name="android.permission.SHUTDOWN"/>
+    <uses-permission android:name="android.permission.UPDATE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.ACCESS_SURFACE_FLINGER"/>
+    <uses-permission android:name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+    <uses-permission android:name="oplus.permission.OPLUS_COMPONENT_SAFE"/>
+    <uses-permission android:name="android.permission.READ_WALLPAPER_INTERNAL"/>
+    <uses-permission android:name="com.oplus.permission.safe.SECURITY"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="Manifest.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"/>
+    <uses-permission android:name="com.oplus.permission.VIRTUAL_DEVICE"/>
+    <uses-permission android:name="com.oplus.permission.safe.CAR_LINK"/>
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS"/>
+    <uses-permission android:name="android.permission.WRITE_BLOCKED_NUMBERS"/>
+    <uses-permission android:name="android.permission.READ_BLOCKED_NUMBERS"/>
+    <uses-permission android:name="com.oplus.permission.safe.MMS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.heytap.accessory.permission.ACCESSORY_FRAMEWORK"/>
+    <uses-permission android:name="android.permission.READ_PRECISE_PHONE_STATE"/>
+    <permission android:name="com.oplus.dialer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.oplus.dialer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:configChanges="locale" android:defaultToDeviceProtectedStorage="true" android:directBootAware="true" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:icon="@null" android:label="@string/launcher_odialer" android:name="com.android.contacts.ContactsApplication" android:persistent="false" android:process="@string/process_name" android:requestLegacyExternalStorage="true" android:supportsRtl="true" android:taskAffinity="android.task.contacts" android:theme="@style/AppBaseTheme">
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:label="@string/odialer_app_name" android:name="com.customize.contacts.activities.CallContactActivity" android:noHistory="true" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:resizeableActivity="false" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="oplus.intent.action.SHORT_CUT_CALL"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.SHORT_CUT_CALL"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.oplus.ocs.card.AUTH_CODE" android:value="ADBEAiAK3PlbBjd/rw1neh/Er6ogGD9pw2wd6bWL8ly9ksJkBAIgfsbbD5xUScT9Kpoj5BCvxsRi9gqetlq9RVfOFQV/b9dt+fCg"/>
+        <service android:exported="true" android:name="com.android.contacts.scenecard.ContactsSceneCardService" android:permission="com.oplus.permission.safe.ASSISTANT">
+            <intent-filter>
+                <action android:name="android.appcard.action.APPCARD_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.card.provider" android:resource="@xml/o_dialer_contact_appcard"/>
+        </service>
+        <activity android:excludeFromRecents="true" android:exported="true" android:icon="@null" android:label="@string/odialer_app_name" android:name="com.android.contacts.scenecard.SceneDialtactsActivity" android:taskAffinity="com.android.task.scene" android:theme="@style/SceneStyle" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="oplus.intent.action.WIDGET_ENTRY"/>
+                <action android:name="oplus.intent.action.MINI_LAUNCHER_MAIN"/>
+                <category android:name="android.intent.category.SECONDARY_HOME"/>
+                <category android:name="oplus.intent.category.MINI_LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="com.oplus.secondaryhome.entry.widget.icon" android:resource="@drawable/scene_card_entry_widget_icon"/>
+            <meta-data android:name="com.oplus.secondaryhome.entry.widget.title" android:resource="@string/launcherDialer"/>
+        </activity>
+        <meta-data android:name="oplus_number_recognition_region_support_v2" android:value="true"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data android:name="showMulLanguage" android:value="false"/>
+        <meta-data android:name="AppCode" android:value="20003"/>
+        <meta-data android:name="versionDate" android:value="251023"/>
+        <meta-data android:name="versionCommit" android:value="9aeeccc"/>
+        <meta-data android:name="minOsdkVersion" android:value="26.1"/>
+        <meta-data android:name="android.nfc.disable_beam_default" android:value="true"/>
+        <meta-data android:name="primary_star" android:value="true"/>
+        <meta-data android:name="color.support.options" android:value="@string/color_support_value"/>
+        <meta-data android:name="oplus.support.options" android:value="@string/color_support_value"/>
+        <meta-data android:name="color_style" android:value="2"/>
+        <meta-data android:name="OppoPermissionKey" android:value="@string/permission_key"/>
+        <meta-data android:name="OplusPermissionKey" android:value="@string/permission_key"/>
+        <meta-data android:name="theme_version_metadata" android:value="1500.003.000"/>
+        <meta-data android:name="FixUidSdkVers" android:value="[29][30]"/>
+        <meta-data android:name="color_material_enable" android:value="true"/>
+        <meta-data android:name="upgrade_product_code" android:value="10014"/>
+        <meta-data android:name="application_do_not_disable" android:value="true"/>
+        <meta-data android:name="anti_fraud_support" android:value="true"/>
+        <meta-data android:name="aer_remove_quick_contact" android:value="true"/>
+        <meta-data android:name="ForbidStop" android:value="true"/>
+        <meta-data android:name="support_ringtone_uri_null" android:value="true"/>
+        <meta-data android:name="aiunit_download_group" android:value="cloud_call_summary,cloud_call_summary_phone"/>
+        <meta-data android:name="support_ai_call_translate" android:value="true"/>
+        <meta-data android:name="support_hide_contacts_number" android:value="true"/>
+        <meta-data android:name="high_risk_number" android:value="true"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.android.contacts.activities.NonPhoneActivity" android:screenOrientation="behind" android:theme="@style/NoTitleBar">
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/calls"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.customize.contacts.activities.ContactsTabActivity" android:screenOrientation="behind" android:theme="@style/PeopleThemeTab" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden"/>
+        <activity-alias android:exported="true" android:name="com.android.contacts.activities.CallLogActivity" android:targetActivity="com.customize.contacts.activities.ContactsTabActivity"/>
+        <activity-alias android:exported="true" android:name="com.android.contacts.RecentCallsListActivity" android:targetActivity="com.customize.contacts.activities.ContactsTabActivity"/>
+        <activity-alias android:exported="true" android:name="com.android.contacts.DialtactsActivity" android:targetActivity="com.customize.contacts.activities.ContactsTabActivity"/>
+        <activity-alias android:exported="true" android:name="com.android.contacts.DialtactsContactsEntryActivity" android:targetActivity="com.customize.contacts.activities.ContactsTabActivity"/>
+        <activity-alias android:exported="true" android:name="com.android.contacts.activities.ContactsFrontDoor" android:targetActivity="com.customize.contacts.activities.ContactsTabActivity"/>
+        <activity-alias android:name="com.android.contacts.ContactsListActivity" android:targetActivity="com.customize.contacts.activities.ContactsTabActivity"/>
+        <activity-alias android:exported="true" android:launchMode="singleInstance" android:name="com.android.contacts.PeopleActivityAlias" android:targetActivity="com.customize.contacts.activities.ContactsTabActivity">
+            <intent-filter>
+                <action android:name="com.oplus.contacts.ui.LIST_DEFAULT_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_DEFAULT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_ALL_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_CONTACTS_WITH_PHONES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter android:label="@string/starredList">
+                <action android:name="com.android.contacts.action.LIST_STARRED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter android:label="@string/frequentList">
+                <action android:name="com.android.contacts.action.LIST_FREQUENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter android:label="@string/strequentList">
+                <action android:name="com.android.contacts.action.LIST_STREQUENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.FILTER_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/group"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oplus.contacts.action.LIST_ALL_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/group"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/group"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oppo.contacts.ui.LIST_DEFAULT_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oppo.contacts.action.LIST_ALL_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+            <meta-data android:name="oldComponentName" android:resource="@array/peopleActivityOldComponentName"/>
+            <meta-data android:name="oldComponentNameVersion" android:value="1"/>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity-alias>
+        <activity-alias android:exported="true" android:icon="@null" android:label="@string/launcher_odialer" android:launchMode="singleInstance" android:name="com.android.contacts.DialtactsActivityAlias" android:targetActivity="com.customize.contacts.activities.ContactsTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="voicemail"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/calls"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_BUTTON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.phone.action.TOUCH_DIALER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter android:label="@string/recentCallsIconLabel">
+                <action android:name="com.android.phone.action.RECENT_CALLS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <meta-data android:name="oldComponentName" android:resource="@array/dialtactsOldComponentName"/>
+            <meta-data android:name="oldComponentNameVersion" android:value="1"/>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED" android:value="true"/>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity-alias>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/contactsList" android:launchMode="singleTop" android:name="com.android.contacts.activities.ContactSelectionActivity" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/ContactSelectionTheme" android:visibleToInstantApps="true">
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT_OR_EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+                <data android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:mimeType="vnd.android.cursor.dir/phone_v2"/>
+                <data android:mimeType="vnd.android.cursor.dir/phone"/>
+                <data android:mimeType="vnd.android.cursor.dir/postal-address_v2"/>
+                <data android:mimeType="vnd.android.cursor.dir/postal-address"/>
+                <data android:mimeType="vnd.android.cursor.dir/email_v2"/>
+                <data android:mimeType="vnd.android.cursor.dir/group"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oplus.contacts.ui.LIST_RELATION_CONTACTS"/>
+                <action android:name="com.oplus.contacts.ui.SELECT_CONTACTS_SET_RINGTONE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:host="com.android.contacts" android:mimeType="vnd.android.cursor.item/phone_v2"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/postal-address_v2"/>
+                <data android:mimeType="vnd.android.cursor.item/postal-address"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.JOIN_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oppo.contacts.ui.OPPO_SELECT_CONTACTS_SET_RINGTONE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:exported="true" android:icon="@mipmap/ic_launcher_shortcut_contact" android:label="@string/shortcutContact" android:name="com.android.contacts.ContactShortcut" android:targetActivity="com.android.contacts.activities.ContactSelectionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/display_setting" android:name="com.android.contacts.list.AccountFilterActivity" android:screenOrientation="behind" android:theme="@style/NoActionBarBlurTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/list_filter_custom" android:name="com.android.contacts.list.CustomContactListFilterActivity" android:screenOrientation="behind" android:theme="@style/NoActionBarBlurTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.android.contacts.activities.ShowOrCreateActivity" android:screenOrientation="behind" android:theme="@style/NoTitleBar">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.SHOW_OR_CREATE_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="mailto"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/oplus_my_groups" android:launchMode="singleTop" android:name="com.android.contacts.activities.GroupBrowserActivity" android:screenOrientation="behind" android:theme="@style/GroupBrowseActivityTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.android.contacts.activities.ContactEditorActivity" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/EditorActivityTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter android:label="@string/editContactDescription">
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <intent-filter android:label="@string/insertContactDescription">
+                <action android:name="android.intent.action.INSERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+                <data android:mimeType="vnd.android.cursor.dir/raw_contact"/>
+            </intent-filter>
+            <intent-filter android:label="@string/insertContactDescription">
+                <action android:name="com.oppo.contacts.INSERT_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+                <data android:mimeType="vnd.android.cursor.dir/raw_contact"/>
+            </intent-filter>
+            <intent-filter android:label="@string/insertContactDescription">
+                <action android:name="com.oplus.contacts.INSERT_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+                <data android:mimeType="vnd.android.cursor.dir/raw_contact"/>
+            </intent-filter>
+            <intent-filter android:label="@string/editContactDescription">
+                <action android:name="com.oplus.contacts.EDIT_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <intent-filter android:label="@string/insertContactDescription">
+                <action android:name="android.provider.action.SET_DEFAULT_ACCOUNT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.android.contacts.util.EmptyService"/>
+        <service android:exported="false" android:name="com.android.contacts.ContactSaveService"/>
+        <activity android:exported="true" android:label="@string/attach_photo_dialog_title" android:name="com.android.contacts.activities.AttachPhotoActivity" android:screenOrientation="behind" android:taskAffinity="" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.ATTACH_DATA"/>
+                <data android:mimeType="image/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.android.contacts.vcard.ImportVCardActivity" android:screenOrientation="behind" android:theme="@style/BackgroundOnlyTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:mimeType="text/directory"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.android.contacts.vcard.NfcImportVCardActivity" android:permission="android.permission.DISPATCH_NFC_MESSAGE" android:screenOrientation="behind" android:theme="@style/BackgroundOnlyTheme">
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <data android:mimeType="text/vcard"/>
+                <data android:mimeType="text/x-vcard"/>
+                <data android:mimeType="text/x-vCard"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.android.contacts.vcard.CancelActivity" android:screenOrientation="behind" android:theme="@style/BackgroundOnlyTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.android.contacts.vcard.SelectAccountActivity" android:screenOrientation="behind" android:theme="@style/BackgroundOnlyTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.android.contacts.vcard.ExportVCardActivity" android:screenOrientation="behind" android:theme="@style/BackgroundOnlyTheme"/>
+        <service android:exported="false" android:name="com.android.contacts.vcard.VCardService"/>
+        <activity android:exported="true" android:name="com.android.contacts.socialwidget.SocialWidgetConfigureActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="oplus.intent.action.APPWIDGET_PICK"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="true" android:name="com.android.contacts.ViewNotificationService" android:permission="android.permission.WRITE_CONTACTS">
+            <intent-filter>
+                <action android:name="com.android.contacts.VIEW_NOTIFICATION"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:name="com.customize.contacts.activities.ImportContactsActivity" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/ImportAndExportActivityTheme">
+            <intent-filter>
+                <action android:name="oplus.intent.action.receive_vacrd"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/directory"/>
+                <data android:mimeType="text/x-vcard"/>
+                <data android:mimeType="text/comma-separated-values"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.receive_vacrd"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:mimeType="text/directory"/>
+                <data android:mimeType="text/vcard"/>
+                <data android:mimeType="text/x-vcard"/>
+                <data android:mimeType="text/x-vCard"/>
+                <data android:mimeType="text/comma-separated-values"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.receive_vacrd"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/directory"/>
+                <data android:mimeType="text/x-vcard"/>
+                <data android:mimeType="text/comma-separated-values"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.receive_vacrd"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.customize.contacts.activities.ExportContactsActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/ImportAndExportActivityTheme"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/import_and_export" android:name="com.customize.contacts.activities.ContactsImportExportActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/PreferenceWithAppbarTheme"/>
+        <service android:exported="false" android:name="com.customize.contacts.importcontact.ImportContactsService" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.customize.contacts.io.ContactsProcessActivity" android:screenOrientation="behind" android:theme="@style/BackgroundOnly">
+            <intent-filter>
+                <action android:name="com.oplus.contacts.ui.DELELE_AND_REMOVE_GROUP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oplus.contacts.proc.ADD_CONTACTS_TO_STARRED"/>
+                <action android:name="com.oplus.contacts.proc.COPY_CONTACTS_BETWEEN_ACCOUNTS"/>
+                <action android:name="com.oplus.contacts.proc.COPY_CONTACTS_TO_SIM"/>
+                <action android:name="com.oplus.contacts.proc.MOVE_CONTACTS_BETWEEN_ACCOUNTS"/>
+                <action android:name="com.oplus.contacts.proc.DELETE_SELECTED_PHONE_SIM_CONTACTS"/>
+                <action android:name="com.oplus.contacts.proc.DELETE_SELECTED_BUSINESS_CONTACTS"/>
+                <action android:name="com.oplus.contacts.proc.DELETE_USER_DEFINED_GROUP"/>
+                <action android:name="com.oplus.contacts.proc.SET_RINGTONE_TO_CONTACTS"/>
+                <action android:name="com.oplus.contacts.proc.DELETE_SELECTED_SIM_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.customize.contacts.activities.ViewGroupActivity" android:screenOrientation="behind" android:theme="@style/NoActionBarBlurTheme" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="oplus.intent.action.VIEW_GROUP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.customize.contacts.activities.MultiContactsSendSmsActivity" android:screenOrientation="behind" android:theme="@style/BackgroundOnly">
+            <intent-filter>
+                <action android:name="com.oplus.contacts.ui.GET_CONTACTS_PHONES_FOR_SMS_2"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oplus.contacts.ui.GET_CONTACTS_EMAILS_FOR_EMAIL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oplus.contacts.ui.GET_GROUPS_CONTACTS_PHONES_FOR_SMS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTop" android:name="com.customize.contacts.activities.InsertContactResolverActivity" android:screenOrientation="behind" android:taskAffinity="android.task.insertresolver" android:theme="@style/BackgroudTransparentTheme">
+            <intent-filter>
+                <action android:name="oplus.intent.action.INSERT_OR_EDIT_IN_MMS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.insertcontact_resolver"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+                <data android:mimeType="vnd.android.cursor.dir/raw_contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.INSERT_OR_EDIT_IN_MMS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.insertcontact_resolver"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+                <data android:mimeType="vnd.android.cursor.dir/raw_contact"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.customize.contacts.activities.MultiContactPickActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/ContactSelectionTheme" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.oplus.contacts.ui.SELECT_CONTACTS_ADD_TO_GROUP"/>
+                <action android:name="com.oplus.contacts.ui.SELECT_CONTACTS_ADD_TO_STARRED"/>
+                <action android:name="com.oplus.contacts.ui.SELECT_CONTACTS_ADD_TO_SPECIAL"/>
+                <action android:name="com.oplus.contacts.ui.SELECT_CONTACTS_COPY_TO_SIM"/>
+                <action android:name="com.oplus.contacts.ui.SELECT_CONTACTS_RETURN_IDS"/>
+                <action android:name="com.oplus.contacts.ui.SELECT_CONTACTS_IMPORT_FROM_SIM"/>
+                <action android:name="com.oplus.contacts.ui.SELECT_CONTACTS_EXPORT_TO_SIM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oppo.contacts.ui.OPPO_SELECT_CONTACTS_RETURN_IDS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.customize.contacts.importcontact.ImportProgressActivity" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/BackgroundOnly"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:icon="@null" android:label="@string/menu_contact_manage" android:name="com.customize.contacts.activities.FunctionsActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/PreferenceWithAppbarTheme">
+            <intent-filter>
+                <action android:name="com.oplus.contacts.ui.FUNCTIONS_PAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.APP_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.APP_PRIORITY" android:value="10020"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/merge_contacts" android:launchMode="singleTop" android:name="com.customize.contacts.combine.MergeSameInfoContactsActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/NoActionBarCardBlurTheme"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:label="@string/manual_merge_detail" android:launchMode="singleTop" android:name="com.customize.contacts.combine.MergeSameNumberActivity" android:screenOrientation="behind" android:taskAffinity="android.task.contacts" android:theme="@style/NoActionBarCardBlurTheme"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.customize.contacts.activities.ContactsForSmsActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/SelectContactTheme" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="oplus.intent.action.FOR_SMS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.FOR_BLACK_LIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.BLACK_LIST_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.FOR_SMS_RCS_CREATE_GROUP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.FOR_SMS_RCS_GROUP_INVITE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.FOR_SMS_RCS_MULTI_SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.OPPO_FOR_SMS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.OPPO_FOR_BLACK_LIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.OPPO_BLACK_LIST_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.OPPO_FOR_SMS_RCS_CREATE_GROUP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.OPPO_FOR_SMS_RCS_GROUP_INVITE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.OPPO_FOR_SMS_RCS_MULTI_SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:icon="@null" android:launchMode="singleInstance" android:name="com.android.contacts.activities.ContactShortcutDetailActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/DetailActivityTheme">
+            <intent-filter>
+                <action android:name="com.oplus.contacts.intent.action.SHORTCUT_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:icon="@null" android:name="com.android.contacts.activities.CallDetailActivity" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/DetailActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/calls"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <intent-filter android:label="@string/viewContactDesription">
+                <action android:name="com.oplus.contacts.VIEW_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <intent-filter android:label="@string/dialog_detail_title">
+                <action android:name="com.oplus.dialer.VIEW_CALLS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <intent-filter android:label="@string/dialog_detail_title">
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:label="@string/viewContactDesription">
+                <action android:name="com.oppo.contacts.VIEW_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <intent-filter android:label="@string/dialog_detail_title">
+                <action android:name="com.oppo.dialer.VIEW_CALLS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.QUICK_CONTACT"/>
+                <action android:name="android.provider.action.QUICK_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/calllog_searchable"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:icon="@null" android:label="@string/recentCallsIconLabel" android:name="com.customize.contacts.activities.MoreCallLogActivity" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/NoActionBarCardBlurTheme"/>
+        <receiver android:exported="true" android:name="com.android.contacts.calllog.CallLogReceiver" android:permission="oppo.permission.OPPO_COMPONENT_SAFE">
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_VOICEMAIL"/>
+                <data android:host="com.android.voicemail" android:mimeType="vnd.android.cursor.item/voicemail" android:scheme="content"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_DATA_CLEARED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.NEW_BLOCK_CALL_LOG"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.NEW_BLOCK_CALL_LOG"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.contacts.NUMBER_RECOGNITION_UPDATE_NOTIFICATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.android.contacts.calllog.CallLogNotificationsService"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/oplus_speed_dial" android:name="com.android.contacts.dialpad.SpeedDialManageActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/NoActionBarCardBlurTheme">
+            <intent-filter>
+                <action android:name="com.android.contacts.dialpad.SpeedDialManageActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/oplus_log_switch" android:name="com.android.contacts.Engineer.CommonLogSwitchActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/NoActionBarBlurTheme"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/simContacts_title" android:launchMode="singleTop" android:name="com.customize.contacts.activities.SimContactsListActivity" android:screenOrientation="behind" android:theme="@style/ContactPickerThemeNoActionBar"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/simContacts_title" android:launchMode="singleTop" android:name="com.customize.contacts.activities.SimAccountsListActivity" android:screenOrientation="behind" android:theme="@style/PreferenceWithAppbarTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.ted.number.ui.RelevantNumberActivity" android:screenOrientation="behind" android:theme="@style/NoActionBarCardBlurTheme"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.ted.number.ui.ErrorRecoveryActivity" android:screenOrientation="behind" android:theme="@style/ErrorRecoveryTheme" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.customize.contacts.activities.MultiPhonesSelectActivity" android:screenOrientation="behind" android:theme="@style/NoActionBarBlurTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <service android:exported="false" android:name="com.customize.contacts.StatisticsService"/>
+        <provider android:authorities="com.oplus.dialer.files" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/oplus_smart_group_company_title" android:launchMode="singleTop" android:name="com.customize.contacts.activities.SmartGroupActivity" android:screenOrientation="behind" android:theme="@style/NoActionBarBlurTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTop" android:name="com.ted.number.ui.MarkDialogActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/MarkDialogTheme">
+            <intent-filter>
+                <action android:name="oplus.intent.action.contacts.MARK_NUMBER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.contacts.MARK_NUMBER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:name="com.customize.pbap.bluetooth.pbapclient.BluetoothImportActivity" android:screenOrientation="behind" android:theme="@style/NoActionBarBlurTheme" android:uiOptions="splitActionBarWhenNarrow"/>
+        <service android:exported="true" android:name="com.android.contacts.ContactsJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTask" android:name="com.android.contacts.activities.RequestPermissionsActivity" android:screenOrientation="behind" android:theme="@style/NoActionBarBlurTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.android.contacts.activities.RequestImportVCardPermissionsActivity" android:screenOrientation="behind" android:theme="@style/NoActionBarBlurTheme"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc" android:exported="true" android:label="@string/oplus_card_recognize_name" android:launchMode="singleTop" android:name="com.customize.contacts.activities.BusinessCardCaptureActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:resizeableActivity="false" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/NoTitleBarCaptureTheme" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="oplus.intent.action.SCAN_BUSINESS_CARD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.SCAN_BUSINESS_CARD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/about" android:name="com.android.contacts.activities.AboutActivity" android:screenOrientation="behind" android:theme="@style/PreferenceWithAppbarTheme"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/about_privacy" android:name="com.android.contacts.activities.PrivacyActivity" android:screenOrientation="behind" android:theme="@style/PreferenceWithAppbarTheme"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/open_source_license" android:name="com.android.contacts.activities.OpenSourceLicenseActivity" android:screenOrientation="behind" android:theme="@style/NoActionBarBlurTheme"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/oplus_sdn_serviceNumber" android:launchMode="singleTop" android:name="com.customize.contacts.activities.ServiceNumberActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/NoActionBarBlurTheme" android:windowSoftInputMode="adjustPan"/>
+        <receiver android:exported="false" android:name="com.android.contacts.voicemail.impl.scheduling.TaskReceiver"/>
+        <service android:exported="false" android:name="com.android.contacts.voicemail.impl.scheduling.TaskSchedulerJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.android.contacts.voicemail.impl.StatusCheckJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.android.contacts.voicemail.impl.DeviceProvisionedJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="true" android:exported="true" android:name="com.android.contacts.voicemail.impl.OmtpService" android:permission="android.permission.BIND_VISUAL_VOICEMAIL_SERVICE">
+            <intent-filter>
+                <action android:name="android.telephony.VisualVoicemailService"/>
+            </intent-filter>
+        </service>
+        <receiver android:directBootAware="true" android:enabled="false" android:exported="true" android:name="com.android.contacts.voicemail.LegacyVoicemailNotificationReceiver">
+            <intent-filter>
+                <action android:name="android.telephony.action.SHOW_VOICEMAIL_NOTIFICATION"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.voicemail.VoicemailClient.ACTION_SHOW_LEGACY_VOICEMAIL"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.android.contacts.voicemail.impl.fetch.FetchVoicemailReceiver" android:permission="com.android.voicemail.permission.READ_VOICEMAIL">
+            <intent-filter>
+                <action android:name="android.intent.action.FETCH_VOICEMAIL"/>
+                <data android:host="com.android.voicemail" android:mimeType="vnd.android.cursor.item/voicemail" android:scheme="content"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.android.contacts.voicemail.impl.sync.OmtpVvmSyncReceiver" android:permission="com.android.voicemail.permission.READ_VOICEMAIL">
+            <intent-filter>
+                <action android:name="android.provider.action.SYNC_VOICEMAIL"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.android.contacts.voicemail.impl.sync.VoicemailProviderChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PROVIDER_CHANGED"/>
+                <data android:host="com.android.voicemail" android:mimeType="vnd.android.cursor.dir/voicemails" android:scheme="content"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="true" android:exported="false" android:name="com.android.contacts.voicemail.impl.sms.OmtpMessageReceiver">
+            <intent-filter>
+                <action android:name="com.android.vociemailomtp.sms.sms_received"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.android.contacts.voicemail.impl.CarrierVvmPackageInstalledReceiver" android:permission="android.permission.BIND_VISUAL_VOICEMAIL_SERVICE">
+            <intent-filter>
+                <action android:name="com.android.internal.telephony.CARRIER_VVM_PACKAGE_INSTALLED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.android.contacts.voicemail.impl.VoicemailClientReceiver">
+            <intent-filter>
+                <action android:name="com.android.voicemail.VoicemailClient.ACTION_UPLOAD"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.android.contacts.voicemail.impl.LegacyVoicemailService"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.android.contacts.voicemail.VoicemailDetailActivity" android:screenOrientation="behind" android:theme="@style/NoActionBarCardBlurTheme"/>
+        <receiver android:exported="true" android:name="com.android.contacts.voicemail.VvmStatusReceiver" android:permission="oppo.permission.OPPO_COMPONENT_SAFE">
+            <intent-filter>
+                <action android:name="oplus.intent.action.vvm_switch_status"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.vvm_switch_status"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.customize.contacts.receiver.UserInitializeReceiver" android:permission="oppo.permission.OPPO_COMPONENT_SAFE">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_INITIALIZE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.customize.contacts.interactions.ContactUpdateService"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:name="com.customize.contacts.activities.RecognizeNameCardActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/LocalNoTitleBar">
+            <intent-filter>
+                <action android:name="oplus.intent.action.RECOGNIZE_NAME_CARD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.RECOGNIZE_NAME_CARD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/assisted_dialing_title" android:name="com.customize.contacts.activities.AssistedDialingSettingActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/PreferenceWithAppbarTheme">
+            <intent-filter>
+                <action android:name="oplus.intent.action.contacts.ASSISTED_DIALING_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.contacts.ASSISTED_DIALING_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/select_country_area" android:launchMode="singleTop" android:name="com.customize.contacts.activities.CountryOrAreaPickerActivity" android:screenOrientation="behind" android:theme="@style/ContactPickerThemeNoActionBar"/>
+        <meta-data android:name="AppPlatformKey" android:value="@string/app_platform_key"/>
+        <activity android:allowTaskReparenting="false" android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/pref_title_service_number_recognition" android:name="com.ted.number.ui.TedUpdateSettingActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/PreferenceWithAppbarTheme">
+            <intent-filter>
+                <action android:name="oplus.intent.action.TED_UPDATE_SETTING"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:directBootAware="true" android:exported="true" android:name="com.ted.number.ui.TedStatementActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/AppBaseTheme.NoActionBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="oplus.intent.action.STATEMENT_SHOW"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="oppo.intent.action.OPPO_STATEMENT_SHOW"/>
+            </intent-filter>
+        </activity>
+        <activity android:allowTaskReparenting="false" android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/about" android:name="com.ted.number.ui.TedAboutActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/PreferenceWithAppbarTheme"/>
+        <activity android:allowTaskReparenting="false" android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ted.number.ui.TedFunctionDescActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/AppBaseTheme.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.customize.contacts.activities.SearchActivity" android:screenOrientation="behind" android:theme="@style/PeopleThemeTab">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.android.contacts.action.SEARCH"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.customize.contacts.cleaner.RawCleanerJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/move_contacts_to_google" android:name="com.oplus.contacts.googlecontacts.actvities.MoveContactsToGoogleActivity" android:screenOrientation="behind" android:theme="@style/PreferenceWithoutAppbarTheme"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc" android:exported="true" android:label="" android:launchMode="singleTop" android:name="com.oplus.contacts.config.defaultdialer.actvity.SetDefaultDialerActivity" android:permission="com.oplus.permission.safe.PHONE" android:screenOrientation="behind" android:theme="@style/NoActionBarBlurTheme"/>
+        <meta-data android:name="ai_summary_support" android:value="true"/>
+        <meta-data android:name="ai_summary_support_export" android:value="true"/>
+        <meta-data android:name="com.oplus.aiunit.auth_style" android:value="0"/>
+        <meta-data android:name="OsdkSecurityCode" android:value="ATBFAiBdkEXGMK0hZ3PIlxfDzYSBBM4Z0rO8BQBmvJmEkGzq/QIhALKbi4bobi1E1EyDh+2DXzC5Mrw8GWV/agWJ2wOcFiIkZ0gzAU9wbHVzTXVsdGlVc2VyTWFuYWdlci5nZXRVc2VySW5mbyEAAAA="/>
+        <activity android:exported="false" android:name="com.android.contacts.framework.appstore.missedcall.CallLogNotificationsActivity" android:theme="@style/TransparentActivityTheme"/>
+        <activity android:exported="false" android:label="@string/oplus_button_set" android:name="com.android.contacts.framework.appstore.settings.ODialerSettingActivity" android:theme="@style/PreferenceWithAppbarTheme"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.android.contacts.framework.appstore.missedcall.MissedCallNotificationService"/>
+        <receiver android:directBootAware="true" android:exported="true" android:name="com.android.contacts.framework.appstore.missedcall.MissedCallNotificationReceiver" android:permission="com.oplus.permission.safe.PHONE">
+            <intent-filter>
+                <action android:name="android.telecom.action.SHOW_MISSED_CALLS_NOTIFICATION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.android.contacts.framework.appstore.missedcall.MissedCallBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.android.server.telecom.ACTION_CLEAR_MISSED_CALLS"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.android.contacts.framework.baseui.activity.BaseWebViewActivity" android:screenOrientation="behind" android:theme="@style/BaseWebViewTheme"/>
+        <meta-data android:name="com.android.contacts.data.OPPODataWash" android:value="DataWashClass"/>
+        <receiver android:exported="true" android:name="com.android.contacts.framework.rcs.RcsWakeupReceiver" android:permission="oppo.permission.OPPO_COMPONENT_SAFE">
+            <intent-filter>
+                <action android:name="rcs_action_im_notify"/>
+                <action android:name="rcs_action_cli_notify"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.oplus.ocs.oaf.AUTH_CODE" android:value="ATBFAiEAxQ1/ocCvcZvTHIRyHa1ANlO12oCyoK6oT43TM9NV0fcCIEX0VV4ZKyyRBqJQ8LWNUPp6cwYZt/KPNzjHV3Z9EeNobJHT/fAAAAA="/>
+        <meta-data android:name="AccessoryServicesLocation" android:value="/res/xml/accessoryservices.xml"/>
+        <service android:directBootAware="true" android:exported="true" android:name="com.android.incallui.OplusInCallServiceImpl" android:permission="android.permission.BIND_INCALL_SERVICE">
+            <intent-filter>
+                <action android:name="android.telecom.InCallService"/>
+            </intent-filter>
+            <meta-data android:name="android.telecom.IN_CALL_SERVICE_UI" android:value="true"/>
+            <meta-data android:name="android.telecom.IN_CALL_SERVICE_RINGING" android:value="false"/>
+            <meta-data android:name="android.telecom.INCLUDE_EXTERNAL_CALLS" android:value="true"/>
+        </service>
+        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/inCallLabel" android:launchMode="singleInstance" android:name="com.android.store_incallui.PermissionActivity" android:screenOrientation="nosensor" android:theme="@style/OplusDialogActivityStyle"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="com.android.audio_record.RecordPermissionActivity" android:screenOrientation="nosensor" android:theme="@style/OplusDialogActivityStyle"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:directBootAware="true" android:excludeFromRecents="true" android:exported="false" android:label="@string/inCallLabel" android:launchMode="singleInstance" android:name="com.android.incallui.foldscreen.presentation.activity.FoldScreenInCallActivity" android:resizeableActivity="false" android:showWhenLocked="true" android:taskAffinity="com.android.incallui.activity.fold" android:theme="@style/InCallFoldScreenThemeT">
+            <intent-filter>
+                <action android:name="oplus.intent.action.SHOW_FOLD_SCREEN_INCALLUI"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <uses-library android:name="com.oplus.statistics" android:required="false"/>
+        <meta-data android:name="oplus_module_function" android:value="@string/oplus_module_function_value"/>
+        <meta-data android:name="photo_style" android:value="true"/>
+        <meta-data android:name="video_show_support" android:value="true"/>
+        <activity android:configChanges="keyboardHidden" android:directBootAware="true" android:excludeFromRecents="true" android:exported="false" android:label="@string/inCallLabel" android:launchMode="singleInstance" android:name="com.android.incallui.InCallActivity" android:screenOrientation="nosensor" android:theme="@style/Theme.InCallScreen"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:directBootAware="true" android:excludeFromRecents="true" android:exported="false" android:label="@string/inCallLabel" android:launchMode="singleInstance" android:name="com.android.incallui.OplusInCallActivity" android:resizeableActivity="false" android:screenOrientation="behind" android:theme="@style/OplusInCallScreenThemeT"/>
+        <activity-alias android:directBootAware="true" android:excludeFromRecents="true" android:exported="true" android:label="@string/inCallLabel" android:name="com.android.incallui.PrivilegedInCallActivity" android:permission="com.oppo.permission.safe.PHONE" android:resizeableActivity="false" android:targetActivity="com.android.incallui.OplusInCallActivity">
+            <intent-filter>
+                <action android:name="oplus.intent.action.SHOW_RESPONSE_SMS"/>
+            </intent-filter>
+        </activity-alias>
+        <receiver android:exported="true" android:name="com.android.incallui.oplus.share.OplusNoteGuidReceiver" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE">
+            <intent-filter>
+                <action android:name="oplus.intent.action.NOTE_GUID"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="true" android:exported="false" android:name="com.android.incallui.InCallApp$NotificationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.android.incallui.ACTION_HANG_UP_ONGOING_CALL"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation" android:excludeFromRecents="true" android:exported="false" android:label="@string/inCallLabel" android:launchMode="singleInstance" android:name="com.android.incallui.OplusAutoRedialNotificationUI" android:resizeableActivity="false" android:screenOrientation="nosensor" android:theme="@style/OplusAutoRedialTheme">
+            <intent-filter>
+                <action android:name="com.incallui.action.autoredial"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="com.android.incallui.oplus.share.OplusInCallDialogActivity" android:resizeableActivity="false" android:theme="@style/OplusDialogActivityStyle"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="com.android.incallui.oplus.forceenable.OplusForceEnableDialogActivity" android:resizeableActivity="false" android:theme="@style/OplusDialogActivityStyle"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="com.android.incallui.oplus.share.OplusSelectPhoneAccountDialog" android:resizeableActivity="false" android:theme="@style/OplusDialogActivityStyle.NotFullScreen"/>
+        <service android:exported="false" android:name="com.android.incallui.oplus.audiorecord.OplusAutoClearRecordJobIntentService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="true" android:name="com.android.incallui.oplus.share.OplusStatisticsService" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE">
+            <intent-filter>
+                <action android:name="com.android.incallui.oplus.share.StatisticsService"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="com.android.incallui.OplusRespondViaSmsReceiver"/>
+        <meta-data android:name="forbidUninstallUpdate" android:value="true"/>
+        <meta-data android:name="wearable_health_support" android:value="true"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.oplus.blacklistapp.callintercept.settings.CallHarassInterceptMarkedNumberActivity" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/BLAppBaseTheme.NoActionBar.ActionMode" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="oplus.intent.action.BLACKLIST_INTERCEPT_MARKED_NUMBER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/blacklist" android:name="com.oplus.blacklistapp.activities.CustomBlackListActivity" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/BLAppBaseTheme.NoActionBar.ActionMode" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="oppo.intent.action.blacklist.view_black_list"/>
+                <action android:name="oppo.intent.action.blacklist.view_white_list"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.blacklist.view_black_list"/>
+                <action android:name="oplus.intent.action.blacklist.view_white_list"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="color.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <service android:exported="true" android:name="com.oplus.blacklistapp.backupandrestore.BlacklistBRPluginService" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE">
+            <meta-data android:name="uniqueID" android:value="592"/>
+            <meta-data android:name="version" android:value="1"/>
+            <meta-data android:name="backup_name_resId" android:value="@string/black_list"/>
+            <meta-data android:name="backup_icon_resId" android:value="@null"/>
+            <meta-data android:name="isVendorSupport" android:value="true"/>
+            <intent-filter>
+                <action android:name="com.oplus.br.service"/>
+                <category android:name="android.intent.category.default"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.coloros.br.service"/>
+                <action android:name="com.heytap.br.service"/>
+                <category android:name="android.intent.category.default"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/customize_keyword_list_title" android:name="com.oplus.blacklistapp.activities.KeyWordListActivity" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/BLAppBaseTheme.NoActionBar.ActionMode" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="oppo.intent.action.blacklist.view_keyword_list"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.blacklist.view_keyword_list"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="color.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/intercept_attribution_number" android:name="com.oplus.blacklistapp.activities.PhoneNoInquireActivity" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/BLAppBaseTheme.NoActionBar.ActionMode" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="oppo.intent.action.blacklist.view_phone_no_inquire"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.blacklist.view_phone_no_inquire"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="color.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/intercept_attribution_number" android:name="com.oplus.blacklistapp.activities.PhoneNoInquireForCountryActivity" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/BLAppBaseTheme.NoActionBar.ActionMode" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="oppo.intent.action.blacklist.view_phone_no_inquire_for_country"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.blacklist.view_phone_no_inquire_for_country"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="color.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/select_area" android:name="com.oplus.blacklistapp.activities.PhoneNoInquireSelectActivity" android:screenOrientation="behind" android:theme="@style/BLAppTheme.HintText" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="oppo.intent.action.blacklist.select_phone_no_inquire"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.blacklist.select_phone_no_inquire"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="color.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/select_area_country" android:name="com.oplus.blacklistapp.activities.PhoneNoInquireForCountrySelectActivity" android:screenOrientation="behind" android:theme="@style/BLAppTheme.HintText" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="oppo.intent.action.blacklist.select_phone_no_inquire_for_country"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.blacklist.select_phone_no_inquire_for_country"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="color.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <meta-data android:name="no_linkage_with_number_recognition_off" android:value="true"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/pseudo_base_station_title" android:name="com.oplus.blacklistapp.activities.PseudoBaseStationActivity" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/BLAppBaseTheme.NoActionBar.ActionMode" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="oppo.intent.action.blacklist.view_pseudo_base_station"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.blacklist.view_pseudo_base_station"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="color.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:label="@string/blocked_rule" android:name="com.oplus.blacklistapp.callintercept.settings.HarassInterceptSetting" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/PreferenceWithAppbarTheme">
+            <intent-filter>
+                <action android:name="oplus.intent.action.anti.harassment"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:exported="true" android:name="com.coloros.blacklistapp.callintercept.settings.OppoHarassInterceptSetting" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE" android:targetActivity="com.oplus.blacklistapp.callintercept.settings.HarassInterceptSetting">
+            <intent-filter>
+                <action android:name="oppo.intent.action.anti.harassment"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/dialog_input_contact" android:name="com.oplus.blacklistapp.activities.NumberEditActivity" android:screenOrientation="behind" android:theme="@style/PreferenceWithAppbarTheme">
+            <intent-filter>
+                <action android:name="oplus.intent.action.black_list.edit_number"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.black_list.edit_first_match"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.black_list.edit_function"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:label="@string/harass_intercept_title" android:name="com.oplus.blacklistapp.callintercept.settings.CallHarassInterceptSetting" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/BLAppBaseTheme.NoActionBar.ActionMode">
+            <intent-filter>
+                <action android:name="oppo.intent.action.anti.harassment.call"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.anti.harassment.call"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/black_list" android:launchMode="singleTop" android:name="com.oplus.blacklistapp.activities.BlockedCallLogAndSmsListActivity" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/BLAppBaseTheme.NoActionBar.ActionMode" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="oppo.intent.action.blacklist.blocked_calllog_sms_list"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oppo.intent.action.BLOCK_CALLS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.blacklist.blocked_calllog_sms_list"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MONKEY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.BLOCK_CALLS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="color.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:label="@string/anti_non_blocked_rules" android:name="com.oplus.blacklistapp.callintercept.settings.NonBlockedRulesSetting" android:screenOrientation="behind" android:theme="@style/PreferenceWithAppbarTheme"/>
+        <receiver android:exported="true" android:name="com.oplus.blacklistapp.RestoreCompleteReceiver" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE">
+            <intent-filter>
+                <action android:name="coloros.intent.action.change.over.restore.end"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplusos.intent.action.change.over.restore.end"/>
+                <action android:name="oplus.intent.action.change.over.restore.end"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.oplus.pseudobasestation.PseudoBaseStationReceiver" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE">
+            <intent-filter>
+                <action android:name="oppo.intent.action.FAKE_BS_BLOCKED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.FAKE_BS_BLOCKED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.oplus.pseudobasestation.PseudoBaseStationService"/>
+        <service android:exported="false" android:name="com.oplus.blacklistapp.StatisticsService"/>
+        <provider android:authorities="com.oplus.dialer.black_list" android:exported="true" android:multiprocess="false" android:name="com.oplus.blacklist.database.BlackListProvider" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE"/>
+        <provider android:authorities="com.oplus.dialer.blacklist.call_intercept_provider" android:exported="true" android:multiprocess="false" android:name="com.oplus.blacklistapp.callintercept.provider.CallInterceptProvider" android:permission="com.oplus.permission.safe.PHONE"/>
+        <meta-data android:name="coui.support.appcompat.version" android:value="15.0.22-beta5ee75ce"/>
+        <receiver android:exported="true" android:name="com.heytap.accessory.platform.ServiceConnectionIndicationReceiver" android:permission="com.heytap.accessory.permission.NOTIFICATION">
+            <intent-filter>
+                <action android:name="com.heytap.accessory.action.SERVICE_CONNECTION_REQUESTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.heytap.accessory.platform.RegisterUponInstallReceiver" android:permission="com.heytap.accessory.permission.NOTIFICATION">
+            <intent-filter>
+                <action android:name="com.heytap.accessory.action.REGISTER_AGENT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.heytap.accessory.stream.StreamConnReceiver" android:permission="com.heytap.accessory.permission.NOTIFICATION">
+            <intent-filter>
+                <action android:name="com.heytap.accessory.streamconnection"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.oplus.dialer.inquirenoarea" android:exported="true" android:name="com.oplus.phonenoareainquire.PhoneNoInquireProvider" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE"/>
+        <receiver android:exported="true" android:name="com.oplus.phonenoareainquire.UpdateDatabaseReceiver" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE">
+            <intent-filter>
+                <action android:name="com.oplusos.sau.DATARES_UPDATE"/>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.coloros.sau.DATARES_UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.oplus.phonenoareainquire.UpdateMultiLanguageUtils" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="true" android:label="@string/app_name" android:name="com.oplus.phonenoareainquire.ExportAttributionDatabaseActivity" android:permission="oplus.permission.OPLUS_COMPONENT_SAFE">
+            <intent-filter>
+                <action android:name="com.oplus.providers.attribution.export_inquirenoarea_db"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.oplus.phonenoareainquire.service.OplusLocaleChangeJobIntentService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <meta-data android:name="dependencies:implementation:com.oplus.coreapp.appfeature:AppFeatureHelper" android:value="2.0.0"/>
+        <meta-data android:name="com.oplus.support:api-adapter" android:value="13.0.0"/>
+        <provider android:authorities="com.oplus.dialer.epona" android:directBootAware="true" android:exported="true" android:multiprocess="true" android:name="com.heytap.epona.internal.EponaProvider" android:permission="com.oppo.permission.safe.SECURITY"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <meta-data android:name="com.oplus.appplatform:sysapi" android:value="13.0.4"/>
+        <provider android:authorities="com.oplus.dialer.oplus.epona" android:directBootAware="true" android:exported="true" android:multiprocess="true" android:name="com.oplus.epona.internal.EponaProvider" android:permission="com.oplus.permission.safe.SECURITY"/>
+        <meta-data android:name="com.oplus.epona:epona" android:value="2.6.2"/>
+        <provider android:authorities="com.oplus.dialer.tingle" android:directBootAware="true" android:exported="false" android:multiprocess="true" android:name="com.oplus.tingle.ipc.internal.TingleProvider"/>
+        <meta-data android:name="com.oplus.tingle:tingle" android:value="3.1.0"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.oplus.data.OPPODataWash" android:value="DataWashClass"/>
+        <meta-data android:name="dependencies:implementation:com.oplus.appprovider:settings" android:value="2.1.6"/>
+        <meta-data android:name="dependencies:implementation:com.oplus.utils:reflect" android:value="2.1.1"/>
+        <meta-data android:name="com.oplus.utils:loggerUtils" android:value="1.0.1"/>
+        <activity android:exported="false" android:name="com.pairip.licensecheck.LicenseActivity"/>
+        <provider android:authorities="com.oplus.dialer.com.pairip.licensecheck.LicenseContentProvider" android:exported="false" android:name="com.pairip.licensecheck.LicenseContentProvider"/>
+        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
+    </application>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+</manifest>

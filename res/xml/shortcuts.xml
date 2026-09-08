@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/pb_ic_add_shortcut" android:enabled="true" android:shortcutId="shortcut-add-contact" android:shortcutShortLabel="@string/menu_newContact">
+        <intent android:targetPackage="com.oplus.dialer" android:action="android.intent.action.INSERT" android:data="content://com.android.contacts/contacts" android:targetClass="com.android.contacts.activities.ContactEditorActivity">
+            <extra android:name="is_from_shortcut" android:value="true" />
+        </intent>
+    </shortcut>
+</shortcuts>

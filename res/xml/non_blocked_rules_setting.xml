@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/anti_non_blocked_rules"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/customize_preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="non_blocked_rules_category" app:isFirstCategory="true" app:top_margin_type="small">
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/intercept_within_specified_time" android:key="auto_open_and_close_key" />
+        <com.oplus.blacklistapp.callintercept.widget.ScheduleTimePreference android:key="schedule_time_settings" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/zen_mode_schedule_rule_days_repeat" android:selectable="false" android:key="days_setting" app:coui_jump_mark="@null" />
+        <com.oplus.blacklistapp.callintercept.widget.WeekPickerPreference android:selectable="false" android:key="week_picker" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:layout="@layout/coui_preference" android:title="@string/harass_intercept_repeat_summary" android:key="repeat_call" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/harass_intercept_title_credible_strangers" android:key="credible_strangers_number" android:summary="@string/harass_intercept_credible_summary" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</androidx.preference.PreferenceScreen>

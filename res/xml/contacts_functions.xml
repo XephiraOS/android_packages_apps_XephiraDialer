@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/menu_contact_manage"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_contact_cloud_sync" app:top_margin_type="small">
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/contacts_cloud_sync" android:key="contacts_cloud_sync" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_contact_setting" app:isFirstCategory="true">
+        <com.android.contacts.framework.baseui.highlight.HighlightSwitchPreference android:title="@string/display_contacts_photo_in_list" android:key="contacts_photo_switch" />
+        <com.android.contacts.framework.baseui.highlight.HighlightSwitchPreference android:title="@string/showFilterPhones" android:key="only_show_contacts_with_numbers" />
+        <com.android.contacts.framework.baseui.highlight.HighlightJumpPreference android:title="@string/display_setting" android:key="contacts_display" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/contacts_kana_sort_enable" android:key="contacts_kana_sort_switch" android:summary="@string/contacts_kana_sort_info" />
+        <com.coui.appcompat.preference.COUIMenuPreference android:persistent="false" android:title="@string/contacts_display_options_sort_list_by" android:key="sortOrder" />
+        <com.coui.appcompat.preference.COUIMenuPreference android:persistent="false" android:title="@string/display_options_view_names_as" android:key="displayOrder" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_contact_manage">
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/import_and_export_contacts" android:key="import_and_export_contacts" />
+        <com.android.contacts.framework.baseui.highlight.HighlightJumpPreference android:title="@string/adn_dialog_title_funtion" android:key="sim_contacts" />
+        <com.android.contacts.framework.baseui.widget.RedDotPreference android:title="@string/merge_contacts" android:key="merge_contacts" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="about_privacy">
+        <com.coui.appcompat.preference.COUIJumpPreference android:layout="@layout/coui_preference" android:title="@string/personal_information_protection_policy" android:key="pref_personal_policy" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:layout="@layout/coui_preference" android:title="@string/personal_information_collect_express_list" android:key="pref_info_collect_list" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="other_setting">
+        <com.android.contacts.framework.baseui.highlight.HighlightJumpPreference android:key="about" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/help_and_feedback" android:key="help_and_feedback" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</androidx.preference.PreferenceScreen>

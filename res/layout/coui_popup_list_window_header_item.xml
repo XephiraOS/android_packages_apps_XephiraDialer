@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/coui_popup_list_window_item_padding_top_and_bottom" android:paddingBottom="@dimen/coui_popup_list_window_item_padding_top_and_bottom" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/coui_popup_list_window_header_item_min_height" android:paddingStart="@dimen/coui_popup_list_window_item_icon_margin_left" android:paddingEnd="@dimen/coui_popup_list_window_item_icon_margin_left"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/couiTextDescription" android:textColor="?couiColorLabelSecondary" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/popup_list_window_header_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:textAlignment="viewStart" />
+</LinearLayout>

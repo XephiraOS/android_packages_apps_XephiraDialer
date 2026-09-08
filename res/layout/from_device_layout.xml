@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_gravity="center_horizontal" android:id="@id/scroll_view" android:paddingBottom="@dimen/DP_24" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:nestedScrollingEnabled="true" app:layout_constraintBottom_toTopOf="@id/nextBtn" app:layout_constraintTop_toTopOf="parent">
+        <com.coui.appcompat.grid.COUIPercentWidthFrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" app:gridNumber="@integer/grid_guide_column_preference" app:paddingType="listType">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/SP_24" android:gravity="center" android:id="@id/notice_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_12" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:fontFamily="sans-serif" android:paddingStart="@dimen/DP_24" android:paddingEnd="@dimen/DP_24" style="@style/LargeTextStyle" />
+                <TextView android:textSize="@dimen/SP_14" android:id="@id/notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_10" android:layout_below="@id/notice_title" android:lineSpacingExtra="4.0dip" android:layout_marginStart="@dimen/DP_24" android:layout_marginEnd="@dimen/DP_24" style="@style/SmallTextStyle" />
+                <ImageView android:gravity="center" android:id="@id/bluetooth" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_28" android:src="@drawable/pb_ic_bluetooth" android:scaleType="center" android:layout_below="@id/notice" />
+            </RelativeLayout>
+        </com.coui.appcompat.grid.COUIPercentWidthFrameLayout>
+    </ScrollView>
+    <com.coui.appcompat.button.COUIButton android:id="@id/nextBtn" android:layout_width="220.0dip" android:layout_height="wrap_content" android:text="@string/next_step" android:contentDescription="@string/next_step" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="?couiButtonColorfulDefaultStyle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

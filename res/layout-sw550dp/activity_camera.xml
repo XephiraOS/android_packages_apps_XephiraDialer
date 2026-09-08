@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/camera_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <com.customize.contacts.camera.CameraSurfaceView android:id="@id/surface_view" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <com.customize.contacts.camera.FocusIndicatorLayout android:layout_gravity="center" android:id="@id/focus_indicator_layout" android:background="@null" android:visibility="invisible" android:layout_width="@dimen/focus_indicator_layout_width" android:layout_height="@dimen/focus_indicator_layout_height" />
+        <com.customize.contacts.camera.GridLineViewGroup android:id="@id/grid_line_view_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:forceDarkAllowed="false" />
+    </FrameLayout>
+    <include layout="@layout/camera_view_barcode" />
+    <include layout="@layout/control_panel" />
+    <ImageView android:layout_gravity="center" android:id="@id/back_icon" android:layout_width="@dimen/DP_42" android:layout_height="@dimen/DP_50" android:layout_marginTop="@dimen/DP_34" android:src="@drawable/pb_ic_back_camera_white" android:scaleType="center" android:contentDescription="@string/abc_action_bar_up_description" android:layout_marginStart="@dimen/DP_10" />
+</RelativeLayout>

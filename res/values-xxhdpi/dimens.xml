@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="oplus_call_card_vip_icon_margin_right">6.0dip</dimen>
+    <dimen name="oplus_floating_window_card_icon_padding_top_land">4.0dip</dimen>
+</resources>

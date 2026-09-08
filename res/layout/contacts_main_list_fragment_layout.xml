@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/page_root_container" android:tag="layout/contacts_main_list_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/page_content_container" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/empty_fragment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <com.oplus.foundation.appsupport.ui.widget.recyclerview.HeaderFooterRecyclerView android:id="@id/contacts_main_list_view" android:paddingBottom="@dimen/DP_80" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:couiRecyclerGridNumber="@integer/grid_guide_column_preference" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:paddingType="listType" />
+        <com.customize.contacts.widget.ContactTouchSearchView android:layout_gravity="end" android:id="@id/spell_bar" android:layout_width="@dimen/TouchSearchView_width" android:layout_height="1.0dip" android:layout_marginEnd="0.0dip" app:firstIsCharacter="false" app:unionEnable="true" />
+        <include android:id="@id/appBarLayout" layout="@layout/contacts_main_list_collapsing_appbar_layout" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

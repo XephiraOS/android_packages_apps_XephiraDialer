@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.scrollview.COUIScrollView android:fadingEdgeLength="@dimen/coui_full_page_statement_scroll_fade_length" android:layout_width="fill_parent" android:layout_height="wrap_content" android:requiresFadingEdge="vertical" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:coui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.coui.appcompat.imageview.COUIRoundImageView android:id="@id/customImageview" android:visibility="gone" style="@style/AlertDialogCustomImageViewStyle" />
+        <com.coui.appcompat.dialog.widget.COUIDialogTitle android:id="@id/customTitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coui_alert_dialog_customer_layout_textview1_margin_top" android:layout_marginBottom="@dimen/coui_alert_dialog_customer_layout_textview1_margin_bottom" style="@style/COUIAlertDialogTitleStyle" />
+        <com.coui.appcompat.dialog.widget.COUIAlertDialogMessageView android:id="@id/customMessage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coui_alert_dialog_customer_layout_textview1_margin_top" android:layout_marginBottom="@dimen/coui_alert_dialog_customer_layout_textview1_margin_bottom" style="@style/COUIAlertDialogMessageStyle" />
+    </LinearLayout>
+</com.coui.appcompat.scrollview.COUIScrollView>

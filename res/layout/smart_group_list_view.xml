@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <view android:id="@id/list" android:paddingBottom="@dimen/DP_30" android:scrollbars="vertical" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_alignWithParentIfMissing="true" app:couiRecyclerGridNumber="@integer/grid_guide_column_preference" app:paddingType="listType" class="com.oplus.foundation.appsupport.ui.widget.recyclerview.HeaderFooterRecyclerView" style="@style/ListViewStyle" />
+    <com.android.contacts.framework.baseui.widget.EmptyViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/empty_view_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/empty_view_horizontal_padding">
+        <ImageView android:id="@id/no_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pb_ic_no_group" />
+        <TextView android:id="@id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_2" android:layout_below="@id/no_content" style="@style/NoContentStyle" />
+    </com.android.contacts.framework.baseui.widget.EmptyViewGroup>
+    <RelativeLayout android:id="@id/loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.coui.appcompat.progressbar.COUILoadingView android:id="@id/loading_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="234.0dip" android:layout_centerHorizontal="true" style="?couiLoadingViewLargeStyle" />
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/loading" android:layout_below="@id/loading_view" android:layout_centerHorizontal="true" style="@style/LargeTextStyle" />
+    </RelativeLayout>
+    <include layout="@layout/appbar_with_divider_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

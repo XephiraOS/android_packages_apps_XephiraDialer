@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.framework.baseui.widget.SelectItemLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:gravity="center_vertical" android:id="@id/check_box" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/child_check_box_margin_start" android:layout_marginEnd="4.0dip" android:layout_alignParentStart="true" />
+    <TextView android:ellipsize="marquee" android:id="@id/group_name" android:paddingBottom="@dimen/padding_bottom" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_top" android:layout_marginBottom="@dimen/padding_bottom" android:layout_marginEnd="@dimen/list_common_margin" android:layout_toEndOf="@id/check_box" style="@style/LargeTextStyle" />
+    <ImageView android:id="@id/bottom_divider" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/list_common_margin" android:layout_alignStart="@id/check_box" style="@style/BottomDividerStyle" />
+</com.android.contacts.framework.baseui.widget.SelectItemLayout>

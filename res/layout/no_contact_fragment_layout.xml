@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.contacts.framework.baseui.widget.EmptyViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/empty_view_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/empty_view_horizontal_padding" app:additional_bottom_margin="@dimen/contact_bottom_tab_unfold_height" app:additional_top_margin="@dimen/toolbar_title_init_height" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/img_no_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pb_ic_no_contact" />
+        <TextView android:gravity="center" android:id="@id/txt_no_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_2" android:text="@string/no_contacts_warnning" style="@style/NoContentStyle" />
+    </com.android.contacts.framework.baseui.widget.EmptyViewGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

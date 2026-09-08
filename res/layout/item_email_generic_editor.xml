@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.customize.contacts.widget.EmailGenericEditorView android:gravity="center_vertical" android:id="@id/email_generic_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_min_line_item_height" android:paddingStart="@dimen/DP_16" android:paddingEnd="@dimen/DP_28"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/edit_left_icon" />
+    <com.coui.appcompat.edittext.COUIEditText android:gravity="start|center" android:id="@id/email_edit_field" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_min_line_item_height" android:textAlignment="viewStart" style="@style/ContactEditorEditTextStyle" />
+</com.customize.contacts.widget.EmailGenericEditorView>

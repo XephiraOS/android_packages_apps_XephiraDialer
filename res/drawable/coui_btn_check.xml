@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true" android:id="@id/selected" android:drawable="@drawable/coui_btn_check_on_normal" />
+    <item android:state_enabled="true" android:state_checked="false" android:id="@id/unselected" android:drawable="@drawable/coui_btn_check_off_normal" />
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/coui_btn_check_on_disabled" />
+    <item android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/coui_btn_check_off_disabled" />
+    <transition android:drawable="@drawable/coui_checkbox_selected_to_unselected" android:toId="@id/unselected" android:fromId="@id/selected" />
+    <transition android:drawable="@drawable/coui_checkbox_unselected_to_selected" android:toId="@id/selected" android:fromId="@id/unselected" />
+</animated-selector>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.customize.contacts.widget.FeedbackLinearLayout android:gravity="center" android:id="@id/ust_video_view" android:background="@drawable/pb_ic_ust_video_call_offline_background" android:visibility="gone" android:layout_width="@dimen/DP_42" android:layout_height="@dimen/DP_42" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/rcs_video_call" android:background="@null" android:layout_width="@dimen/DP_42" android:layout_height="@dimen/DP_42" android:src="@drawable/pb_ic_ust_video_call_offline" android:scaleType="center" android:layout_centerInParent="true" />
+</com.customize.contacts.widget.FeedbackLinearLayout>

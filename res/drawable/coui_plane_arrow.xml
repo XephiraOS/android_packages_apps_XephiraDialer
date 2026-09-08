@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/animate_on" android:drawable="@drawable/coui_plane_arrow_expanded" app:supportExpandedAnimate="true" />
+    <item android:id="@id/animate_off" android:drawable="@drawable/coui_plane_arrow_collapsed" app:supportCollapsedAnimate="true" />
+    <item android:id="@id/on" android:drawable="@drawable/coui_plane_arrow_expanded" app:supportExpanded="true" />
+    <item android:id="@id/off" android:drawable="@drawable/coui_plane_arrow_collapsed" app:supportCollapsed="true" />
+    <item android:id="@id/defaults_off" android:drawable="@drawable/coui_plane_arrow_collapsed" />
+    <transition android:drawable="@drawable/coui_plane_arrow_collapsed_anim" android:toId="@id/animate_off" android:fromId="@id/animate_on" />
+    <transition android:drawable="@drawable/coui_plane_arrow_collapsed_anim" android:toId="@id/animate_off" android:fromId="@id/on" />
+    <transition android:drawable="@drawable/coui_plane_arrow_expanded_anim" android:toId="@id/animate_on" android:fromId="@id/animate_off" />
+    <transition android:drawable="@drawable/coui_plane_arrow_expanded_anim" android:toId="@id/animate_on" android:fromId="@id/off" />
+    <transition android:drawable="@drawable/coui_plane_arrow_expanded_anim" android:toId="@id/animate_on" android:fromId="@id/defaults_off" />
+</animated-selector>

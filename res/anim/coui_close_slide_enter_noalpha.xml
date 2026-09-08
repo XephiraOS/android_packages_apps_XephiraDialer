@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false" android:zAdjustment="normal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:interpolator="@anim/coui_close_slide_enter_translate_interpolator" android:duration="350" android:fillBefore="false" android:fillAfter="true" android:fromXDelta="-29.999996%" android:toXDelta="0.0%" android:fillEnabled="true" />
+</set>

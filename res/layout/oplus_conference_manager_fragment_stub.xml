@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/manage_conference_fragment_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Chronometer android:textAppearance="?android:textAppearanceLarge" android:textSize="22.0dip" android:gravity="center_horizontal" android:id="@id/manageConferencePanelHeader" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/manageConferencePanelDivider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_below="@id/manageConferencePanelHeader" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/oplus_returncall" android:layout_width="fill_parent" android:layout_height="@dimen/incall_conference_toolbar_height" android:layout_marginTop="@dimen/oplus_caller_returncall_margin_top">
+        <Button android:id="@id/oplus_caller_manage_done_shourt_cut_button" android:background="@drawable/incall_btn_conference_back" android:layout_width="@dimen/oplus_caller_manage_button_width" android:layout_height="@dimen/oplus_caller_manage_button_height" android:layout_centerVertical="true" android:contentDescription="@string/oplus_back_description" android:layout_alignParentStart="true" android:forceDarkAllowed="false" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="17.0dip" android:textColor="@color/incall_conference_title_text_color" android:id="@id/conferenceCallerName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_title_conf_call" android:singleLine="true" android:layout_marginStart="@dimen/incall_conference_toolbar_title_margin_start" />
+    </LinearLayout>
+    <ScrollView android:id="@id/conferenceList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/oplus_returncall">
+        <LinearLayout android:orientation="vertical" android:id="@id/caller_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/caller0" layout="@layout/oplus_caller_in_conference" />
+            <include android:id="@id/caller1" layout="@layout/oplus_caller_in_conference" />
+            <include android:id="@id/caller2" layout="@layout/oplus_caller_in_conference" />
+            <include android:id="@id/caller3" layout="@layout/oplus_caller_in_conference" />
+            <include android:id="@id/caller4" layout="@layout/oplus_caller_in_conference" />
+            <include android:id="@id/caller5" layout="@layout/oplus_caller_in_conference" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

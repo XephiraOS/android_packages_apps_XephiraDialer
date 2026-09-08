@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="false">
+        <set>
+            <objectAnimator android:interpolator="@anim/dialpad_button_up_scale_interpolator" android:duration="150" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleX" />
+            <objectAnimator android:interpolator="@anim/dialpad_button_up_scale_interpolator" android:duration="150" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleY" />
+            <objectAnimator android:interpolator="@anim/dialpad_button_down_interpolator" android:duration="150" android:valueTo="0.08" android:valueType="floatType" android:propertyName="alpha" />
+        </set>
+    </item>
+    <item android:state_selected="false" android:state_pressed="true" android:state_activated="true">
+        <set>
+            <objectAnimator android:interpolator="@anim/dialpad_button_down_interpolator" android:duration="50" android:valueTo="0.9" android:valueType="floatType" android:propertyName="scaleX" />
+            <objectAnimator android:interpolator="@anim/dialpad_button_down_interpolator" android:duration="50" android:valueTo="0.9" android:valueType="floatType" android:propertyName="scaleY" />
+            <objectAnimator android:interpolator="@anim/dialpad_button_down_interpolator" android:duration="50" android:valueTo="0.85" android:valueType="floatType" android:propertyName="alpha" />
+        </set>
+    </item>
+    <item android:state_selected="true" android:state_pressed="true" android:state_activated="true">
+        <set>
+            <objectAnimator android:interpolator="@anim/dialpad_button_down_interpolator" android:duration="50" android:valueTo="0.9" android:valueType="floatType" android:propertyName="scaleX" />
+            <objectAnimator android:interpolator="@anim/dialpad_button_down_interpolator" android:duration="50" android:valueTo="0.9" android:valueType="floatType" android:propertyName="scaleY" />
+            <objectAnimator android:interpolator="@anim/dialpad_button_down_interpolator" android:duration="50" android:valueTo="0.2" android:valueType="floatType" android:propertyName="alpha" />
+        </set>
+    </item>
+    <item android:state_selected="true" android:state_pressed="false" android:state_activated="true">
+        <set>
+            <objectAnimator android:interpolator="@anim/dialpad_button_up_scale_interpolator" android:duration="150" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleX" />
+            <objectAnimator android:interpolator="@anim/dialpad_button_up_scale_interpolator" android:duration="150" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleY" />
+            <objectAnimator android:interpolator="@anim/dialpad_button_down_interpolator" android:duration="150" android:valueTo="0.85" android:valueType="floatType" android:propertyName="alpha" />
+        </set>
+    </item>
+    <item android:state_selected="false" android:state_pressed="false" android:state_activated="true">
+        <set>
+            <objectAnimator android:interpolator="@anim/dialpad_button_up_scale_interpolator" android:duration="150" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleX" />
+            <objectAnimator android:interpolator="@anim/dialpad_button_up_scale_interpolator" android:duration="150" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleY" />
+            <objectAnimator android:interpolator="@anim/dialpad_button_down_interpolator" android:duration="150" android:valueTo="0.2" android:valueType="floatType" android:propertyName="alpha" />
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:interpolator="@anim/dialpad_button_up_scale_interpolator" android:duration="150" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleX" />
+            <objectAnimator android:interpolator="@anim/dialpad_button_up_scale_interpolator" android:duration="150" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleY" />
+            <objectAnimator android:interpolator="@anim/dialpad_button_down_interpolator" android:duration="150" android:valueTo="0.2" android:valueType="floatType" android:propertyName="alpha" />
+        </set>
+    </item>
+</selector>

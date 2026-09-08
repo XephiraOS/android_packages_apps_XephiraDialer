@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/BackgroundNullStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/contact_list_view_stub" android:layout="@layout/contact_main_list_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.customize.contacts.behavior.DoNothingBehavior" style="@style/BackgroundNullStyle">
+        <com.coui.appcompat.toolbar.COUIToolbar android:id="@id/toolbar" style="@style/AppCollapsedToolbarStyle" />
+        <ImageView android:id="@id/divider_line" style="@style/BottomDividerStyle" />
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

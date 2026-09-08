@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_fold_screen_call_card_secondary_0" android:layout_width="0.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/call_card_secondary_slot_icon" android:tag="binding_1" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/fold_screen_call_card_secondary_slot_height" android:adjustViewBounds="true" android:alpha="0.4" android:layout_marginEnd="@dimen/fold_screen_call_card_secondary_slot_margin_end" />
+        <com.android.incallui.clean.presentation.view.InCallMarqueeTextView android:textSize="@dimen/fold_screen_call_card_secondary_info_text_size" android:textColor="@color/fold_screen_call_card_secondary_text_color" android:id="@id/call_card_secondary_info_name" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:marqueeRepeatLimit="marquee_forever" android:requiresFadingEdge="horizontal" android:textDirection="locale" />
+    </LinearLayout>
+    <View android:id="@id/secondary_call_info_divider" android:background="@color/incall_call_card_secondary_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/call_card_secondary_info_divider_height" android:layout_marginTop="@dimen/fold_screen_call_card_secondary_info_divider_margin_top" android:forceDarkAllowed="false" />
+</LinearLayout>

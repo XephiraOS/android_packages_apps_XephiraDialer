@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="interpolator" name="color_multichoice_interpolator_fade_in">@android:interpolator/decelerate_quint</item>
+    <item type="interpolator" name="color_multichoice_interpolator_fade_out">@android:interpolator/accelerate_quint</item>
+    <item type="interpolator" name="color_multichoice_interpolator_left_in">@android:interpolator/accelerate_quad</item>
+    <item type="interpolator" name="color_multichoice_interpolator_left_out">@android:interpolator/decelerate_quad</item>
+    <item type="interpolator" name="color_multichoice_interpolator_right_in">@android:interpolator/accelerate_quad</item>
+    <item type="interpolator" name="color_multichoice_interpolator_right_out">@android:interpolator/decelerate_quad</item>
+</resources>

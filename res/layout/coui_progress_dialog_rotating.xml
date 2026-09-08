@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/coui_spinner_layout_width" android:layout_height="wrap_content" android:minHeight="@dimen/coui_spinner_layout_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+        <com.oplus.anim.EffectiveAnimationView android:id="@id/progress" android:layout_width="@dimen/coui_spinner_loading_anim_width" android:layout_height="@dimen/coui_spinner_loading_anim_height" android:layout_marginTop="@dimen/coui_spinner_margin_top" android:layout_marginBottom="@dimen/coui_spinner_margin_bottom" android:forceDarkAllowed="false" app:anim_fileName="?couiRotatingSpinnerJsonName" app:anim_loop="true" />
+        <TextView android:textAppearance="@style/couiTextBodyS" android:textColor="?couiColorLabelPrimary" android:gravity="center" android:id="@id/progress_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/coui_spinner_text_margin_bottom" android:layout_marginHorizontal="@dimen/coui_spinner_text_margin_horizontal" />
+    </LinearLayout>
+</FrameLayout>

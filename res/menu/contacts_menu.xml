@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/pb_ic_menu_search" android:id="@id/menu_contacts_search" android:visible="true" android:contentDescription="@string/menu_search" app:showAsAction="always" />
+    <item android:icon="@drawable/coui_toolbar_menu_icon_more" android:id="@id/menu_contacts_more" android:visible="true" android:title="@string/menu_more_options_description" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="default_dialer_text_style_summary">
+        <item name="android:textAppearance">?couiTextBodyXS</item>
+        <item name="android:textColor">?couiColorLabelSecondary</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="default_dialer_text_style_title">
+        <item name="android:textSize">@dimen/SP_40</item>
+        <item name="android:textColor">?couiColorLabelPrimary</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.foundation.appsupport.ui.widget.recyclerview.HeaderFooterRecyclerView android:layout_gravity="center_horizontal" android:id="@id/filter_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:headerDividersEnabled="false" app:couiListGridNumber="@integer/grid_guide_column_preference" app:paddingType="listType" style="@style/ListViewStyle" />
+    <include layout="@layout/appbar_toolbar_layout" />
+    <ImageView android:background="@drawable/coui_divider_horizontal_without_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

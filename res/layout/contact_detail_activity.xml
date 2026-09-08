@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="false" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/contact_detail_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.coui.appcompat.bottomnavigation.COUINavigationView android:id="@id/contact_detail_navigation_tool" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:couiNaviIconTint="@null" app:couiNaviTextColor="@color/coui_color_label_primary" app:navigationType="tool" />
+        <fragment android:id="@id/loader_fragment" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" class="com.android.contacts.detail.ContactLoaderFragment" />
+        <include android:id="@id/contact_detail_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/contact_detail_navigation_tool" layout="@layout/contact_detail_container" />
+    </RelativeLayout>
+    <include layout="@layout/appbar_toolbar_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

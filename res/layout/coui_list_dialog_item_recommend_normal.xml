@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.button.COUIButton android:gravity="center" android:id="@android:id/button1" android:layout_height="wrap_content" android:textAlignment="center" style="@style/COUIAlertDialogBottomButtonNewNormal.Recommend.Normal" />
+    <ImageView android:id="@id/item_divider" android:background="?couiColorDivider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/coui_list_divider_height" android:layout_alignParentBottom="true" android:layout_marginHorizontal="@dimen/coui_bottom_alert_dialog_horizontal_button_margin_default" android:forceDarkAllowed="false" />
+</LinearLayout>

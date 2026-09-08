@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coui_support_menu_width">310.0dip</dimen>
+    <dimen name="oplus_call_card_second_line_text_size">14.0sp</dimen>
+    <dimen name="dialpad_container_height">368.0dip</dimen>
+    <dimen name="call_detail_list_item_height">30.0dip</dimen>
+    <dimen name="oplus_conference_manage_btn_height">22.0dip</dimen>
+    <dimen name="oplus_conference_manage_btn_width">22.0dip</dimen>
+    <dimen name="oplus_dtmf_dialpad_number_button_height">64.0dip</dimen>
+    <dimen name="oplus_phone_keyguard_slider_view_square_length">360.0dip</dimen>
+</resources>

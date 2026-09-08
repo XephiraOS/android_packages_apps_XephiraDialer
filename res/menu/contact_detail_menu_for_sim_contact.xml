@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_done" android:visible="false" android:title="@string/menu_done" app:showAsAction="always" />
+    <item android:icon="@drawable/pb_dr_menu_add" android:id="@id/add" android:visible="false" android:title="@string/menu_newContact" app:showAsAction="always" />
+    <item android:icon="@drawable/pb_ic_unstarred" android:id="@id/star" android:visible="false" app:showAsAction="always" />
+    <item android:icon="@drawable/pb_dr_edit_contact" android:id="@id/menu_edit" android:visible="false" android:title="@string/oplus_menu_edit" app:showAsAction="always" />
+    <item android:icon="@drawable/coui_toolbar_menu_icon_more" android:id="@id/menu_more" android:visible="true" android:title="@string/oplus_button_set" app:showAsAction="always" />
+</menu>

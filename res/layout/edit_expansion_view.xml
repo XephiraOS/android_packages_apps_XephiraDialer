@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="@dimen/editor_min_line_item_height" android:layout_marginStart="@dimen/DP_12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.rotateview.COUIRotateView android:layout_gravity="center" android:id="@id/expansion_rotate_view" android:duplicateParentState="true" android:layout_width="@dimen/DP_24" android:layout_height="@dimen/DP_24" android:src="@drawable/coui_line_arrow" android:contentDescription="@string/contact_editor_name_expand" />
+</FrameLayout>

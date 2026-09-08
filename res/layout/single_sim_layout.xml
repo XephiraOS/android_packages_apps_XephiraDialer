@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.customize.contacts.widget.FeedbackRelativeLayout android:layout_gravity="center" android:id="@id/single_sim_view" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/DP_56" android:maxHeight="@dimen/DP_56" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/single_sim_btn_view" android:background="@drawable/pb_bg_single_sim" android:layout_width="@dimen/DP_56" android:layout_height="@dimen/DP_56" android:layout_centerInParent="true">
+        <ImageButton android:id="@id/sim_dial_btn" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pb_ic_dial_call" android:scaleType="center" android:layout_centerInParent="true" />
+        <ImageButton android:id="@id/single_sim1_dial_btn" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pb_ic_dial_call_sim1" android:scaleType="center" android:layout_centerInParent="true" />
+        <ImageButton android:id="@id/single_sim2_dial_btn" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pb_ic_dial_call_sim2" android:scaleType="center" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</com.customize.contacts.widget.FeedbackRelativeLayout>

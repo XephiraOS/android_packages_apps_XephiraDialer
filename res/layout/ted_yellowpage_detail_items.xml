@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/ted_yp_detail_address" android:paddingTop="@dimen/padding_top" android:paddingBottom="@dimen/padding_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:paddingStart="@dimen/DP_24" android:paddingEnd="@dimen/DP_24" style="@style/LargeTextWithBackgroundStyle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ted_yellow_item_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

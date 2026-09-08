@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.framework.baseui.widget.SelectItemLayout android:orientation="horizontal" android:id="@id/group_list_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/name_and_number" android:paddingTop="@dimen/padding_top" android:paddingBottom="@dimen/padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/list_common_margin" android:layout_toStartOf="@id/check_box" android:layout_alignParentStart="true">
+        <TextView android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LargeTextStyle" />
+        <TextView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SmallTextStyle" />
+    </LinearLayout>
+    <CheckBox android:layout_gravity="end|center" android:id="@id/check_box" android:visibility="gone" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/CheckBoxStyle" />
+    <ImageView android:id="@id/bottom_divider" android:layout_below="@id/name_and_number" android:layout_marginEnd="@dimen/list_common_margin" android:layout_alignStart="@id/name_and_number" style="@style/BottomDividerStyle" />
+</com.android.contacts.framework.baseui.widget.SelectItemLayout>

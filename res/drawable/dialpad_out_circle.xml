@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/oplus_numeric_keyboard_circle_diameter" android:width="@dimen/oplus_numeric_keyboard_circle_diameter" />
+    <corners android:radius="@dimen/oplus_numeric_keyboard_circle_radius" />
+    <solid android:color="@color/incall_dialpad_background_color" />
+</shape>

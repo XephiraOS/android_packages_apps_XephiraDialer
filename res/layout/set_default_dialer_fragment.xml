@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_gravity="center_horizontal" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:nestedScrollingEnabled="true">
+            <com.coui.appcompat.grid.COUIPercentWidthLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recommend_using_this_call" style="@style/default_dialer_text_style_title" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_8" android:text="@string/call_recommendation_information" style="@style/default_dialer_text_style_summary" />
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/set_default_icon_top" android:src="@drawable/pb_ic_oplus_dialer" />
+            </com.coui.appcompat.grid.COUIPercentWidthLinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/set_as_default_pan" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.coui.appcompat.button.COUIButton android:id="@id/set_as_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_16" android:layout_marginBottom="@dimen/DP_24" android:maxWidth="@dimen/coui_single_larger_btn_width" android:text="@string/set_as_default_call" android:contentDescription="@string/set_as_default_call" android:layout_marginHorizontal="@dimen/coui_horizontal_single_btn_margin" style="@style/Widget.COUI.Button.Large.ButtonNew" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

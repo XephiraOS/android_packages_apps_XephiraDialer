@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start" android:id="@id/item_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blacklist_margin_top" android:layout_marginBottom="@dimen/DP_8" android:layout_marginStart="@dimen/DP_32" android:layout_marginEnd="@dimen/DP_32" style="@style/BLSmallTitleStyle" />
+    <com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:orientation="vertical" android:id="@id/list_card_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/item_title">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_marginStart="@dimen/DP_32" android:layout_marginEnd="@dimen/DP_28" android:layout_alignParentStart="true">
+            <CheckBox android:id="@id/listview_scrollchoice_checkbox" android:background="@null" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/name_parent" android:layout_alignBottom="@id/name_parent" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:paddingStart="@dimen/DP_0" android:paddingEnd="@dimen/DP_0" android:layout_alignParentEnd="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/name_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/DP_52" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@id/listview_scrollchoice_checkbox" android:layout_alignParentStart="true">
+                <TextView android:ellipsize="end" android:id="@id/item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BLLargeTextStyle" />
+                <TextView android:ellipsize="end" android:id="@id/number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="ltr" style="@style/BLSmallTextStyle" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView android:id="@id/bottom_divider" android:layout_marginStart="@dimen/DP_32" android:layout_marginEnd="@dimen/DP_32" style="@style/BLBottomDividerStyle" />
+    </com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>
+</RelativeLayout>

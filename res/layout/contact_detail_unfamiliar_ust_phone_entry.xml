@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ust_phone_entry_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ust_phone_divider" android:layout_marginTop="@dimen/DP_14" android:layout_marginBottom="@dimen/DP_14" android:layout_below="@id/ted_more_call_log_bottom_divider" android:layout_marginStart="@dimen/list_common_margin" android:layout_marginEnd="@dimen/list_common_margin" style="@style/BottomDividerStyle" />
+    <include layout="@layout/contact_detail_list_item_phone" />
+</LinearLayout>

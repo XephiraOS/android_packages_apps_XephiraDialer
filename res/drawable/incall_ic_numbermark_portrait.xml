@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="18.0dip" android:width="18.0dip" android:viewportWidth="18.0" android:viewportHeight="18.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/incall_number_mark_mark_portrait_dark_color" android:pathData="M9,9m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0" />
+    <path android:fillColor="@color/incall_number_mark_mark_portrait_light_color" android:pathData="M10.667,6.9167C10.667,7.8371 9.9208,8.5833 9.0003,8.5833C8.0798,8.5833 7.3336,7.8371 7.3336,6.9167C7.3336,5.9962 8.0798,5.25 9.0003,5.25C9.9208,5.25 10.667,5.9962 10.667,6.9167Z" />
+    <path android:fillColor="@color/incall_number_mark_mark_portrait_light_color" android:pathData="M5.2503,11.2343V12.7501H12.7503V11.2343C12.7553,11.018 12.7001,10.8047 12.5908,10.618C12.4816,10.4313 12.3225,10.2787 12.1316,10.1772L12.0461,10.1355C11.1002,9.6634 10.0575,9.4177 9.0003,9.4177C7.9431,9.4177 6.9004,9.6634 5.9545,10.1355L5.8691,10.1772C5.6781,10.2787 5.5191,10.4313 5.4098,10.618C5.3005,10.8047 5.2453,11.018 5.2503,11.2343Z" />
+</vector>

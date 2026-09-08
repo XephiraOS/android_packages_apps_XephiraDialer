@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="is_big_layout">false</bool>
+    <bool name="is_coui_bottom_sheet_ime_adjust_in_constraint_layout">true</bool>
+    <bool name="is_ignore_nav_height_in_panel_ime_adjust">true</bool>
+    <bool name="is_land_layout">false</bool>
+    <bool name="is_normal_layout">false</bool>
+    <bool name="is_small_layout">true</bool>
+</resources>

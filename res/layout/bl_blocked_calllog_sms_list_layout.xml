@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false" android:windowEnableSplitTouch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.widget.BlacklistViewPager android:id="@id/viewPager" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/abl" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.oplus.widget.SmallTabBehavior" style="@style/BLBackgroundNormalStyle">
+        <com.coui.appcompat.toolbar.COUIToolbar android:id="@id/tool_bar" style="@style/COUICollapsedToolbarStyle" />
+        <com.coui.appcompat.tablayout.COUITabLayout android:id="@id/tab_layout" style="@style/TabStyle" />
+        <TextView android:textAppearance="@style/textAppearanceSecondTitle" android:id="@id/toolbar_title" android:paddingTop="@dimen/bl_title_text_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/tablayout_small_layout_height" android:paddingStart="@dimen/DP_16" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/bl_divider_line" android:background="?couiColorDivider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_divider_height" android:layout_marginLeft="@dimen/bl_common_margin" android:layout_marginRight="@dimen/bl_common_margin" android:alpha="0.0" android:forceDarkAllowed="false" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <include layout="@layout/bl_navigation_view_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

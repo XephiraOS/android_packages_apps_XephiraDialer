@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="false" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.oplus.foundation.appsupport.ui.widget.recyclerview.HeaderFooterRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/list" android:paddingBottom="@dimen/DP_60" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:couiListGridNumber="@integer/grid_guide_column_preference" app:paddingSize="small" app:paddingType="cardListType" style="@style/ListViewStyle" />
+    </FrameLayout>
+    <include layout="@layout/appbar_toolbar_layout_for_card" />
+    <include layout="@layout/navigation_view_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

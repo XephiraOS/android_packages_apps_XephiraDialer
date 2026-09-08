@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/body" android:paddingTop="@dimen/coui_progress_dialog_padding_top" android:paddingBottom="@dimen/coui_progress_cancelable_dialog_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+        <com.coui.appcompat.progressbar.COUIHorizontalProgressBar android:id="@id/progress" android:layout_width="@dimen/coui_loading_dialog_progress_width" android:layout_height="@dimen/coui_loading_dialog_progress_height" app:couiHorizontalProgressBarBackgroundColor="?couiColorDivider" />
+    </LinearLayout>
+</FrameLayout>

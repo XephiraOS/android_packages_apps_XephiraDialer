@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.StructuredNameEditorView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_min_line_item_height" android:nextFocusForward="@id/sect_fields"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/spinner" android:visibility="gone" layout="@layout/edit_spinner" />
+    <RelativeLayout android:orientation="horizontal" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/DP_16" android:paddingEnd="@dimen/DP_28">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_name_icon_margin_top" layout="@layout/edit_left_icon" />
+        <include android:id="@id/editors" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/edit_left_icon_container_width" layout="@layout/edit_field_list_2" />
+        <include android:id="@id/delete_button_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/editors" layout="@layout/edit_delete_button" />
+        <include android:id="@id/expansion_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_name_icon_margin_top" android:layout_alignParentEnd="true" layout="@layout/edit_expansion_view" />
+    </RelativeLayout>
+</com.android.contacts.editor.StructuredNameEditorView>

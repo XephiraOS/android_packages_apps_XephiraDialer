@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:layout_width="fill_parent" android:layout_height="fill_parent" android:title="@string/about" android:key="pref_key_ted_about_root"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_key_statement_category" app:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUIJumpPreference android:layout="@layout/coui_preference" android:title="@string/function_desc" android:key="pref_key_ted_function_desc">
+            <intent android:targetPackage="com.android.contacts" android:targetClass="com.ted.number.ui.TedFunctionDescActivity">
+                <extra android:name="source" android:value="update_setting" />
+                <extra android:name="navigate_title_text" android:value="@string/function_desc" />
+            </intent>
+        </com.coui.appcompat.preference.COUIJumpPreference>
+        <com.coui.appcompat.preference.COUIJumpPreference android:layout="@layout/coui_preference" android:title="@string/user_protocol" android:key="pref_key_ted_user_protocol">
+            <intent android:targetPackage="com.android.contacts" android:targetClass="com.ted.number.ui.TedStatementActivity">
+                <extra android:name="source" android:value="2" />
+                <extra android:name="navigate_title_text" android:value="@string/user_protocol" />
+            </intent>
+        </com.coui.appcompat.preference.COUIJumpPreference>
+        <com.coui.appcompat.preference.COUIJumpPreference android:layout="@layout/coui_preference" android:title="@string/personal_information_protection_policy" android:key="pref_key_ted_secret_policy">
+            <intent android:targetPackage="com.android.contacts" android:targetClass="com.ted.number.ui.TedStatementActivity">
+                <extra android:name="source" android:value="1" />
+                <extra android:name="navigate_title_text" android:value="@string/personal_information_protection_policy" />
+            </intent>
+        </com.coui.appcompat.preference.COUIJumpPreference>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_key_revoke_personal_protection_category">
+        <com.android.contacts.framework.baseui.widget.RevokePreference android:layout="@layout/coui_preference" android:title="@string/title_revoke_personal_information_protection_policy" android:key="pref_key_revoke_personal_protection" app:hasNextArrow="false" app:hasRedDot="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</androidx.preference.PreferenceScreen>

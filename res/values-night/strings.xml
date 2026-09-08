@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="coui_loading_rotating_json">coui_rotating_loading_night.json</string>
+    <string name="coui_lottie_loading_large_json">coui_lottie_loading_large_night.json</string>
+    <string name="coui_lottie_loading_small_json">coui_lottie_loading_small_night.json</string>
+    <string name="oplus_dialpad_fragment_edit_line_alphas">0.3</string>
+</resources>

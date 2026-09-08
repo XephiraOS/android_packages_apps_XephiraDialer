@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/oplus_button_set"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="all_settings">
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/oplus_speed_dial" android:key="oplus_speed_dial" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/assisted_dialing_title" android:key="assisted_dialing" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/call_recording" android:key="call_recording" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/more_setting" android:key="more_setting" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</androidx.preference.PreferenceScreen>

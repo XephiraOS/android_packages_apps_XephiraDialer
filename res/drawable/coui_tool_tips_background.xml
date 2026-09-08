@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="13.0dip" android:insetRight="13.0dip" android:insetTop="13.0dip" android:insetBottom="13.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape>
+        <solid android:color="@color/coui_tool_tips_background_color" />
+        <corners android:radius="?couiRoundCornerMRadius" />
+        <smooth-weight android:gradientRadius="@dimen/coui_round_corner_m_weight" />
+    </shape>
+</inset>

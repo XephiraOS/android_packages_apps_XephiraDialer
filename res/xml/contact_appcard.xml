@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<card-provider app:groupImage="@null" app:oplus_card_entry_widget_icon="@drawable/scene_card_entry_widget_icon" app:oplus_card_miniapp_icon="@null" app:oplus_card_name="@string/launcherDialer" app:oplus_card_replaced_by_miniapp="true" app:oplus_card_size="n2four" app:oplus_card_type="777770031" xmlns:app="http://schemas.android.com/apk/res-auto" />

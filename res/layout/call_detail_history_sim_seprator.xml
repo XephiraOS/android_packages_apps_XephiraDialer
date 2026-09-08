@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/calllog_view_sim_seprator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/call_detail_list_item_height" android:paddingStart="@dimen/DP_24" android:paddingEnd="@dimen/DP_24"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sim_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <TextView android:textSize="@dimen/SP_11" android:id="@id/sim_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="@dimen/DP_6" android:layout_toEndOf="@id/sim_icon" style="@style/LargeTextStyle" />
+</RelativeLayout>

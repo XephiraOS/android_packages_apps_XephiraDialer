@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dual_sim_view" android:tag="layout/scene_dual_sim_layout_0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/DP_40" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.customize.contacts.widget.FeedbackRelativeLayout android:id="@id/sim1_dial_btn" android:background="@drawable/scene_btn_bg_dial_dual" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/sim1_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/scene_ic_dial_call_sim1" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/DP_10" android:textColor="@color/scene_color_dial_btn_text" android:ellipsize="end" android:id="@id/sim1_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/DP_4" android:layout_toEndOf="@id/sim1_btn" />
+        </RelativeLayout>
+    </com.customize.contacts.widget.FeedbackRelativeLayout>
+    <View android:layout_width="4.0dip" android:layout_height="fill_parent" />
+    <com.customize.contacts.widget.FeedbackRelativeLayout android:id="@id/sim2_dial_btn" android:background="@drawable/scene_btn_bg_dial_dual" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/sim2_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/scene_ic_dial_call_sim2" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/DP_10" android:textColor="@color/scene_color_dial_btn_text" android:ellipsize="end" android:id="@id/sim2_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/DP_4" android:layout_toEndOf="@id/sim2_btn" />
+        </RelativeLayout>
+    </com.customize.contacts.widget.FeedbackRelativeLayout>
+</LinearLayout>

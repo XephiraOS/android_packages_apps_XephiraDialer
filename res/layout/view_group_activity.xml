@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.oplus.foundation.appsupport.ui.widget.recyclerview.HeaderFooterRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/group_list" android:paddingBottom="@dimen/DP_30" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:couiRecyclerGridNumber="@integer/grid_guide_column_preference" app:paddingType="listType" style="@style/ListViewStyle" />
+        <com.coui.appcompat.scrollview.COUIScrollView android:id="@id/scroll_view" android:scrollbars="vertical" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" style="@style/ListViewStyle">
+            <com.coui.appcompat.grid.COUIPercentWidthLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:paddingType="listType">
+                <include android:id="@id/empty_view_header" layout="@layout/view_group_list_header" />
+                <FrameLayout android:gravity="center" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.android.contacts.framework.baseui.widget.EmptyViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/empty_view_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/empty_view_horizontal_padding">
+                        <ImageView android:id="@id/no_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pb_ic_no_contact" />
+                        <TextView android:gravity="center_horizontal" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_2" style="@style/NoContentStyle" />
+                    </com.android.contacts.framework.baseui.widget.EmptyViewGroup>
+                </FrameLayout>
+            </com.coui.appcompat.grid.COUIPercentWidthLinearLayout>
+        </com.coui.appcompat.scrollview.COUIScrollView>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.coui.appcompat.progressbar.COUILoadingView android:id="@id/loading_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_346" android:layout_centerHorizontal="true" style="?couiLoadingViewLargeStyle" />
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/loading" android:layout_below="@id/loading_view" android:layout_centerHorizontal="true" style="@style/LargeTextStyle" />
+    </RelativeLayout>
+    <include layout="@layout/navigation_view_layout" />
+    <include layout="@layout/appbar_toolbar_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

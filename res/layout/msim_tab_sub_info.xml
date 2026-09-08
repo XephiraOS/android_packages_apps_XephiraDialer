@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/tab_sub_info" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/dsda_sub_icon_marginTop" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tabSubIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    </LinearLayout>
+    <LinearLayout android:paddingLeft="@dimen/call_banner_side_padding" android:paddingTop="@dimen/dsda_sub_text_marginTop" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tabSubText" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

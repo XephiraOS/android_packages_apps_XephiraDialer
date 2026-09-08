@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.COUIRecyclerView android:layout_gravity="top" android:id="@id/sms_content" android:paddingTop="4.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hapticFeedbackEnabled="false" android:paddingHorizontal="8.0dip" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/send_status_anim" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:measureAllChildren="true">
+        <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center" android:id="@id/status_loading" android:layout_width="26.0dip" android:layout_height="26.0dip" app:anim_autoPlay="false" app:anim_loop="true" app:anim_rawRes="@raw/progress_rotating_loading_night" />
+        <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center" android:id="@id/status_success" android:layout_width="100.0dip" android:layout_height="100.0dip" app:anim_autoPlay="false" app:anim_loop="false" app:anim_rawRes="@raw/complete_page_success_anim" />
+        <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center" android:id="@id/status_fail" android:layout_width="100.0dip" android:layout_height="100.0dip" app:anim_autoPlay="false" app:anim_loop="false" app:anim_rawRes="@raw/complete_page_fail_anim" />
+    </FrameLayout>
+    <TextView android:textAppearance="@style/couiTextAppearanceButton" android:textColor="@color/coui_color_primary_neutral_dark" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/status_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="52.0dip" android:layout_marginHorizontal="@dimen/fold_screen_view_margin_horizontal" />
+</FrameLayout>

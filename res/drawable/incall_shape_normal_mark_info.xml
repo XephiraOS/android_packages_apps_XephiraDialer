@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/incall_markinfo_normal_color" />
+    <corners android:topLeftRadius="@dimen/oplus_mark_info_round_radius" android:topRightRadius="@dimen/oplus_mark_info_round_radius" android:bottomLeftRadius="@dimen/oplus_mark_info_round_radius" android:bottomRightRadius="@dimen/oplus_mark_info_round_radius" />
+</shape>

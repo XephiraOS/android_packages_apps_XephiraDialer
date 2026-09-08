@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.calendar.COUICalendarViewAnimator android:gravity="center" android:id="@id/animator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureAllChildren="true" android:inAnimation="@anim/coui_calendar_picker_fade_in_material" android:outAnimation="@anim/coui_calendar_picker_fade_out_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.calendar.COUICalendarDayPickerView android:id="@id/date_picker_day_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.coui.appcompat.calendar.COUICalendarYearView android:id="@id/date_picker_year_picker" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-36.0dip" android:scrollIndicators="bottom" />
+</com.coui.appcompat.calendar.COUICalendarViewAnimator>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_gravity="center" android:orientation="vertical" android:id="@id/account_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/blank_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/DP_20" />
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/account" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contact_editor_storage_location_margin_top" android:layout_marginBottom="@dimen/contact_editor_storage_location_margin_bottom" android:paddingStart="@dimen/DP_16" android:paddingEnd="@dimen/DP_28">
+        <TextView android:textSize="@dimen/SP_14" android:ellipsize="end" android:id="@id/location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_editor_account_save_to" android:layout_centerVertical="true" android:textAlignment="viewStart" style="@style/SmallTextStyle" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/expansion_click_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/DP_4" android:layout_toEndOf="@id/location">
+            <TextView android:textSize="@dimen/SP_14" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/account_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" style="@style/LargeTextStyle" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/editor_expansion_view" android:background="@drawable/pb_bg_click_icon_ripple" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pb_ic_expander_minimized" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

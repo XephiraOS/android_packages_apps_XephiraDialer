@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:gravity="center_vertical" android:id="@id/coui_preference" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/support_preference_min_height" android:paddingStart="@dimen/support_preference_title_padding_start" android:paddingEnd="@dimen/support_preference_title_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/open_time_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/start_title" android:paddingTop="@dimen/DP_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/protect_eye_time" android:layout_alignParentStart="true" style="@style/BLLargeTextStyle" />
+            <TextView android:textColor="@color/coui_color_primary_text_green" android:id="@id/open_time" android:paddingBottom="@dimen/DP_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/start_title" style="@style/COUIPreferenceSummaryStyle" />
+            <ImageView android:layout_below="@id/open_time" style="@style/BLBottomDividerStyle" />
+        </RelativeLayout>
+        <com.oplus.blacklistapp.callintercept.widget.LocalTimePicker android:layout_gravity="center_horizontal" android:id="@id/open_time_picker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/close_time_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/title" android:paddingTop="@dimen/DP_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/close_protect_eye_time" android:layout_alignParentStart="true" style="@style/BLLargeTextStyle" />
+            <TextView android:textColor="@color/coui_color_primary_text_green" android:id="@id/close_time" android:paddingBottom="@dimen/DP_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title" style="@style/COUIPreferenceSummaryStyle" />
+            <ImageView android:layout_below="@id/close_time" style="@style/BLBottomDividerStyle" />
+        </RelativeLayout>
+        <com.oplus.blacklistapp.callintercept.widget.LocalTimePicker android:id="@id/close_time_picker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>

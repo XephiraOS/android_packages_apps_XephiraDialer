@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@android:id/list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:gravity="center" android:id="@android:id/empty" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:background="@drawable/coui_window_bg_with_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.coui.appcompat.behavior.SecondToolbarBehavior">
+        <com.coui.appcompat.toolbar.COUIToolbar android:id="@id/toolbar" android:background="@drawable/coui_window_bg_with_card" android:layout_width="fill_parent" app:supportTitleTextAppearance="@style/textAppearanceSecondTitle" style="@style/COUIToolBarInAppBarLayoutStyle" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/divider_line" android:background="?couiColorDivider" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_divider_height" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:alpha="0.0" android:forceDarkAllowed="false" />
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

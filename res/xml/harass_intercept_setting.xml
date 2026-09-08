@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/harass_intercept_calls"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/customize_preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_key_sync_settings" app:isFirstCategory="true" app:top_margin_type="small">
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/blacklist_cloud_sync" android:key="blacklist_cloud_sync" app:couiAssignment=" ">
+            <intent android:action="oplus.intent.action.BLACKLIST_CLOUD_SETTINGS" android:targetClass="com.oplus.blacklistapp.cloudsync.ui.CloudSyncSettingActivity" />
+        </com.coui.appcompat.preference.COUIJumpPreference>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_key_intercept_settings">
+        <com.oplus.blacklistapp.framework.baseui.util.highlight.HighLightJumpPreference android:persistent="false" android:title="@string/anti_harassment_call_rule" android:key="anti_harassment_call">
+            <intent android:action="android.intent.action.MAIN" android:targetClass="com.oplus.blacklistapp.callintercept.settings.CallHarassInterceptSetting">
+                <extra android:name="@string/navigate_title_text_key" android:value="@string/anti_harassment_call_title" />
+            </intent>
+        </com.oplus.blacklistapp.framework.baseui.util.highlight.HighLightJumpPreference>
+        <com.oplus.blacklistapp.framework.baseui.util.highlight.HighLightJumpPreference android:layout="@layout/coui_preference" android:title="@string/anti_harassment_information_rule" android:key="anti_harassment_information" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="intercept_settings_nation_anti_fraud_category_key">
+        <com.oplus.blacklistapp.framework.baseui.util.highlight.HighLightSwitchPreference android:title="@string/nafc_interception_service" android:key="intercept_settings_nation_anti_fraud_key" android:summary="@string/intercept_suspected_supported_by_nafc" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_key_intercept_black_white">
+        <com.oplus.blacklistapp.framework.baseui.util.highlight.HighLightJumpPreference android:title="@string/intercept_crank_call" android:key="intercept_crank_call" />
+        <com.oplus.blacklistapp.framework.baseui.util.highlight.HighLightJumpPreference android:title="@string/intercept_whitelist" android:key="intercept_whitelist_key" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.oplus.blacklistapp.framework.baseui.util.highlight.HighLightMenuPreference android:persistent="true" android:entries="@array/notification_options_when_interception_arr" android:title="@string/remind_when_interception" android:key="intercept_notification_key" android:entryValues="@array/intercept_notification_values" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPagerFooterPreference android:selectable="false" android:key="default_sms_summary_key" android:summary="@string/default_sms_summary" />
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</androidx.preference.PreferenceScreen>

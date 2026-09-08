@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="18.0dip" android:viewportWidth="18.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h18v24h-18z" />
+        <path android:fillColor="@color/pb_color_dialpad_number" android:pathData="M6.851,2.188H9.454L8.564,6.038H12.058L12.948,2.188H15.551L14.661,6.038H17.275V8.645H14.059L12.643,14.772H15.528V17.379H12.04L11.15,21.23H8.547L9.437,17.379H5.942L5.052,21.23H2.449L3.339,17.379H0.726V14.772H3.942L5.358,8.645H2.477V6.038H5.961L6.851,2.188ZM7.961,8.645L6.545,14.772H10.039L11.456,8.645H7.961Z" android:fillType="evenOdd" />
+    </group>
+</vector>

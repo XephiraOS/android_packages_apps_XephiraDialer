@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.preference.COUICustomLinearLayoutForPreference android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" app:couiAHavePriority="false" app:couiBStickToC="false" app:couiMarginEndOfA="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/support_preference_category_layout_title_margin_start_small" android:layout_marginEnd="@dimen/coui_category_title_pading_end_with_reddot_default" style="@style/Widget.COUI.List.Category.Title" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon_with_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.coui.appcompat.reddot.COUIHintRedDot android:id="@id/reddot_with_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@android:id/widget_frame" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_marginStart="@dimen/support_preference_category_layout_widgetlayout_margin_horizontal" android:layout_alignParentEnd="true" />
+</com.coui.appcompat.preference.COUICustomLinearLayoutForPreference>

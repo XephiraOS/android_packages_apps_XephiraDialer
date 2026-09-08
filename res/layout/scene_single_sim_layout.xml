@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.customize.contacts.widget.FeedbackRelativeLayout android:id="@id/single_sim_dial_btn" android:tag="layout/scene_single_sim_layout_0" android:background="@drawable/scene_btn_bg_dial_single" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sim_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/scene_ic_dial_call" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</com.customize.contacts.widget.FeedbackRelativeLayout>

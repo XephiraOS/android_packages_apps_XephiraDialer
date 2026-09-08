@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/contact_list_header" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/use_sim_country_iso_layout" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_common_margin">
+        <TextView android:id="@id/use_sim_country_iso_text" android:paddingTop="@dimen/padding_top" android:paddingBottom="@dimen/padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/use_sim_country_iso" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" style="@style/LargeTextStyle" />
+    </RelativeLayout>
+</RelativeLayout>

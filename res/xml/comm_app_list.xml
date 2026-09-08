@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <app cn_name="电话本" en_name="Contact" ext_int="0" switch="contact.log.switch" tw_name="通訊錄" />
+    <app cn_name="短信" en_name="Mms" ext_int="0" switch="mms.log.switch" tw_name="簡訊" />
+    <app cn_name="通话" en_name="Phone" ext_int="0" switch="phone.log.switch" tw_name="通話" />
+    <app cn_name="电子邮件" en_name="Email" ext_int="0" switch="email.log.switch" tw_name="電子郵件" />
+    <app cn_name="NFC" en_name="NFC" ext_int="0" switch="nfc.log.switch" tw_name="NFC" />
+    <app cn_name="黑名单" en_name="BlackList" ext_int="0" switch="blacklist.log.switch" tw_name="黑名單" />
+    <app cn_name="双卡管理" en_name="OplusSimSettings" ext_int="0" switch="oplussimsettings.log.switch" tw_name="雙卡管理" />
+    <app cn_name="号码归属地" en_name="PhoneNumberAttribution" ext_int="0" switch="phonenumberattribution.log.switch" tw_name="號碼歸屬地" />
+    <app cn_name="无线设置" en_name="OplusWirelessSettings" ext_int="0" switch="opluswirelesssettings.log.switch" tw_name="無線設置" />
+</resources>

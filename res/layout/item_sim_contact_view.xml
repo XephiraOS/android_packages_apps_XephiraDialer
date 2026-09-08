@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.customize.contacts.widget.SimContactEditorView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/name" layout="@layout/sim_name_generic_editor" />
+        <com.android.contacts.framework.baseui.widget.SelectedCardView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_fields_editor_view_margin_bottom" android:layout_marginBottom="@dimen/text_fields_editor_view_margin_bottom" android:paddingStart="@dimen/DP_16" android:paddingEnd="@dimen/DP_28">
+            <include android:id="@id/phone" layout="@layout/item_generic_editor" />
+            <ImageView android:id="@id/sim_phone2_divider" android:layout_marginStart="@dimen/edit_left_icon_container_width" style="@style/BottomDividerStyle" />
+            <include android:id="@id/phone2" layout="@layout/item_generic_editor" />
+        </com.android.contacts.framework.baseui.widget.SelectedCardView>
+        <include android:id="@id/email" layout="@layout/item_email_generic_editor" />
+    </LinearLayout>
+</com.customize.contacts.widget.SimContactEditorView>

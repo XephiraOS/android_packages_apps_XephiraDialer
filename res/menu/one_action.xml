@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/pb_dr_menu_delete" android:id="@id/delete" android:visible="true" android:title="@string/mark_items" />
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/group_list_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/group_browse_list_account_header" />
+    <com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:orientation="horizontal" android:id="@id/group_detail" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/group_list_header" android:paddingStart="@dimen/coui_card_list_item_left_padding" android:paddingEnd="@dimen/DP_28">
+        <RelativeLayout android:layout_gravity="start|center" android:id="@id/group_detail_left_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="vertical" android:id="@id/name_count" android:paddingTop="@dimen/DP_12" android:paddingBottom="@dimen/DP_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingEnd="@dimen/DP_16" android:layout_toStartOf="@id/group_detail_right_layout" android:layout_alignParentStart="true">
+                <TextView android:ellipsize="end" android:gravity="start" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" android:layout_alignParentStart="true" style="@style/LargeTextStyle" />
+                <TextView android:textColor="@color/coui_color_label_secondary" android:ellipsize="end" android:gravity="start" android:id="@id/count" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_3" android:layout_below="@id/label" android:textAlignment="viewStart" android:layout_alignParentStart="true" style="@style/SmallTextStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/group_detail_right_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <ImageView android:id="@id/jump_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?couiButtonNextStyle" android:paddingEnd="@dimen/DP_4" />
+                <CheckBox android:id="@id/listview_scrollchoice_checkbox" android:visibility="gone" android:layout_marginStart="@dimen/DP_0" android:layout_marginEnd="@dimen/DP_0" style="@style/CheckBoxStyle" />
+            </RelativeLayout>
+            <ImageView android:id="@id/bottom_divider" android:layout_below="@id/name_count" android:layout_marginEnd="@dimen/DP_4" android:layout_alignStart="@id/name_count" style="@style/BottomDividerStyle" />
+        </RelativeLayout>
+    </com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>
+</RelativeLayout>

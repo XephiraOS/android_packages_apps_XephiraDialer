@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.framework.baseui.widget.RecommendView android:paddingBottom="@dimen/DP_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/recommend_view" android:background="@drawable/pb_bg_shape_top_tips" android:paddingTop="@dimen/DP_10" android:paddingBottom="@dimen/DP_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_0" android:paddingEnd="@dimen/DP_4" android:layout_marginStart="@dimen/list_common_margin" android:layout_marginEnd="@dimen/DP_36">
+        <LinearLayout android:id="@id/content_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_marginStart="@dimen/DP_12" />
+            <TextView android:id="@id/content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_2" android:layout_marginStart="@dimen/DP_8" android:layout_marginEnd="@dimen/DP_16" style="@style/RecommendContentTextStyle" />
+        </LinearLayout>
+        <View android:id="@id/placeholder" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="1.0dip" />
+        <LinearLayout android:id="@id/action_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:id="@id/dismiss_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RecommendActionTextStyle" />
+            <TextView android:id="@id/action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RecommendActionTextStyle" />
+        </LinearLayout>
+        <androidx.constraintlayout.helper.widget.Flow android:layout_width="fill_parent" android:layout_height="wrap_content" app:constraint_referenced_ids="content_layout,placeholder,action_layout" app:flow_firstHorizontalBias="0.0" app:flow_firstHorizontalStyle="packed" app:flow_lastHorizontalBias="1.0" app:flow_lastHorizontalStyle="packed" app:flow_verticalGap="@dimen/DP_4" app:flow_wrapMode="chain" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.android.contacts.framework.baseui.widget.RecommendView>

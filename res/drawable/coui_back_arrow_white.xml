@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="vector" android:height="24.0dip" android:width="24.0dip" android:autoMirrored="true" android:viewportWidth="72.0" android:viewportHeight="72.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="group">
+        <path android:name="path_width" android:pathData="M 58 36 L 12 36 M 30 18 L 12.3 35.293 C 11.9 35.683 11.9 36.317 12.3 36.707 L 30 54" android:strokeColor="@android:color/white" android:strokeWidth="4.0" />
+    </group>
+</vector>

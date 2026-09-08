@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/query_contacts_tip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/query_contacts_background_cn" android:layout_width="@dimen/DP_280" android:layout_height="@dimen/DP_178" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:gravity="center" android:id="@id/query_layout" android:layout_width="fill_parent" android:layout_height="@dimen/DP_178" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/query_contacts_background_other" android:layout_width="@dimen/DP_280" android:layout_height="fill_parent" android:src="@drawable/pb_ic_search_tips" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/DP_14" android:textColor="@color/pb_color_dial_support_search_text" android:ellipsize="end" android:gravity="center" android:id="@id/query_contacts_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialpad_query_contacts_title_margin_top" android:text="@string/intelligent_dial_tips" android:maxLines="2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/DP_12" android:textColor="@color/pb_color_dial_support_search_text" android:ellipsize="end" android:gravity="center" android:id="@id/query_contacts_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialpad_query_contacts_text_margin_top" android:maxLines="2" android:layout_below="@id/query_contacts_title" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

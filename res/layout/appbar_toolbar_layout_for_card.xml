@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.android.contacts.framework.baseui.behavior.SecondToolbarBehavior" style="@style/BackgroundNullStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.toolbar.COUIToolbar android:id="@id/toolbar" android:background="@drawable/coui_with_card_toolbar_bg" style="@style/COUICollapsedToolbarStyle" />
+    <View android:layout_gravity="center_horizontal" android:id="@id/divider_line" android:background="?couiColorDivider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_background_height" android:alpha="0.0" android:layout_marginStart="@dimen/common_margin" android:layout_marginEnd="@dimen/common_margin" android:forceDarkAllowed="false" />
+</com.google.android.material.appbar.AppBarLayout>

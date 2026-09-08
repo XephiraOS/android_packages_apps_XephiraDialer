@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/mark_read" android:title="@string/all_sms_read" app:showAsAction="never" />
+    <item android:id="@id/blocked_rule" android:title="@string/block_rule_settings" app:showAsAction="never" />
+    <item android:id="@id/edit" android:title="@string/edit" app:showAsAction="never" />
+</menu>

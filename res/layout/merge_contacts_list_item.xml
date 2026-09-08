@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingBottom="@dimen/DP_16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:gravity="center_vertical" android:id="@id/cardItem" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:focusable="false" android:clickable="false" android:descendantFocusability="blocksDescendants" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/list_common_margin">
+            <include android:id="@id/main_view" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/merge_attach_view" />
+            <LinearLayout android:orientation="vertical" android:id="@id/attach_view" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/main_view" android:layout_alignStart="@id/main_view" />
+            <TextView android:textSize="@dimen/SP_14" android:textColor="?couiColorLabelTheme" android:gravity="center" android:id="@id/manual_merge" android:background="@drawable/card_list_bottom_item_bg_selector" android:paddingTop="@dimen/DP_16" android:paddingBottom="@dimen/DP_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/merge_manually" android:layout_below="@id/attach_view" android:fontFamily="sans-serif-medium" />
+        </RelativeLayout>
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/check" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="@dimen/DP_6" android:layout_marginEnd="@dimen/DP_16" />
+    </com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:orientation="vertical" android:id="@id/single_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:id="@id/title" android:paddingTop="@dimen/coui_input_preference_single_title_padding_top" android:paddingBottom="@dimen/coui_input_preference_title_padding_bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/coui_edit_text_hint_start_padding" style="@style/COUIInputTitleStyle" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title">
+            <LinearLayout android:orientation="horizontal" android:id="@id/header_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toEndOf="@id/header_container">
+                <LinearLayout android:orientation="vertical" android:id="@id/edittext_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center" android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="10.0sp" android:textColor="?couiColorHintNeutral" android:id="@id/input_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/coui_input_button_layout_margin_start" />
+                    <ImageButton android:id="@id/delete_button" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_edit_text_delete" android:contentDescription="@string/coui_slide_delete" android:layout_marginStart="@dimen/coui_input_button_layout_margin_start" />
+                    <CheckBox android:enabled="true" android:id="@id/checkbox_password" android:background="@null" android:visibility="gone" android:scrollbars="none" android:layout_width="@dimen/coui_inputview_password_size" android:layout_height="@dimen/coui_inputview_password_size" android:checked="true" android:button="@drawable/coui_edittext_password_icon" android:layout_marginStart="@dimen/coui_card_input_password_margin_start" />
+                </LinearLayout>
+            </FrameLayout>
+        </RelativeLayout>
+    </com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>
+    <TextView android:textAppearance="@style/couiTextCaption" android:textColor="?couiColorError" android:id="@id/text_input_error" android:paddingTop="@dimen/coui_card_single_input_padding_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/single_card" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.android.contacts.list.ContactListFilterView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/account_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_common_margin" android:paddingEnd="@dimen/list_common_margin">
+        <View android:id="@id/indent" android:layout_width="32.0dip" android:layout_height="fill_parent" />
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/accountItem" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.coui.appcompat.imageview.COUIRoundImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:visibility="gone" android:layout_width="@dimen/contact_filter_icon_size" android:layout_height="@dimen/contact_filter_icon_size" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/DP_6" />
+            <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/padding_top" android:paddingBottom="@dimen/padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/icon">
+                <TextView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/LargeTextStyle" />
+                <TextView android:id="@id/account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/SmallTextStyle" />
+                <TextView android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/SmallTextStyle" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/radioBtn" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:id="@id/bottom_divider" android:layout_marginStart="@dimen/list_common_margin" android:layout_marginEnd="@dimen/list_common_margin" style="@style/BottomDividerStyle" />
+</view>

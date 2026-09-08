@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fold_call_button_layout_0" android:paddingBottom="@dimen/fold_end_button_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.incallui.oplus.widgets.ScaleImageView android:layout_gravity="center" android:id="@id/end_button_fold" android:tag="binding_1" android:layout_width="@dimen/fold_answer_view_swipe_btn_size" android:layout_height="@dimen/fold_answer_view_swipe_btn_size" android:src="@drawable/incall_btn_reject" android:contentDescription="@string/notification_action_end_call" />
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/ted_numbers_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/divider_more_relevant_numbers" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/DP_16" android:layout_below="@id/ted_numbers_container" />
+    <com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:id="@id/ted_more_relevant_numbers" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/divider_more_relevant_numbers">
+        <RelativeLayout android:paddingTop="@dimen/padding_top" android:paddingBottom="@dimen/padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/DP_16" android:paddingEnd="@dimen/DP_16" style="@style/ListItemSelectorStyle">
+            <TextView android:id="@id/related_phone_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/related_phone_number" android:paddingStart="@dimen/DP_12" android:layout_toStartOf="@id/jump_mark" android:layout_alignParentStart="true" style="@style/LargeTextStyle" />
+            <TextView android:id="@id/ted_numbers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ted_numbers" android:layout_below="@id/related_phone_number" android:paddingStart="@dimen/DP_12" android:layout_alignStart="@id/related_phone_number" style="@style/SmallTextStyle" />
+            <ImageView android:id="@id/jump_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?couiButtonNextStyle" android:layout_centerVertical="true" android:paddingEnd="@dimen/DP_12" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>
+</RelativeLayout>

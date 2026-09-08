@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/call_detail" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.customize.contacts.widget.MultiChoiceListView android:scrollbarStyle="outsideOverlay" android:id="@id/history" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_alignParentTop="true" android:layout_alignParentStart="true" app:couiListGridNumber="@integer/grid_guide_column_preference" app:isParentChildHierarchy="true" app:paddingSize="small" app:paddingType="cardListType" style="@style/ListViewStyle" />
+    <View android:id="@id/blank" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentStart="true" style="@style/BackgroundNullStyle" />
+</RelativeLayout>

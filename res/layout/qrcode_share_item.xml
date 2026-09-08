@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/DP_24" android:layout_marginEnd="@dimen/DP_24">
+        <ImageView android:id="@id/qr_img" android:background="@drawable/pb_bg_border_share_qrcode" android:padding="@dimen/DP_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_6" android:forceDarkAllowed="false" />
+        <TextView android:textColor="@color/coui_color_label_primary" android:layout_gravity="center_horizontal" android:id="@id/tv_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DP_12" android:layout_marginBottom="@dimen/DP_12" android:text="@string/scan_qr_code_can_add_contact" style="@style/SmallTextStyle" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

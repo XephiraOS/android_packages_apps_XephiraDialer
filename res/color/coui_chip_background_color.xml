@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="3000" android:exitFadeDuration="3000"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true" android:id="@id/selected" android:color="?couiColorPrimaryNeutral" />
+    <item android:state_enabled="true" android:state_checked="false" android:id="@id/unselected" android:color="?couiColorPressBackground" />
+</selector>

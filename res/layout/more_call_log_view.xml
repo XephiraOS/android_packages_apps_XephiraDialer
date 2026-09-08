@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:enabled="false" android:gravity="center_vertical" android:paddingTop="@dimen/DP_4" android:paddingBottom="@dimen/DP_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/DP_16" android:paddingEnd="@dimen/DP_16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/recentCallsIconLabel" android:layout_weight="1.0" android:textAlignment="viewStart" android:paddingStart="@dimen/DP_16" style="@style/SmallTitleStyle" />
+    <TextView android:textColor="?couiColorLabelTheme" android:id="@id/more_call_log" android:paddingTop="@dimen/DP_4" android:paddingBottom="@dimen/DP_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_all" android:paddingStart="@dimen/DP_12" android:paddingEnd="@dimen/DP_12" android:layout_marginEnd="@dimen/DP_4" style="@style/couiTextButtonS" />
+</LinearLayout>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anti_mark_number_threshold">
+        <item quantity="other">Calls flagged by over %1$d people will be blocked.</item>
+        <item quantity="one">Calls flagged by over %1$d person will be blocked.</item>
+    </plurals>
+    <plurals name="auto_merge_complete_tips_v2">
+        <item quantity="other">Merge %s groups of contacts</item>
+        <item quantity="one">Merge %s group of contacts</item>
+    </plurals>
+    <plurals name="auto_merge_numbers_v2">
+        <item quantity="other">Merge %s groups of duplicate contacts</item>
+        <item quantity="one">Merge %s group of duplicate contacts</item>
+    </plurals>
+    <plurals name="bl_delete_multi_call_log">
+        <item quantity="other">Delete %1$s call logs?</item>
+        <item quantity="one">Delete %1$s call log?</item>
+    </plurals>
+    <plurals name="bl_delete_multi_call_log_body">
+        <item quantity="other">%1$s call logs will be permanently deleted from this device.</item>
+        <item quantity="one">%1$s call log will be permanently deleted from this device.</item>
+    </plurals>
+    <plurals name="bl_delete_multi_conversation">
+        <item quantity="other">Delete %1$s conversations?</item>
+        <item quantity="one">Delete %1$s conversation?</item>
+    </plurals>
+    <plurals name="bl_delete_multi_conversation_body">
+        <item quantity="other">%1$s conversations will be permanently deleted from this device.</item>
+        <item quantity="one">%1$s conversation will be permanently deleted from this device.</item>
+    </plurals>
+    <plurals name="calllogs_have_associated_files_2">
+        <item quantity="other">The call logs contain additional information (%s).</item>
+        <item quantity="one">The call log contains additional information (%s).</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="other">Page %1$d of %2$d</item>
+        <item quantity="one">Page %1$d of %2$d</item>
+    </plurals>
+    <plurals name="delete_n_contacts_contain_cloud">
+        <item quantity="other">%1$s contacts will be permanently deleted from this device, the cloud, and other synced devices.</item>
+        <item quantity="one">%1$s contact will be permanently deleted from this device, the cloud, and other synced devices.</item>
+    </plurals>
+    <plurals name="delete_n_invalid_number">
+        <item quantity="other">Delete special characters from %1$s numbers?</item>
+        <item quantity="one">Delete special characters from %1$s number?</item>
+    </plurals>
+    <plurals name="delete_n_long_number">
+        <item quantity="other">Delete %1$s ultra-long numbers?</item>
+        <item quantity="one">Delete %1$s ultra-long number?</item>
+    </plurals>
+    <plurals name="delete_n_number_ip">
+        <item quantity="other">Delete IP prefixes from %1$s numbers?</item>
+        <item quantity="one">Delete IP prefixes from %1$s number?</item>
+    </plurals>
+    <plurals name="delete_select_call_log">
+        <item quantity="other">Delete %d call logs</item>
+        <item quantity="one">Delete %d call log</item>
+    </plurals>
+    <plurals name="delete_selected_calllogs">
+        <item quantity="other">Delete %d call logs?</item>
+        <item quantity="one">Delete %d call log?</item>
+    </plurals>
+    <plurals name="delete_selected_voicemail_v2">
+        <item quantity="other">Delete %1$d voice messages?</item>
+        <item quantity="one">Delete %1$d voice message?</item>
+    </plurals>
+    <plurals name="dialog_title_delete_n_contacts">
+        <item quantity="other">Delete %1$s contacts?</item>
+        <item quantity="one">Delete %1$s contact?</item>
+    </plurals>
+    <plurals name="dialog_title_delete_n_contacts_from_groups">
+        <item quantity="other">Remove %1$s contacts from this group?</item>
+        <item quantity="one">Remove %1$s contact from this group?</item>
+    </plurals>
+    <plurals name="dialog_title_delete_n_groups">
+        <item quantity="other">Delete %1$s groups?</item>
+        <item quantity="one">Delete %1$s group?</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">1 h</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 s</item>
+    </plurals>
+    <plurals name="foundTooManyContactstoShow_v2">
+        <item quantity="other">More than %1$d Exchange contacts (%2$s)</item>
+        <item quantity="one">More than %1$d Exchange contact (%2$s)</item>
+    </plurals>
+    <plurals name="group_member_count_tips">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="incall_conference_participant">
+        <item quantity="other">%d participants</item>
+        <item quantity="one">%d participant</item>
+    </plurals>
+    <plurals name="item_counts">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+    </plurals>
+    <plurals name="list_total_all_contacts_count">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="merge_canceled_v2">
+        <item quantity="other">Merging canceled. %1$s groups of contacts merged.</item>
+        <item quantity="one">Merging canceled. %1$s group of contacts merged.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="notification_missedCallsMsg">
+        <item quantity="other">%s missed calls</item>
+        <item quantity="one">%s missed call</item>
+    </plurals>
+    <plurals name="number_of_special_names">
+        <item quantity="other">%1$s keywords</item>
+        <item quantity="one">%1$s keyword</item>
+    </plurals>
+    <plurals name="number_will_be_blocked">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+    </plurals>
+    <plurals name="number_will_not_be_blocked">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+    </plurals>
+    <plurals name="oplus_contact_count_v2">
+        <item quantity="other">Search within %1$s contacts</item>
+        <item quantity="one">Search within %1$s contact</item>
+    </plurals>
+    <plurals name="oplus_contact_email_count_v2">
+        <item quantity="other">Search within emails of %1$s contacts</item>
+        <item quantity="one">Search within emails of %1$s contact</item>
+    </plurals>
+    <plurals name="oplus_contact_number_count_v2">
+        <item quantity="other">Search within %1$s numbers</item>
+        <item quantity="one">Search within %1$s number</item>
+    </plurals>
+    <plurals name="oplus_contacts_customcount_v2">
+        <item quantity="other">Selected: %1$s</item>
+        <item quantity="one">Selected: %1$s</item>
+    </plurals>
+    <plurals name="oplus_contacts_merge_count_p1">
+        <item quantity="other">Total: %1$s, </item>
+        <item quantity="one">Total: %1$s, </item>
+    </plurals>
+    <plurals name="oplus_contacts_merge_count_p2">
+        <item quantity="other">After smart merge: %1$s contacts</item>
+        <item quantity="one">After smart merge: %1$s contact</item>
+    </plurals>
+    <plurals name="oplus_contacts_merge_customcount_p1">
+        <item quantity="other">Selected: %1$s, </item>
+        <item quantity="one">Selected: %1$s, </item>
+    </plurals>
+    <plurals name="oplus_contacts_totalcount_v2">
+        <item quantity="other">Total: %1$s</item>
+        <item quantity="one">Total: %1$s</item>
+    </plurals>
+    <plurals name="oplus_groups_v2">
+        <item quantity="other">%s groups</item>
+        <item quantity="one">%s group</item>
+    </plurals>
+    <plurals name="oplus_msg_import_failed">
+        <item quantity="other">Import failed. %1$d contacts imported</item>
+        <item quantity="one">Import failed. %1$d contact imported</item>
+    </plurals>
+    <plurals name="oplus_ring_time_v2">
+        <item quantity="other"> (Rang for %1$s s)</item>
+        <item quantity="one"> (Rang for %1$s s)</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="remove_area">
+        <item quantity="other">Remove %1$s countries or regions</item>
+        <item quantity="one">Remove %1$s country or region</item>
+    </plurals>
+    <plurals name="remove_black_number_list_title">
+        <item quantity="other">Remove %1$s numbers from the blocklist?</item>
+        <item quantity="one">Remove %1$s number from the blocklist?</item>
+    </plurals>
+    <plurals name="remove_city">
+        <item quantity="other">Remove %1$s regions</item>
+        <item quantity="one">Remove %1$s region</item>
+    </plurals>
+    <plurals name="remove_multi_area_v1">
+        <item quantity="other">Remove %1$s countries or regions?</item>
+        <item quantity="one">Remove %1$s country or region?</item>
+    </plurals>
+    <plurals name="remove_multi_city_v1">
+        <item quantity="other">Remove %1$s regions?</item>
+        <item quantity="one">Remove %1$s region?</item>
+    </plurals>
+    <plurals name="remove_multi_key_word">
+        <item quantity="other">Remove %1$s keywords?</item>
+        <item quantity="one">Remove %1$s keyword?</item>
+    </plurals>
+    <plurals name="remove_special_names">
+        <item quantity="other">Remove %1$s keywords?</item>
+        <item quantity="one">Remove %1$s keyword?</item>
+    </plurals>
+    <plurals name="remove_white_number_list_title">
+        <item quantity="other">Remove %1$s numbers from the allowlist?</item>
+        <item quantity="one">Remove %1$s number from the allowlist?</item>
+    </plurals>
+    <plurals name="searchFoundContactstoShow">
+        <item quantity="other">FOUND %1$d ONLINE EXCHANGE CONTACTS (%2$s)</item>
+        <item quantity="one">FOUND 1 ONLINE EXCHANGE CONTACT (%2$s)</item>
+    </plurals>
+    <plurals name="select_items_max_v1">
+        <item quantity="other">No more than %1$d contacts can be selected</item>
+        <item quantity="one">No more than %1$d contact can be selected</item>
+    </plurals>
+    <plurals name="select_items_v2">
+        <item quantity="other">%1$d items selected</item>
+        <item quantity="one">%1$d item selected</item>
+    </plurals>
+    <plurals name="show_contacts_moved">
+        <item quantity="other">%d contacts have been migrated.</item>
+        <item quantity="one">%d contact has been migrated.</item>
+    </plurals>
+    <plurals name="ted_numbers_v2">
+        <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
+    </plurals>
+    <plurals name="voicemail_sub_title_other_v2">
+        <item quantity="other">%1$d new voicemails</item>
+        <item quantity="one">%1$d new voicemail</item>
+    </plurals>
+</resources>

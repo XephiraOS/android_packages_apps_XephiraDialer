@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:minLevel="@integer/incall_shadow_foreground_default_level" android:maxLevel="@integer/incall_shadow_foreground_default_level">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/coui_transparence" />
+        </shape>
+    </item>
+    <item android:minLevel="@integer/incall_shadow_foreground_video_color_level" android:maxLevel="@integer/incall_shadow_foreground_video_color_level">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/incall_single_call_shadow_video_color" />
+        </shape>
+    </item>
+    <item android:minLevel="@integer/incall_shadow_foreground_high_color_level" android:maxLevel="@integer/incall_shadow_foreground_high_color_level">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/incall_single_call_shadow_high_color" />
+        </shape>
+    </item>
+</level-list>

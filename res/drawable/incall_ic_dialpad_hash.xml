@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/incall_keyboard_color" android:pathData="M9.3007,1.9976H11.3007L10.5409,7.0646H14.6409L15.4007,1.9976H17.4007L16.6409,7.0646H19.6512V9.0646H16.3409L15.4631,14.9183H18.4525V16.9183H15.1632L14.4007,22.0025H12.4007L13.1632,16.9183H9.0632L8.3007,22.0025H6.3007L7.0632,16.9183H4.3491V14.9183H7.3631L8.2409,9.0646H5.5499V7.0646H8.5409L9.3007,1.9976ZM9.3631,14.9183H13.4631L14.3409,9.0646H10.2409L9.3631,14.9183Z" android:fillAlpha="0.85" android:fillType="evenOdd" />
+</vector>

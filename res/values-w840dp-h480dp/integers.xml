@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="responsive_ui_column_count">@integer/inner_responsive_ui_column_12</item>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sim_switcher" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/switch_bg" android:background="@drawable/pb_bg_sim_switch" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerInParent="true" android:forceDarkAllowed="false" />
+    <ImageButton android:id="@id/sim1_prompt" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pb_ic_sim1_prompt" android:layout_centerInParent="true" android:contentDescription="@string/sim_1_description" android:forceDarkAllowed="false" />
+    <ImageButton android:id="@id/sim2_prompt" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pb_ic_sim2_prompt" android:layout_centerInParent="true" android:contentDescription="@string/sim_2_description" android:forceDarkAllowed="false" />
+</RelativeLayout>

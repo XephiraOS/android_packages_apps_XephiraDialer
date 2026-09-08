@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.customize.contacts.ui.UnfoldContainerView android:id="@id/dial_fragment_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/container_list" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/key_dialer_layout" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/left_right_content" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/dialpad_layout" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/dial_container_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.customize.contacts.ui.UnfoldContainerView>

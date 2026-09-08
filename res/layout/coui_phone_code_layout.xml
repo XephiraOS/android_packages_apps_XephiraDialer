@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/code_container_layout" android:layout_width="fill_parent" android:layout_height="@dimen/coui_code_input_cell_height" />
+    <EditText android:textColor="@android:color/transparent" android:id="@id/code_container_edittext" android:background="@android:color/transparent" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="@dimen/coui_code_input_cell_height" android:inputType="number" android:textSelectHandle="@drawable/coui_number_text_select_middle_tint" android:textCursorDrawable="@drawable/coui_number_text_cursor_default" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/call_card_secondary_info" android:tag="layout/call_card_secondary_info_layout_0" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.incallui.mvvm.widget.SuitableSizeTextView android:textSize="@dimen/call_card_secondary_info_name_text_size" android:textColor="@color/incall_call_card_secondary_name_text_color" android:ellipsize="end" android:id="@id/call_card_secondary_info_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" app:fontScaleLevel="G2" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/call_card_secondary_sim_icon" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:layout_marginEnd="@dimen/call_card_secondary_info_icon_margin_end" />
+        <com.android.incallui.mvvm.widget.SuitableSizeTextView android:textSize="@dimen/call_card_secondary_info_connection_text_size" android:textColor="@color/incall_call_card_secondary_state_text_color" android:ellipsize="end" android:id="@id/call_card_secondary_info_connectionLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" app:fontScaleLevel="G2" />
+    </LinearLayout>
+    <View android:id="@id/multi_call_divider" android:tag="binding_1" android:background="@color/incall_call_card_secondary_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/call_card_secondary_info_divider_height" android:forceDarkAllowed="false" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.poplist.RoundFrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:forceDarkAllowed="false" app:rfRadius="?couiRoundCornerM"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.poplist.COUITouchListView android:id="@id/coui_popup_list_view" android:background="@android:color/transparent" android:scrollbars="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/coui_popup_list_window_margin_top" android:layout_marginBottom="@dimen/coui_popup_list_window_margin_bottom" android:listSelector="@android:color/transparent" android:divider="@null" android:overScrollMode="never" android:layout_marginStart="@dimen/support_shadow_size_level_three" android:layout_marginEnd="@dimen/support_shadow_size_level_three" />
+</com.coui.appcompat.poplist.RoundFrameLayout>

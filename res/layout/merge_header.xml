@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/title_count" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_common_margin" android:layout_marginBottom="@dimen/text_common_margin" android:maxLines="1" android:layout_marginStart="@dimen/DP_32" android:layout_toStartOf="@id/count" android:layout_alignParentStart="true" style="@style/SmallTitleStyle" />
+    <TextView android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_common_margin" android:layout_marginBottom="@dimen/text_common_margin" android:layout_marginEnd="@dimen/DP_32" android:layout_alignParentEnd="true" style="@style/SmallTitleStyle" />
+</RelativeLayout>

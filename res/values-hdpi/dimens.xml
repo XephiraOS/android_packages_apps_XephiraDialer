@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="camera_control_button_height">110.0dip</dimen>
+    <dimen name="color_detail_photo_background_size">98.0dip</dimen>
+    <dimen name="dialpad_buttons_paddingLeft">30.0dip</dimen>
+    <dimen name="dialpad_container_height">380.0dip</dimen>
+    <dimen name="oplus_call_card_fourth_line_margin_top">3.0dip</dimen>
+    <dimen name="take_picture_guide_view_height">433.0dip</dimen>
+</resources>

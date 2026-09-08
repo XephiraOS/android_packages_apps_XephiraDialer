@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_dialog_scroll_padding_top">20.0dip</dimen>
+    <dimen name="coui_alert_dialog_builder_content_max_height">120.0dip</dimen>
+    <dimen name="coui_alert_dialog_builder_content_max_height_with_adapter">120.0dip</dimen>
+    <dimen name="coui_alert_dialog_builder_title_scroll_max_height">120.0dip</dimen>
+    <dimen name="coui_alert_dialog_builder_with_button_min_height">58.0dip</dimen>
+    <dimen name="coui_full_page_statement_button_margin">16.0dip</dimen>
+    <dimen name="coui_full_page_statement_button_margin_top">20.0dip</dimen>
+    <dimen name="coui_full_page_statement_content_margin">12.0dip</dimen>
+    <dimen name="coui_full_page_statement_text_button_padding">12.0dip</dimen>
+</resources>

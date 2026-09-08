@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/edit_prefix_number_title_v4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/customize_preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPagerHeaderPreference android:selectable="false" android:summary="@string/prefix_number_message_v2" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUIInputPreference android:key="edit_number" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUIMenuPreference android:persistent="false" android:entries="@array/bl_edit_function_array" android:title="@string/bl_block_function_setting" android:key="edit_function" android:entryValues="@array/bl_edit_function_array_values" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.oplus.widget.BlacklistBigButtonPreference android:persistent="false" android:key="edit_submit" app:btnText="@android:string/ok" />
+</androidx.preference.PreferenceScreen>

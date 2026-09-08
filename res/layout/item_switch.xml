@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:gravity="center_vertical" android:id="@id/switch_layout" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/support_preference_title_padding_start" android:paddingEnd="@dimen/support_preference_title_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/switch_title" android:paddingTop="@dimen/DP_15" android:paddingBottom="@dimen/DP_15" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/COUIPreferenceTitleStyle" />
+    <com.coui.appcompat.couiswitch.COUISwitch android:id="@id/coui_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="?couiColorHintNeutral" android:height="16.0dip" android:width="16.0dip" android:tintMode="src_in" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="_R_G">
+        <group android:name="_R_G_L_1_G" android:translateX="34.5" android:translateY="24.0">
+            <path android:name="_R_G_L_1_G_D_0_P_0" android:fillColor="#ff000000" android:pathData=" M-10.5 7.4 C-10.5,7.4 -21.85,-6.74 -21.85,-6.74 C-21.85,-6.74 -10.49,-6.74 -10.49,-6.74 C-10.49,-6.74 0.94,-6.74 0.94,-6.74 C0.94,-6.74 -10.5,7.4 -10.5,7.4c " android:fillAlpha="1.0" android:fillType="nonZero" />
+            <path android:name="_R_G_L_1_G_D_1_P_0" android:pathData=" M-10.5 7.4 C-10.5,7.4 -21.85,-6.74 -21.85,-6.74 C-21.85,-6.74 -10.49,-6.74 -10.49,-6.74 C-10.49,-6.74 0.94,-6.74 0.94,-6.74 C0.94,-6.74 -10.5,7.4 -10.5,7.4c " android:strokeColor="#ff000000" android:strokeWidth="4.0" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="1.0" />
+        </group>
+    </group>
+    <group android:name="time_group" />
+</vector>

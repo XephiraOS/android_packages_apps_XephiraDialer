@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/coui_alert_dialog_content_panel_padding_top" android:paddingBottom="@dimen/coui_security_alert_dialog_content_panel_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" android:fadeScrollbars="false">
+        <TextView android:textSize="@dimen/TD07" android:textColor="@color/coui_support_menu_textcolor_normal" android:id="@id/oplus_dialog_content" android:paddingLeft="@dimen/coui_alert_dialog_message_padding_left" android:paddingRight="@dimen/coui_alert_dialog_message_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" />
+    </ScrollView>
+    <CheckBox android:textSize="@dimen/TD05" android:textColor="@color/C17" android:id="@id/oplus_remember" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/M3" android:text="@string/Rakuten_prefix_dialog_remember_choice" android:textAlignment="center" android:layout_marginStart="@dimen/coui_alert_dialog_checkbox_margin_left" android:layout_marginEnd="@dimen/coui_alert_dialog_message_padding_left" />
+</LinearLayout>

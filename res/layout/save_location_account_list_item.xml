@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/coui_popup_list_window_item_padding_top_and_bottom" android:paddingBottom="@dimen/coui_popup_list_window_item_padding_top_and_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/accountItem" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/DP_24">
+        <TextView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/LargeTextStyle" />
+        <TextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/SmallTextStyle" />
+    </LinearLayout>
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/checkbox" android:background="@null" android:focusable="false" android:visibility="gone" android:scrollbars="none" android:clickable="false" android:layout_width="@dimen/coui_popup_list_window_checkbox_width" android:layout_height="@dimen/coui_popup_list_window_checkbox_height" android:button="@drawable/coui_menu_ic_checkbox" android:layout_marginStart="@dimen/coui_popup_list_window_item_title_margin_left" android:layout_marginEnd="@dimen/coui_popup_list_window_item_title_margin_left" />
+</LinearLayout>

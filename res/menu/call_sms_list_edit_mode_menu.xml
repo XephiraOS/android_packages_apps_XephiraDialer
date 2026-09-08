@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/bl_dr_mark_read" android:id="@id/action_mark" android:title="@string/unread_messagebox_mark_as_readed" />
+    <item android:icon="@drawable/bl_dr_bottom_menu_restore" android:id="@id/restore" android:title="@string/restore" />
+    <item android:icon="@drawable/bl_dr_bottom_menu_whitelist" android:id="@id/whitelist" android:title="@string/add_to_whitelist" />
+    <item android:icon="@drawable/bl_dr_bottom_menu_delete" android:id="@id/delete" android:title="@string/customize_delete" />
+</menu>

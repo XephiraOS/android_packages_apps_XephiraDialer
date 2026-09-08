@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.stepper.COUIStepperView android:id="@id/stepper" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?couiStepperViewStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

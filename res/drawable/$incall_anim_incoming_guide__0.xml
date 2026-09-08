@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="guide" android:height="55.0dip" android:width="22.0dip" android:viewportWidth="22.0" android:viewportHeight="55.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="arrow_guide">
+        <group android:translateY="22.0">
+            <path android:name="first_arrow" android:fillColor="#00000000" android:pathData="M20.3625,30.6306 L12.1312,24.5908 C11.7355,24.3004 11.5376,24.1552 11.3094,24.1008 C11.1087,24.053 10.8925,24.053 10.6917,24.1008 C10.4636,24.1552 10.2657,24.3004 9.8699,24.5908L1.6387,30.6306" android:strokeColor="#ffffffff" android:strokeWidth="2.5" />
+            <path android:name="second_arrow" android:fillColor="#00000000" android:pathData="M20.3625,19.9255 L12.1312,13.8858 C11.7355,13.5954 11.5376,13.4502 11.3094,13.3958 C11.1087,13.3479 10.8925,13.3479 10.6917,13.3958 C10.4636,13.4502 10.2657,13.5954 9.8699,13.8858L1.6387,19.9255" android:strokeColor="#ffffffff" android:strokeWidth="2.5" />
+            <path android:name="third_arrow" android:fillColor="#00000000" android:pathData="M20.3625,9.2204 L12.1312,3.1807 C11.7355,2.8903 11.5376,2.7451 11.3094,2.6907 C11.1087,2.6428 10.8925,2.6428 10.6917,2.6907 C10.4636,2.7451 10.2657,2.8903 9.8699,3.1807L1.6387,9.2205" android:strokeColor="#ffffffff" android:strokeWidth="2.5" />
+        </group>
+    </group>
+</vector>

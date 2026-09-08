@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/minus" android:focusable="true" android:clickable="true" android:layout_width="@dimen/stepper_button_size" android:layout_height="@dimen/stepper_button_size" android:contentDescription="@string/minus_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:gravity="center" android:id="@id/indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="44.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="@id/minus" app:layout_constraintEnd_toStartOf="@id/plus" app:layout_constraintStart_toEndOf="@id/minus" app:layout_constraintTop_toTopOf="@id/minus" app:layout_constraintWidth_min="wrap" style="?couiTextAppearanceHeadline5" />
+    <ImageView android:id="@id/plus" android:focusable="true" android:clickable="true" android:layout_width="@dimen/stepper_button_size" android:layout_height="@dimen/stepper_button_size" android:contentDescription="@string/minus_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>
