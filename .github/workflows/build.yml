@@ -3,9 +3,13 @@ name: Build XephiraDialer
 on:
   push:
     branches: [ lineage-23.2, main ]
+    tags: [ 'v*' ]
   pull_request:
     branches: [ lineage-23.2, main ]
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -32,5 +36,22 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: XephiraDialer-debug.apk
-          path: build/outputs/apk/debug/*.apk
+          path: build/outputs/apk/debug/XephiraDialer-debug.apk
           if-no-files-found: error
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        if: github.ref == 'refs/heads/lineage-23.2' || startsWith(github.ref, 'refs/tags/')
+        with:
+          tag_name: v1.0.0
+          name: "Xephira Dialer v1.0.0"
+          body: |
+            ### Xephira Dialer v1.0.0
+            Ported native OPlus Dialer for XephiraOS.
+
+            #### Changes & Fixes:
+            - **Fixed Package Parse Error**: Lowered `minSdkVersion` to 26 (supports Android 8.0 through Android 15+).
+            - **Zipaligned & Multi-Scheme Signed**: 4-byte aligned and signed with APK Signature Scheme v1, v2, and v3.
+            - **Valid Application Icon**: Configured `android:icon="@drawable/pb_ic_oplus_dialer"`.
+            - **XephiraOS Signature Experience**: Rebranded strings, OnePlus haptics, fluid animations, and InCallUI intact.
+          files: build/outputs/apk/debug/XephiraDialer-debug.apk

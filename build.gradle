@@ -3,9 +3,10 @@ plugins {
 }
 
 def apktoolJar = file("tools/apktool.jar")
-def debugKeystore = file("debug.keystore")
+def signerJar = file("tools/uber-apk-signer.jar")
 def outputDir = file("build/outputs/apk/debug")
 def unsignedApk = file("${outputDir}/XephiraDialer-unsigned.apk")
+def alignedSignedApk = file("${outputDir}/XephiraDialer-aligned-debugSigned.apk")
 def signedApk = file("${outputDir}/XephiraDialer-debug.apk")
 
 task ensureApktool {
@@ -18,12 +19,14 @@ task ensureApktool {
     }
 }
 
-task ensureKeystore(type: Exec) {
-    onlyIf { !debugKeystore.exists() }
-    commandLine 'keytool', '-genkey', '-v', '-keystore', debugKeystore.absolutePath,
-            '-storepass', 'android', '-alias', 'androiddebugkey', '-keypass', 'android',
-            '-keyalg', 'RSA', '-keysize', '2048', '-validity', '10000',
-            '-dname', 'CN=Android Debug,O=Android,C=US'
+task ensureSigner {
+    doLast {
+        if (!signerJar.exists()) {
+            signerJar.parentFile.mkdirs()
+            println "Downloading uber-apk-signer 1.3.0..."
+            ant.get(src: 'https://github.com/patrickfav/uber-apk-signer/releases/download/v1.3.0/uber-apk-signer-1.3.0.jar', dest: signerJar)
+        }
+    }
 }
 
 task buildUnsignedApk(type: JavaExec) {
@@ -37,22 +40,33 @@ task buildUnsignedApk(type: JavaExec) {
     }
 }
 
-task signDebugApk(type: Exec) {
-    dependsOn buildUnsignedApk, ensureKeystore
-    commandLine 'jarsigner', '-keystore', debugKeystore.absolutePath,
-            '-storepass', 'android', '-keypass', 'android',
-            '-signedjar', signedApk.absolutePath,
-            unsignedApk.absolutePath, 'androiddebugkey'
+task signDebugApk(type: JavaExec) {
+    dependsOn buildUnsignedApk, ensureSigner
+    classpath = files(signerJar)
+    mainClass = 'at.favre.tools.apksigner.SignTool'
+    args = [
+        '--apks', unsignedApk.absolutePath,
+        '-o', outputDir.absolutePath,
+        '--allowResign',
+        '--verbose'
+    ]
+
+    doLast {
+        if (alignedSignedApk.exists()) {
+            copy {
+                from alignedSignedApk
+                into outputDir
+                rename { 'XephiraDialer-debug.apk' }
+            }
+            println "Successfully generated zipaligned and v1/v2/v3 signed APK: ${signedApk.absolutePath}"
+        }
+    }
 }
 
 task assembleDebug {
     dependsOn signDebugApk
     group = 'build'
-    description = 'Builds and signs the debug APK'
-
-    doLast {
-        println "Successfully built and signed: ${signedApk.absolutePath}"
-    }
+    description = 'Builds, zipaligns and signs the debug APK with v1/v2/v3 signature schemes'
 }
 
 assemble.dependsOn assembleDebug
