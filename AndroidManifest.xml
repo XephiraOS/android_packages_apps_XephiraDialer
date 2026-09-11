@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.oplus.dialer">
-    <uses-permission android:name="android.permission.CALL_PRIVILEGED"/>
     <uses-permission android:name="android.permission.READ_CALL_LOG"/>
     <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
     <uses-permission android:name="android.permission.CALL_PHONE"/>
@@ -13,24 +12,14 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
-    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
-    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
-    <uses-permission android:name="android.permission.READ_PROFILE"/>
-    <uses-permission android:name="android.permission.WRITE_PROFILE"/>
-    <uses-permission android:name="android.permission.READ_SOCIAL_STREAM"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.NFC"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"/>
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
     <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
-    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.mail"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
-    <uses-permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
-    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
-    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
     <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL"/>
     <uses-permission android:name="com.android.voicemail.permission.READ_WRITE_ALL_VOICEMAIL"/>
     <uses-permission android:name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK"/>
@@ -41,28 +30,10 @@
     <uses-permission android:name="android.permission.ACCESS_BLUETOOTH_SHARE"/>
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
-    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE"/>
-    <uses-permission android:name="com.ted.sdk.yellow.provider.permission.WRITE"/>
-    <uses-permission android:name="com.ted.sdk.yellow.provider.permission.READ"/>
-    <uses-permission android:name="com.nearme.permission.OCLOUD_OPERATION"/>
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
-    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
     <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="heytap.permission.cloud.ACCESS_CLOUD"/>
-    <uses-permission android:name="heytap.permission.cloud.ACCESS_SYNC_SERVICE"/>
-    <uses-permission android:name="com.oppo.permission.safe.SAU"/>
-    <uses-permission android:name="com.oplus.permission.safe.SAU"/>
-    <uses-permission android:name="com.oplus.permission.safe.PHONE"/>
-    <uses-permission android:name="com.oppo.permission.safe.UPDATE"/>
-    <uses-permission android:name="com.oppo.permission.safe.SECURITY"/>
-    <uses-permission android:maxSdkVersion="32" android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
-    <uses-permission android:name="com.oplus.contacts.CALL_RECORDING_PERMISSION"/>
     <uses-permission android:name="android.permission.SET_DEFAULT_ACCOUNT_FOR_CONTACTS"/>
     <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
-    <uses-permission android:name="com.oplus.permission.safe.WINDOW"/>
-    <uses-permission android:name="android.permission.MANAGE_MEDIA"/>
-    <uses-permission android:name="com.newcall.setting.permission"/>
-    <uses-permission android:name="com.newcall.messagebox.permission.READ_DATA"/>
     <queries>
         <package android:name="com.coloros.filemanager"/>
         <package android:name="com.coloros.bootreg"/>
@@ -141,34 +112,19 @@
         <package android:name="com.coloros.ocrservice"/>
         <package android:name="com.oplus.services"/>
     </queries>
-    <uses-permission android:name="com.oplus.permission.safe.AI_APP"/>
-    <uses-permission android:name="com.oplus.permission.safe.PROTECT"/>
-    <uses-permission android:name="com.oplus.omoji.permission.readProvider"/>
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
-    <uses-permission android:name="com.oplus.permission.safe.SETTINGS"/>
     <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
     <uses-permission android:name="android.permission.REORDER_TASKS"/>
     <uses-permission android:name="android.permission.STATUS_BAR"/>
     <uses-permission android:name="android.permission.SET_TIME_ZONE"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.GET_TASKS"/>
-    <uses-permission android:name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
-    <uses-permission android:name="oplus.permission.OPLUS_COMPONENT_SAFE"/>
-    <uses-permission android:name="android.permission.READ_WALLPAPER_INTERNAL"/>
-    <uses-permission android:name="com.oplus.permission.safe.SECURITY"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"/>
-    <uses-permission android:name="com.oplus.permission.VIRTUAL_DEVICE"/>
-    <uses-permission android:name="com.oplus.permission.safe.CAR_LINK"/>
     <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS"/>
     <uses-permission android:name="android.permission.WRITE_BLOCKED_NUMBERS"/>
     <uses-permission android:name="android.permission.READ_BLOCKED_NUMBERS"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
-    <uses-permission android:name="com.heytap.accessory.permission.ACCESSORY_FRAMEWORK"/>
-    <uses-permission android:name="android.permission.READ_PRECISE_PHONE_STATE"/>
-    <permission android:name="com.oplus.dialer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
-    <uses-permission android:name="com.oplus.dialer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission android:name="com.xephira.phone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.xephira.phone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
     <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:configChanges="locale" android:defaultToDeviceProtectedStorage="true" android:directBootAware="true" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:icon="@drawable/pb_ic_oplus_dialer" android:label="@string/launcher_odialer" android:name="com.android.contacts.ContactsApplication" android:persistent="false" android:process="@string/process_name" android:requestLegacyExternalStorage="true" android:supportsRtl="true" android:taskAffinity="android.task.contacts" android:theme="@style/AppBaseTheme">
         <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:label="@string/odialer_app_name" android:name="com.customize.contacts.activities.CallContactActivity" android:noHistory="true" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:resizeableActivity="false" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/AppTheme">
             <intent-filter>
