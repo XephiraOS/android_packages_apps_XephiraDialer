@@ -1730,7 +1730,7 @@
     <color name="pb_color_dial_delete_disabled">#42000000</color>
     <color name="pb_color_dial_delete_normal">#e6000000</color>
     <color name="pb_color_dial_support_search_text">#8a000000</color>
-    <color name="pb_color_dialpad_call_button_bg">#ff00bd13</color>
+    <color name="pb_color_dialpad_call_button_bg">#ff34c759</color>
     <color name="pb_color_dialpad_letter">#8a000000</color>
     <color name="pb_color_dialpad_number">#e6000000</color>
     <color name="pb_color_enhance_dial_pad_fragment_masking">#b3000000</color>
@@ -1777,7 +1777,7 @@
     <color name="scene_color_background">#fffafafa</color>
     <color name="scene_color_dial_btn_text">#ffffffff</color>
     <color name="scene_color_dialer_key_ripple">#8c000000</color>
-    <color name="scene_color_dialpad_call_button_bg">#ff00bd13</color>
+    <color name="scene_color_dialpad_call_button_bg">#ff34c759</color>
     <color name="scene_color_dialpad_letter">#8a000000</color>
     <color name="scene_color_error">#ffdb382c</color>
     <color name="scene_color_hint_neutral">#42000000</color>

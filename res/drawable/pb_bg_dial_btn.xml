@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector android:height="40.0dip" android:width="106.0dip" android:viewportWidth="106.0" android:viewportHeight="40.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="@color/pb_color_dialpad_call_button_bg" android:pathData="M0,20C0,8.954 8.954,0 20,0H86C97.046,0 106,8.954 106,20V20C106,31.046 97.046,40 86,40H20C8.954,40 0,31.046 0,20V20Z" />
-</vector>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#40ffffff">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="20.0dip" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="20.0dip" />
+            <gradient
+                android:startColor="#ff34c759"
+                android:endColor="#ff28a745"
+                android:angle="270" />
+            <stroke
+                android:width="1.2dip"
+                android:color="#40ffffff" />
+        </shape>
+    </item>
+</ripple>

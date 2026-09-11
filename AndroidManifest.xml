@@ -10,7 +10,6 @@
     <original-package android:name="com.android.contacts"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
-    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
@@ -35,7 +34,6 @@
     <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL"/>
     <uses-permission android:name="com.android.voicemail.permission.READ_WRITE_ALL_VOICEMAIL"/>
     <uses-permission android:name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK"/>
-    <uses-permission android:name="android.permission.REBOOT"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
     <uses-permission android:name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
@@ -49,7 +47,6 @@
     <uses-permission android:name="com.nearme.permission.OCLOUD_OPERATION"/>
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
     <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
-    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="heytap.permission.cloud.ACCESS_CLOUD"/>
     <uses-permission android:name="heytap.permission.cloud.ACCESS_SYNC_SERVICE"/>
@@ -58,7 +55,6 @@
     <uses-permission android:name="com.oplus.permission.safe.PHONE"/>
     <uses-permission android:name="com.oppo.permission.safe.UPDATE"/>
     <uses-permission android:name="com.oppo.permission.safe.SECURITY"/>
-    <uses-permission android:name="android.permission.MANAGE_USERS"/>
     <uses-permission android:maxSdkVersion="32" android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
     <uses-permission android:name="com.oplus.contacts.CALL_RECORDING_PERMISSION"/>
     <uses-permission android:name="android.permission.SET_DEFAULT_ACCOUNT_FOR_CONTACTS"/>
@@ -151,29 +147,16 @@
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
     <uses-permission android:name="com.oplus.permission.safe.SETTINGS"/>
     <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
-    <uses-permission android:name="android.permission.STATUS_BAR_SERVICE"/>
-    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW"/>
     <uses-permission android:name="android.permission.REORDER_TASKS"/>
     <uses-permission android:name="android.permission.STATUS_BAR"/>
-    <uses-permission android:name="android.permission.SEND_RESPOND_VIA_MESSAGE"/>
     <uses-permission android:name="android.permission.SET_TIME_ZONE"/>
-    <uses-permission android:name="android.permission.DEVICE_POWER"/>
-    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.BROADCAST_SMS"/>
-    <uses-permission android:name="android.permission.SHUTDOWN"/>
-    <uses-permission android:name="android.permission.UPDATE_LOCK"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.STOP_APP_SWITCHES"/>
     <uses-permission android:name="android.permission.GET_TASKS"/>
-    <uses-permission android:name="android.permission.ACCESS_SURFACE_FLINGER"/>
     <uses-permission android:name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
-    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
     <uses-permission android:name="oplus.permission.OPLUS_COMPONENT_SAFE"/>
     <uses-permission android:name="android.permission.READ_WALLPAPER_INTERNAL"/>
     <uses-permission android:name="com.oplus.permission.safe.SECURITY"/>
-    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"/>
     <uses-permission android:name="com.oplus.permission.VIRTUAL_DEVICE"/>
@@ -181,7 +164,6 @@
     <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS"/>
     <uses-permission android:name="android.permission.WRITE_BLOCKED_NUMBERS"/>
     <uses-permission android:name="android.permission.READ_BLOCKED_NUMBERS"/>
-    <uses-permission android:name="com.oplus.permission.safe.MMS"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
     <uses-permission android:name="com.heytap.accessory.permission.ACCESSORY_FRAMEWORK"/>
     <uses-permission android:name="android.permission.READ_PRECISE_PHONE_STATE"/>
