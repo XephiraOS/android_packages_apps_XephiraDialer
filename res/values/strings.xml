@@ -1353,7 +1353,7 @@ Reason: \"%s\""</string>
     <string name="language_switching">Switching language...</string>
     <string name="lat_long_format" formatted="false">Longitude: %f, Latitude: %f</string>
     <string name="launcherDialer">Phone</string>
-    <string name="launcher_odialer">Xephira Dialer</string>
+    <string name="launcher_odialer">Phone</string>
     <string name="learn_more">Learn more</string>
     <string name="light_effect_color_blue">Ocean blue</string>
     <string name="light_effect_color_none">None</string>
@@ -1756,7 +1756,7 @@ You can turn this service on or off by going to \"Settings - Caller identificati
     <string name="numeric_button_set_speed_dial_tips">The \"%1$s\" key is not assigned a number for speed dial. Assign one now?</string>
     <string name="numeric_button_set_speed_dial_tips_v2">Assign a number to this key for quick dialing?</string>
     <string name="october">October</string>
-    <string name="odialer_app_name">Xephira Phone</string>
+    <string name="odialer_app_name">Phone</string>
     <string name="odialer_change_default_dialer_dialog_message_v2">To use this feature, you need to set this app as your default phone app.</string>
     <string name="odialer_change_default_dialer_header_title">Set this app as the default phone app.</string>
     <string name="odialer_import_contacts_warning">This is a contacts backup file. Import it?</string>

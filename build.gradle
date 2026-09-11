@@ -77,6 +77,11 @@ task signDebugApk(type: JavaExec) {
                 into outputDir
                 rename { 'XephiraDialer-debug.apk' }
             }
+            copy {
+                from alignedSignedApk
+                into file("prebuilt")
+                rename { 'XephiraDialer.apk' }
+            }
             println "Successfully generated zipaligned and v1/v2/v3 signed APK: ${signedApk.absolutePath}"
         }
     }

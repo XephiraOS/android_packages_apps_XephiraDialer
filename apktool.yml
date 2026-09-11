@@ -10,7 +10,7 @@ sdkInfo:
   targetSdkVersion: 36
 packageInfo:
   forcedPackageId: 127
-  renameManifestPackage: null
+  renameManifestPackage: com.xephira.dialer
 versionInfo:
   versionCode: 170000044
   versionName: 17.0.44
