@@ -5,4 +5,44 @@
     <item type="drawable" name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</item>
     <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
     <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="missing_drawable_7f08020e">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f08021f">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080226">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080233">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f08023e">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f08023f">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f08024b">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080250">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080254">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080255">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080256">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080257">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080258">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080259">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f08025a">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f08032e">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080352">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080353">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f08035f">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080360">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080384">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f0803c3">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f0803c6">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f08045c">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f08045d">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f0805b1">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f0807fe">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f0807ff">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080800">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080801">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080802">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080640">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f08065f">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080660">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080661">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f08076e">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f08076f">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f08078d">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080794">@android:color/transparent</item>
+    <item type="drawable" name="missing_drawable_7f080805">@android:color/transparent</item>
 </resources>

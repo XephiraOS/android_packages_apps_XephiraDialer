@@ -40,8 +40,27 @@ task buildUnsignedApk(type: JavaExec) {
     }
 }
 
+task injectCoroutinesServices {
+    dependsOn buildUnsignedApk
+    doLast {
+        def zipFile = unsignedApk
+        def env = [create: 'false']
+        def uri = java.net.URI.create("jar:" + zipFile.toPath().toUri())
+        java.nio.file.FileSystems.newFileSystem(uri, env).withCloseable { fs ->
+            def servicesDir = fs.getPath("/META-INF/services")
+            java.nio.file.Files.createDirectories(servicesDir)
+            
+            java.nio.file.Files.write(servicesDir.resolve("kotlinx.coroutines.internal.r"), "kotlinx.coroutines.android.a\n".getBytes("UTF-8"))
+            java.nio.file.Files.write(servicesDir.resolve("kotlinx.coroutines.internal.MainDispatcherFactory"), "kotlinx.coroutines.android.a\n".getBytes("UTF-8"))
+            java.nio.file.Files.write(servicesDir.resolve("kotlinx.coroutines.C"), "kotlinx.coroutines.android.b\n".getBytes("UTF-8"))
+            java.nio.file.Files.write(servicesDir.resolve("kotlinx.coroutines.CoroutineExceptionHandler"), "kotlinx.coroutines.android.b\n".getBytes("UTF-8"))
+        }
+        println "Injected coroutines MainDispatcherFactory and CoroutineExceptionHandler services into ${zipFile.name}"
+    }
+}
+
 task signDebugApk(type: JavaExec) {
-    dependsOn buildUnsignedApk, ensureSigner
+    dependsOn injectCoroutinesServices, ensureSigner
     classpath = files(signerJar)
     mainClass = 'at.favre.tools.apksigner.SignTool'
     args = [

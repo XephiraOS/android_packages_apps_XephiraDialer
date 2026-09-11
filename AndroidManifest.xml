@@ -1114,7 +1114,7 @@
             <meta-data android:name="uniqueID" android:value="592"/>
             <meta-data android:name="version" android:value="1"/>
             <meta-data android:name="backup_name_resId" android:value="@string/black_list"/>
-            <meta-data android:name="backup_icon_resId" android:value="@null"/>
+            <meta-data android:name="backup_icon_resId" android:value="0"/>
             <meta-data android:name="isVendorSupport" android:value="true"/>
             <intent-filter>
                 <action android:name="com.oplus.br.service"/>
@@ -1341,13 +1341,5 @@
         <meta-data android:name="dependencies:implementation:com.oplus.appprovider:settings" android:value="2.1.6"/>
         <meta-data android:name="dependencies:implementation:com.oplus.utils:reflect" android:value="2.1.1"/>
         <meta-data android:name="com.oplus.utils:loggerUtils" android:value="1.0.1"/>
-        <activity android:exported="false" android:name="com.pairip.licensecheck.LicenseActivity"/>
-        <provider android:authorities="com.oplus.dialer.com.pairip.licensecheck.LicenseContentProvider" android:exported="false" android:name="com.pairip.licensecheck.LicenseContentProvider"/>
-        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
-        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
-        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
-        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
-        <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
     </application>
-    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
 </manifest>

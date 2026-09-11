@@ -2918,4 +2918,18 @@
     <dimen name="video_preview_small_dimension">90.0dip</dimen>
     <dimen name="vip_icon_margin_end">9.0dip</dimen>
     <dimen name="zenmode_timepick_height">135.0dip</dimen>
+    <dimen name="coui_navigation_item_text_size">14.0dip</dimen>
+    <dimen name="camera_control_button_height">110.0dip</dimen>
+    <dimen name="color_detail_photo_background_size">98.0dip</dimen>
+    <dimen name="dialpad_buttons_paddingLeft">30.0dip</dimen>
+    <dimen name="dialpad_container_height">380.0dip</dimen>
+    <dimen name="oplus_call_card_fourth_line_margin_top">3.0dip</dimen>
+    <dimen name="take_picture_guide_view_height">433.0dip</dimen>
+    <dimen name="call_detail_list_item_height">30.0dip</dimen>
+    <dimen name="oplus_conference_manage_btn_height">22.0dip</dimen>
+    <dimen name="oplus_conference_manage_btn_width">22.0dip</dimen>
+    <dimen name="oplus_dtmf_dialpad_number_button_height">64.0dip</dimen>
+    <dimen name="oplus_phone_keyguard_slider_view_square_length">360.0dip</dimen>
+    <dimen name="oplus_call_card_vip_icon_margin_right">6.0dip</dimen>
+    <dimen name="oplus_floating_window_card_icon_padding_top_land">4.0dip</dimen>
 </resources>
