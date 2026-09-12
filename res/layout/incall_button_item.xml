@@ -2,7 +2,7 @@
 <com.android.incallui.oplus.callbutton.callbuttonview.InCallButtonItem android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/button_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <FrameLayout android:layout_gravity="center|top" android:id="@id/image_group" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <ImageView android:id="@id/circle" android:background="@drawable/incall_bg_button_selected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.05" android:stateListAnimator="@animator/incall_button_circle_selector" />
+        <ImageView android:id="@id/circle" android:background="@drawable/incall_bg_button_selected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="1.0" android:stateListAnimator="@animator/incall_button_circle_selector" />
         <ImageView android:layout_gravity="center" android:id="@id/image_selected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" android:stateListAnimator="@animator/incall_button_selected_image_selector" />
         <ImageView android:layout_gravity="center" android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stateListAnimator="@animator/incall_button_image_selector" />
     </FrameLayout>

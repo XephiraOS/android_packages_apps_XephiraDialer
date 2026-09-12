@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector android:height="210.0dip" android:width="210.0dip" android:viewportWidth="210.0" android:viewportHeight="210.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="@color/incallGreenTintControlNormal" android:pathData="M105,105m-105,0a105,105 0,1 1,210 0a105,105 0,1 1,-210 0" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
-    <path android:fillColor="#ffffffff" android:pathData="M141.75,136.788L141.75,127.11C141.75,124.585 140.172,122.439 137.676,122.01C134.321,121.432 131.066,120.569 127.933,119.449C126.069,118.782 123.987,119.298 122.587,120.694L118.57,124.695C117.614,125.648 115.995,126.01 114.742,125.512C101.917,120.412 89.65,108.196 84.53,95.413C84.029,94.16 84.408,92.548 85.364,91.598L89.369,87.618C90.772,86.224 91.293,84.142 90.621,82.282C89.492,79.158 88.624,75.909 88.047,72.56C87.616,70.07 85.461,68.25 82.927,68.25L73.229,68.25C70.217,68.25 67.871,70.912 68.301,73.881C69.713,83.619 72.869,92.794 77.478,101.072C84.814,114.324 95.792,125.262 109.088,132.55C117.394,137.144 126.58,140.289 136.344,141.699C139.325,142.128 141.75,139.787 141.75,136.788Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="210.0dip"
+    android:height="210.0dip"
+    android:viewportWidth="210.0"
+    android:viewportHeight="210.0">
+
+    <!-- Ambient Emerald Glow -->
+    <path
+        android:fillColor="#4034C759"
+        android:pathData="M105,105m-105,0a105,105 0,1 1,210 0a105,105 0,1 1,-210 0" />
+
+    <!-- Radiant Emerald Core -->
+    <path
+        android:fillColor="#FF34C759"
+        android:pathData="M105,105m-95,0a95,95 0,1 1,190 0a95,95 0,1 1,-190 0" />
+
+    <!-- Specular Light Rim -->
+    <path
+        android:strokeColor="#60FFFFFF"
+        android:strokeWidth="4.0"
+        android:pathData="M105,105m-95,0a95,95 0,1 1,190 0a95,95 0,1 1,-190 0" />
+
+    <!-- Inner Highlight Crescent -->
+    <path
+        android:strokeColor="#35FFFFFF"
+        android:strokeWidth="2.5"
+        android:pathData="M50,55 A75,75 0 0,1 160,55" />
+
+    <!-- Upward Handset Icon -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M141.75,136.788L141.75,127.11C141.75,124.585 140.172,122.439 137.676,122.01C134.321,121.432 131.066,120.569 127.933,119.449C126.069,118.782 123.987,119.298 122.587,120.694L118.57,124.695C117.614,125.648 115.995,126.01 114.742,125.512C101.917,120.412 89.65,108.196 84.53,95.413C84.029,94.16 84.408,92.548 85.364,91.598L89.369,87.618C90.772,86.224 91.293,84.142 90.621,82.282C89.492,79.158 88.624,75.909 88.047,72.56C87.616,70.07 85.461,68.25 82.927,68.25L73.229,68.25C70.217,68.25 67.871,70.912 68.301,73.881C69.713,83.619 72.869,92.794 77.478,101.072C84.814,114.324 95.792,125.262 109.088,132.55C117.394,137.144 126.58,140.289 136.344,141.699C139.325,142.128 141.75,139.787 141.75,136.788Z" />
 </vector>

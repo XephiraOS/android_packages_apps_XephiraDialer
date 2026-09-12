@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector android:height="66.0dip" android:width="66.0dip" android:viewportWidth="66.0" android:viewportHeight="66.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="#ffffffff" android:pathData="M33,33m-33,0a33,33 0,1 1,66 0a33,33 0,1 1,-66 0" android:fillAlpha="1.0" />
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="66.0dip"
+    android:height="66.0dip"
+    android:viewportWidth="66.0"
+    android:viewportHeight="66.0">
+
+    <!-- Translucent Frosted Glass Core -->
+    <path
+        android:fillColor="#24FFFFFF"
+        android:pathData="M33,33m-31,0a31,31 0,1 1,62 0a31,31 0,1 1,-62 0" />
+
+    <!-- Specular Light Rim (iOS Glass Lens Contour) -->
+    <path
+        android:strokeColor="#48FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M33,33m-31,0a31,31 0,1 1,62 0a31,31 0,1 1,-62 0" />
+
+    <!-- Top Ambient Specular Highlight Arc -->
+    <path
+        android:strokeColor="#2EFFFFFF"
+        android:strokeWidth="1.2"
+        android:pathData="M16,18 A24,24 0 0,1 50,18" />
 </vector>

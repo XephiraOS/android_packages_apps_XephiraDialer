@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector android:enterFadeDuration="180" android:exitFadeDuration="360"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:state_enabled="false">
-        <color android:color="@color/coui_list_selector_color_disabled" />
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:enterFadeDuration="150"
+    android:exitFadeDuration="250">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" />
+            <solid android:color="#2EFFFFFF" />
+            <stroke
+                android:width="1dp"
+                android:color="#40FFFFFF" />
+        </shape>
     </item>
     <item app:state_list_checked="true">
-        <color android:color="@color/coui_color_container8" />
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" />
+            <solid android:color="#24FFFFFF" />
+            <stroke
+                android:width="1dp"
+                android:color="#35FFFFFF" />
+        </shape>
     </item>
-    <item android:state_pressed="true">
-        <color android:color="@color/coui_color_container8" />
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" />
+            <solid android:color="#08FFFFFF" />
+        </shape>
     </item>
     <item>
-        <color android:color="@null" />
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" />
+            <solid android:color="#0CFFFFFF" />
+            <stroke
+                android:width="1dp"
+                android:color="#16FFFFFF" />
+        </shape>
     </item>
 </selector>

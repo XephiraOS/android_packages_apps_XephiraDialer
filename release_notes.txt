@@ -1,0 +1,20 @@
+# Xephira Dialer v1.4.0 — Full iOS Liquid Glassmorphism Edition 🔮✨
+
+This release brings an authentic **iOS Liquid Glassmorphism** design system across the **entire application** — transforming active in-call, incoming call, settings, and recents into an ultra-premium, fluid, and tactile experience.
+
+### 🌟 What's New:
+* **🔮 Convex Liquid Glass In-Call Lenses**:
+  - Keypad, Mute, Speaker, Add Call, Hold, and Record buttons redesigned as 3D convex liquid glass lenses (`#24FFFFFF` core with dual specular highlight rims).
+  - Unselected button transparency boosted from dim `0.05` to vivid `0.95`, creating a distinctive glass depth on any wallpaper.
+* **🚨 Radiant Liquid Crimson End Call Sphere**:
+  - 3D convex sphere with vibrant liquid crimson gradient (`#FFFF1E46` to `#FFE9012A`), ambient glow drop shadow, and pure white telephone icon.
+* **📞 Radiant Liquid Emerald Answer Sphere**:
+  - Convex liquid emerald sphere (`#FF34C759`) with specular highlight arc and crisp upward handset icon for incoming calls.
+* **🪟 Floating Frosted Acrylic Caller Card**:
+  - Active call identity panel encased in a `28dp` rounded frosted acrylic glass card (`xephira_frosted_glass_card.xml`) with specular outline and luminous white typography.
+* **🎛️ Frosted Glass Settings & Preferences**:
+  - Settings, options, and preferences restyled with floating rounded glass cards (`#0FFFFFFF` resting, `#2EFFFFFF` illuminated touch feedback).
+* **📋 Liquid Card Recents & Contacts**:
+  - Call logs and contact items transformed into floating glass cards with refined margins and tactile press ripples.
+* **⚡ 120 FPS Native Hardware Performance**:
+  - Built entirely using hardware-accelerated vector and layered gradient materials — zero GPU/CPU blur stalls, locked 120 FPS fluid animations.
