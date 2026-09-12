@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle">
-    <gradient
-        android:angle="270"
-        android:startColor="#33181C26"
-        android:endColor="#4810131B"
-        android:type="linear" />
-    <corners android:radius="28dp" />
-    <stroke
-        android:width="1.2dp"
-        android:color="#2EFFFFFF" />
-</shape>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Ambient Subtle Crimson Backlight Contour -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="28dp" />
+            <gradient
+                android:angle="270"
+                android:startColor="#35E9012A"
+                android:endColor="#10000000"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Frosted Acrylic Glass Plate -->
+    <item android:top="1dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="27dp" />
+            <gradient
+                android:angle="270"
+                android:startColor="#55181E2C"
+                android:endColor="#650E111A"
+                android:type="linear" />
+            <stroke
+                android:width="1.5dp"
+                android:color="#4DFFFFFF" />
+        </shape>
+    </item>
+</layer-list>

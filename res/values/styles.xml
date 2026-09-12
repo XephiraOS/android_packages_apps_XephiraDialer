@@ -6296,13 +6296,13 @@
         <item name="couiNaviBackground">@drawable/coui_bottom_tool_navigation_item_bg</item>
         <item name="couiNaviIconTint">@color/coui_bottom_tool_navigation_item_selector</item>
         <item name="couiNaviTextColor">@color/coui_bottom_tool_navigation_item_selector</item>
-        <item name="couiTabNavigationViewBg">@drawable/coui_tab_navigation_view_bg</item>
-        <item name="couiToolNavigationViewBg">@drawable/coui_tab_navigation_view_bg</item>
+        <item name="couiTabNavigationViewBg">@drawable/xephira_liquid_glass_nav_bg</item>
+        <item name="couiToolNavigationViewBg">@drawable/xephira_liquid_glass_nav_bg</item>
     </style>
     <style name="Widget.COUI.COUINavigationView.Dark" parent="@style/Widget.COUI.COUINavigationView">
-        <item name="couiNaviBackground">@drawable/coui_bottom_tool_navigation_item_bg_dark</item>
-        <item name="couiTabNavigationViewBg">@drawable/coui_tab_navigation_view_bg_dark</item>
-        <item name="couiToolNavigationViewBg">@drawable/coui_tab_navigation_view_bg_dark</item>
+        <item name="couiNaviBackground">@drawable/xephira_liquid_glass_nav_bg</item>
+        <item name="couiTabNavigationViewBg">@drawable/xephira_liquid_glass_nav_bg</item>
+        <item name="couiToolNavigationViewBg">@drawable/xephira_liquid_glass_nav_bg</item>
     </style>
     <style name="Widget.COUI.COUINumericKeyboard" parent="@android:style/Widget">
         <item name="android:paddingTop">@dimen/coui_numeric_keyboard_view_vertical_padding</item>

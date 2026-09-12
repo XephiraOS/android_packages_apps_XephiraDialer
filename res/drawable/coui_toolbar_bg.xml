@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Frosted Dark Acrylic Header Surface -->
     <item>
-        <color android:color="?couiColorBackground" />
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#F0111520"
+                android:endColor="#E60D1018"
+                android:type="linear" />
+        </shape>
     </item>
-</selector>
+
+    <!-- Ambient Crimson Reflection at top -->
+    <item
+        android:top="0dp"
+        android:bottom="50dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#1CE9012A"
+                android:endColor="#00000000"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Bottom Specular Glass Rim -->
+    <item
+        android:top="-2dp"
+        android:left="-2dp"
+        android:right="-2dp">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="1.2dp"
+                android:color="#28FFFFFF" />
+        </shape>
+    </item>
+</layer-list>

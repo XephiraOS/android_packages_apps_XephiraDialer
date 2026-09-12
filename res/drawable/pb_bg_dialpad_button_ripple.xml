@@ -1,19 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
-    android:color="#40FFFFFF">
+    android:color="#50FFFFFF">
     <item>
-        <inset
-            android:insetLeft="10dp"
-            android:insetRight="10dp"
-            android:insetTop="3dp"
-            android:insetBottom="3dp">
-            <shape android:shape="rectangle">
-                <corners android:radius="26dp" />
-                <solid android:color="#14FFFFFF" />
-                <stroke
-                    android:width="1dp"
-                    android:color="#24FFFFFF" />
-            </shape>
-        </inset>
+        <selector>
+            <!-- Pressed State: Radiant Liquid Crimson Illuminated Glass -->
+            <item android:state_pressed="true">
+                <inset
+                    android:insetLeft="8dp"
+                    android:insetRight="8dp"
+                    android:insetTop="2dp"
+                    android:insetBottom="2dp">
+                    <shape android:shape="rectangle">
+                        <corners android:radius="26dp" />
+                        <gradient
+                            android:angle="270"
+                            android:startColor="#80FF264E"
+                            android:endColor="#60E9012A"
+                            android:type="linear" />
+                        <stroke
+                            android:width="1.5dp"
+                            android:color="#80FFFFFF" />
+                    </shape>
+                </inset>
+            </item>
+
+            <!-- Normal State: Convex Liquid Glass Lens with Specular Rim -->
+            <item>
+                <inset
+                    android:insetLeft="8dp"
+                    android:insetRight="8dp"
+                    android:insetTop="2dp"
+                    android:insetBottom="2dp">
+                    <shape android:shape="rectangle">
+                        <corners android:radius="26dp" />
+                        <gradient
+                            android:angle="270"
+                            android:startColor="#2CFFFFFF"
+                            android:endColor="#15FFFFFF"
+                            android:type="linear" />
+                        <stroke
+                            android:width="1.2dp"
+                            android:color="#48FFFFFF" />
+                    </shape>
+                </inset>
+            </item>
+        </selector>
     </item>
 </ripple>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/contact_activity_main_layout" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<FrameLayout android:id="@id/contact_activity_main_layout" android:background="@drawable/xephira_liquid_glass_window_bg" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <RelativeLayout android:id="@id/contact_tab_main" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <com.customize.contacts.widget.ContactsViewPager android:id="@id/view_pager" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />

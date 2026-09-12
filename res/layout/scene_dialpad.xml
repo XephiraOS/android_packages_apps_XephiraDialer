@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.customize.contacts.widget.ScrollRelativeLayout android:id="@id/dialpad_container" android:tag="layout/scene_dialpad_0" android:background="@drawable/scene_dialpad_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+<com.customize.contacts.widget.ScrollRelativeLayout android:id="@id/dialpad_container" android:tag="layout/scene_dialpad_0" android:background="@drawable/coui_panel_bg_without_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <FrameLayout android:id="@id/dialpad_parent" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <com.android.contacts.dialpad.view.DialpadView android:id="@id/dialpad" android:layout_width="fill_parent" android:layout_height="wrap_content" />

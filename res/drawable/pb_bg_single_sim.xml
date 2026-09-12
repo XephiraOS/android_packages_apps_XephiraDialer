@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
-    android:color="#40FFFFFF">
+    android:color="#60FFFFFF">
     <item>
-        <shape android:shape="oval">
-            <gradient
-                android:angle="270"
-                android:startColor="#FFFF1E46"
-                android:endColor="#FFE9012A"
-                android:type="linear" />
-            <stroke
-                android:width="1.5dp"
-                android:color="#50FFFFFF" />
-        </shape>
+        <layer-list>
+            <!-- Ambient Crimson Drop Glow -->
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="#70E9012A" />
+                </shape>
+            </item>
+
+            <!-- 3D Liquid Crimson Convex Sphere -->
+            <item android:inset="1dp">
+                <shape android:shape="oval">
+                    <gradient
+                        android:angle="270"
+                        android:startColor="#FFFF2B52"
+                        android:centerColor="#FFE9012A"
+                        android:endColor="#FFC80020"
+                        android:type="linear" />
+                    <stroke
+                        android:width="1.5dp"
+                        android:color="#70FFFFFF" />
+                </shape>
+            </item>
+
+            <!-- Top Specular Highlight Arc -->
+            <item
+                android:insetLeft="6dp"
+                android:insetRight="6dp"
+                android:insetTop="2dp"
+                android:insetBottom="30dp">
+                <shape android:shape="oval">
+                    <gradient
+                        android:angle="270"
+                        android:startColor="#80FFFFFF"
+                        android:endColor="#00FFFFFF"
+                        android:type="linear" />
+                </shape>
+            </item>
+        </layer-list>
     </item>
 </ripple>

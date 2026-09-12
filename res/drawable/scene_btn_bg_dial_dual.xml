@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector android:height="40.0dip" android:width="85.0dip" android:viewportWidth="85.0" android:viewportHeight="40.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="@color/scene_color_dialpad_call_button_bg" android:pathData="M20,0L65,0A20,20 0,0 1,85 20L85,20A20,20 0,0 1,65 40L20,40A20,20 0,0 1,0 20L0,20A20,20 0,0 1,20 0z" />
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="85.0dip"
+    android:height="40.0dip"
+    android:viewportWidth="85.0"
+    android:viewportHeight="40.0">
+    <!-- Ambient Drop Glow -->
+    <path
+        android:fillColor="#40E9012A"
+        android:pathData="M20,0L65,0A20,20 0,0 1,85 20L85,20A20,20 0,0 1,65 40L20,40A20,20 0,0 1,0 20L0,20A20,20 0,0 1,20 0z" />
+    <!-- Radiant Liquid Crimson Core -->
+    <path
+        android:fillColor="#FFE9012A"
+        android:pathData="M20,1L65,1A19,19 0,0 1,84 20L84,20A19,19 0,0 1,65 39L20,39A19,19 0,0 1,1 20L1,20A19,19 0,0 1,20 1z" />
+    <!-- Specular Highlight Rim -->
+    <path
+        android:strokeColor="#70FFFFFF"
+        android:strokeWidth="1.2"
+        android:pathData="M20,1L65,1A19,19 0,0 1,84 20L84,20A19,19 0,0 1,65 39L20,39A19,19 0,0 1,1 20L1,20A19,19 0,0 1,20 1z" />
+    <!-- Top Specular Arc -->
+    <path
+        android:strokeColor="#50FFFFFF"
+        android:strokeWidth="1.2"
+        android:pathData="M16,4L69,4" />
 </vector>

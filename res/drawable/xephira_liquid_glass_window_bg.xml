@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Deep Obsidian Frosted Glass Canvas -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#FF0D1018"
+                android:centerColor="#FF121724"
+                android:endColor="#FF090B10"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Top Ambient Crimson Light Aurora Sheen -->
+    <item
+        android:top="0dp"
+        android:bottom="500dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="#25E9012A"
+                android:endColor="#00000000"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Subtle Specular Glass Horizon -->
+    <item
+        android:top="150dp"
+        android:bottom="300dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#00000000"
+                android:centerColor="#0CFFFFFF"
+                android:endColor="#00000000"
+                android:type="linear" />
+        </shape>
+    </item>
+</layer-list>
