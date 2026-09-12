@@ -5,25 +5,25 @@
     android:viewportWidth="66.0"
     android:viewportHeight="66.0">
 
-    <!-- Ambient Crimson Reflection Drop Glow -->
+    <!-- Soft Ambient Glass Shadow / Glow -->
     <path
-        android:fillColor="#22E9012A"
-        android:pathData="M33,33m-31,0a31,31 0,1 1,62 0a31,31 0,1 1,-62 0" />
+        android:fillColor="#15E9012A"
+        android:pathData="M33,33m-32,0a32,32 0,1 1,64 0a32,32 0,1 1,-64 0" />
 
-    <!-- Translucent Frosted Glass Lens Core -->
+    <!-- Convex Translucent White Crystal Glass Core -->
     <path
-        android:fillColor="#32FFFFFF"
+        android:fillColor="#DDF5F7FA"
         android:pathData="M33,33m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" />
 
-    <!-- 3D Specular Light Rim (iOS Liquid Glass Contour) -->
+    <!-- Sharp Specular Light Rim -->
     <path
-        android:strokeColor="#58FFFFFF"
+        android:strokeColor="#FFFFFFFF"
         android:strokeWidth="1.5"
         android:pathData="M33,33m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" />
 
-    <!-- Top Ambient Specular Highlight Arc -->
+    <!-- Top Specular Highlight Arc -->
     <path
-        android:strokeColor="#40FFFFFF"
-        android:strokeWidth="1.5"
+        android:strokeColor="#B0FFFFFF"
+        android:strokeWidth="1.8"
         android:pathData="M16,18 A23,23 0 0,1 50,18" />
 </vector>

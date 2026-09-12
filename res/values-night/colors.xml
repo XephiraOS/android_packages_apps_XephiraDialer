@@ -465,8 +465,8 @@
     <color name="pb_color_dial_delete_normal">#e6ffffff</color>
     <color name="pb_color_dial_support_search_text">#8affffff</color>
     <color name="pb_color_dialpad_call_button_bg">#ffe9012a</color>
-    <color name="pb_color_dialpad_letter">#b3ffffff</color>
-    <color name="pb_color_dialpad_number">#ffffffff</color>
+    <color name="pb_color_dialpad_letter">#80e9012a</color>
+    <color name="pb_color_dialpad_number">#ffe9012a</color>
     <color name="pb_color_hide_dialpad">#e6ffffff</color>
     <color name="pb_color_sim_switch_bg">#29ffffff</color>
     <color name="pb_color_speed_dial_add">#e5ffffff</color>

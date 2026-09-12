@@ -1,39 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Deep Obsidian Frosted Glass Base -->
+    <!-- Pure White Frosted Acrylic In-Call Canvas -->
     <item>
         <shape android:shape="rectangle">
             <gradient
                 android:angle="270"
-                android:startColor="#FF0B0E17"
-                android:centerColor="#FF121624"
-                android:endColor="#FF080A10"
+                android:startColor="#FFF9FAFB"
+                android:centerColor="#FFF2F4F7"
+                android:endColor="#FFE8EBEE"
                 android:type="linear" />
         </shape>
     </item>
 
-    <!-- Bottom Liquid Crimson Ambient Aurora -->
+    <!-- Top-Right Ambient Crimson Aurora Bleed -->
     <item
-        android:top="300dp"
+        android:left="200dp"
+        android:top="0dp"
+        android:bottom="380dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#00000000"
+                android:endColor="#32E9012A"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Bottom-Left Ambient Crimson Aurora Bleed -->
+    <item
+        android:right="180dp"
+        android:top="400dp"
         android:bottom="0dp">
         <shape android:shape="rectangle">
             <gradient
-                android:angle="90"
-                android:startColor="#3DE9012A"
-                android:endColor="#00000000"
-                android:type="linear" />
-        </shape>
-    </item>
-
-    <!-- Top Ambient Specular Light Horizon -->
-    <item
-        android:top="0dp"
-        android:bottom="400dp">
-        <shape android:shape="rectangle">
-            <gradient
-                android:angle="270"
-                android:startColor="#15FFFFFF"
-                android:endColor="#00000000"
+                android:angle="225"
+                android:startColor="#00000000"
+                android:endColor="#35E9012A"
                 android:type="linear" />
         </shape>
     </item>

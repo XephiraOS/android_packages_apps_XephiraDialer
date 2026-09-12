@@ -1,40 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Deep Obsidian Frosted Glass Canvas -->
+    <!-- Pure White Frosted Acrylic Canvas -->
     <item>
         <shape android:shape="rectangle">
             <gradient
                 android:angle="270"
-                android:startColor="#FF0D1018"
-                android:centerColor="#FF121724"
-                android:endColor="#FF090B10"
+                android:startColor="#FFF8F9FA"
+                android:centerColor="#FFF1F3F6"
+                android:endColor="#FFEAECEF"
                 android:type="linear" />
         </shape>
     </item>
 
-    <!-- Top Ambient Crimson Light Aurora Sheen -->
+    <!-- Ambient Crimson Aurora Glow (Right Margin) -->
+    <item
+        android:left="180dp"
+        android:top="100dp"
+        android:bottom="100dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="0"
+                android:startColor="#00000000"
+                android:endColor="#28E9012A"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Ambient Crimson Aurora Glow (Bottom Margin) -->
+    <item
+        android:top="500dp"
+        android:left="50dp"
+        android:right="50dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#00000000"
+                android:endColor="#25E9012A"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Top Specular Glass Horizon -->
     <item
         android:top="0dp"
-        android:bottom="500dp">
+        android:bottom="550dp">
         <shape android:shape="rectangle">
             <gradient
-                android:angle="135"
-                android:startColor="#25E9012A"
-                android:endColor="#00000000"
-                android:type="linear" />
-        </shape>
-    </item>
-
-    <!-- Subtle Specular Glass Horizon -->
-    <item
-        android:top="150dp"
-        android:bottom="300dp">
-        <shape android:shape="rectangle">
-            <gradient
-                android:angle="45"
-                android:startColor="#00000000"
-                android:centerColor="#0CFFFFFF"
-                android:endColor="#00000000"
+                android:angle="270"
+                android:startColor="#40FFFFFF"
+                android:endColor="#00FFFFFF"
                 android:type="linear" />
         </shape>
     </item>

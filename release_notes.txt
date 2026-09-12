@@ -1,42 +1,30 @@
-# Xephira Dialer v1.5.0 — Pure Liquid Glass & Radiant Crimson Edition 🔮🩸
+# Xephira Dialer v1.6.0 — White & Crimson Red iOS Liquid Glass Edition 🔮✨
 
-This landmark release fully transforms the visual architecture of **Xephira Dialer** into **Pure Liquid Glass with radiant Xephira Crimson touch** across every layer of the app.
+This release implements the exact visual design system from the **Apple iOS Liquid Glassmorphism** mockups using **pure translucent white frosted glass** and **radiant Xephira Crimson red accents**.
 
 ---
 
-### 🔮 Major Visual & Thematic Overhauls:
+### 🌟 What's New in v1.6.0:
 
-* **🌌 Deep Obsidian Frosted Glass Canvas (`xephira_liquid_glass_window_bg.xml`)**:
-  - Replaced the flat plain white / flat gray system window backgrounds with a deep obsidian frosted glass gradient (`#FF0D1018` to `#FF121724` to `#FF090B10`).
-  - Infused with a radiant ambient Xephira Crimson aurora light refraction (`#25E9012A`) and subtle specular glass horizon.
-  - Directly applied across `ContactsTabActivity`, in-call screens, settings, and lists.
+* **🕊️ Luminous White Frosted Glass Canvas (`xephira_liquid_glass_window_bg.xml`)**:
+  - Pure ethereal white frosted acrylic canvas (`#FFF8F9FA` to `#FFF1F3F6`) infused with soft radiant crimson ambient light bleeds along the margins.
+  - Seamlessly unified across dialpad, recents, contacts, in-call, and settings.
 
-* **🩸 Complete Brand Theming in Xephira Radiant Crimson (`#FFE9012A` / `#FFFF1E46`)**:
-  - Replaced all legacy ColorOS Oppo Blue and Oppo Green primary, popup, and text colors with official Xephira Crimson Red across both standard and night modes.
-  - Active bottom navigation tabs and selected icons glow in radiant Crimson (`coui_navigation_tab_color.xml`).
-  - Checkboxes, radio buttons, switches, floating action buttons (FAB), and progress bars now glow in radiant Crimson.
+* **🔮 3D Convex Crystal Glass Dialpad Keys (`pb_bg_dialpad_button_ripple.xml`, `dialpad_out_circle.xml`)**:
+  - Keypad numbers (1–9, 0, *, #) redesigned as 3D convex white crystal glass lenses with sharp specular rims (`#FFFFFFFF`), subtle crimson reflection drops, and top specular shine arcs.
+  - Number digits styled in crisp, elegant **Xephira Crimson Red** (`#FFE9012A`), exactly as specified in the iOS design mockup.
+  - Illuminated radiant liquid crimson touch feedback on every keypress.
 
-* **🛸 Floating Frosted Liquid Glass Navigation Dock (`xephira_liquid_glass_nav_bg.xml`)**:
-  - Transformed the bottom navigation bar into a floating translucent frosted glass dock (`#EE111522` to `#F80A0C13`).
-  - Outlined with a 1.5dp specular light rim (`#40FFFFFF`) and backed by a subtle ambient crimson illumination strip.
+* **🔴 3D Convex Liquid Crimson Call Sphere (`pb_bg_single_sim.xml`, `pb_bg_dial_btn.xml`)**:
+  - Large 3D convex liquid ruby crimson glass sphere with radiant drop glow, specular highlight arc, and pure white telephone handset.
 
-* **🔢 3D Convex Liquid Glass Dialpad Keys & Lenses (`pb_bg_dialpad_button_ripple.xml`)**:
-  - Redesigned digits 0–9, *, # as 3D convex liquid glass lenses with 48% specular rims and luminous white typography.
-  - Added tactile **illuminated Crimson touch feedback** (`#80FF264E` to `#60E9012A` with `#80FFFFFF` rim) on every button press.
-  - Increased resting visibility in `dialpad_circle_selector.xml` to `0.90`–`1.0` so glass discs are prominently tactile on screen.
-
-* **🛡️ Frosted Acrylic Dialpad Container (`coui_panel_bg_without_shadow.xml`)**:
-  - Redesigned the dialpad housing into a frosted obsidian acrylic plate with 32dp rounded corners, a 1.5dp specular light rim, and an ambient crimson glow band along the top curve to completely prevent background text bleed-through.
-
-* **📞 3D Liquid Crimson Call Buttons (`pb_bg_single_sim.xml`, `pb_bg_dial_btn.xml`, `scene_btn_bg_dial_single.xml`)**:
-  - Single SIM and Dual SIM dial buttons engineered as 3D convex liquid crimson spheres and capsules (`#FFFF2B52` to `#FFE9012A` to `#FFC80020`).
-  - Layered with an ambient drop glow (`#70E9012A`) and a bright specular highlight arc (`#80FFFFFF`).
+* **🛸 Floating White Frosted Acrylic Dialpad Plate (`coui_panel_bg_without_shadow.xml`)**:
+  - Translucent frosted white acrylic panel with 32dp rounded corners, a 1.5dp specular light rim, and an ambient crimson glow band along the top curve to completely prevent background text bleed-through.
 
 * **📱 Pure Liquid Glass In-Call Experience (`xephira_liquid_glass_incall_bg.xml`)**:
-  - Replaced solid black in-call backgrounds with a deep obsidian liquid glass canvas featuring an ambient crimson aurora glow at the bottom.
-  - Active call identity panel wrapped in a floating frosted acrylic card (`xephira_frosted_glass_card.xml`) with 28dp corners, specular outline, and crimson backlight contour.
-  - Floating control lenses (Mute, Speaker, Keypad, Add Call, Hold, Record) illuminated with liquid glass cores and specular light rims.
-  - End Call button in radiant 3D liquid crimson sphere.
+  - In-call screens redesigned upon an ethereal white frosted glass backdrop with soft crimson ambient auroras blooming in the corners.
+  - Floating white frosted acrylic caller card (`xephira_frosted_glass_card.xml`) with 28dp rounded corners, specular outline, and deep charcoal caller typography.
+  - 3D convex crystal glass control lenses with radiant liquid crimson activation glow.
 
-* **📋 Floating Frosted Glass Cards for Recents, Contacts & Settings**:
-  - Upgraded list item selectors (`coui_preference_bg_selector.xml`, `select_list_item_background_seletor.xml`) to frosted acrylic cards with illuminated crimson feedback when pressed.
+* **🛸 Floating White Frosted Glass Navigation Dock (`xephira_liquid_glass_nav_bg.xml`)**:
+  - Floating frosted white glass capsule with 24dp rounded corners, specular light border, and radiant crimson active tab indicator.

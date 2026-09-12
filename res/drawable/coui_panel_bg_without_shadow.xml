@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Ambient Crimson Glow beneath top glass rim -->
+    <!-- Ambient Crimson Aurora Bleed along top contour -->
     <item>
         <shape android:shape="rectangle">
             <corners
@@ -8,13 +8,13 @@
                 android:topRightRadius="32dp" />
             <gradient
                 android:angle="270"
-                android:startColor="#3AE9012A"
+                android:startColor="#25E9012A"
                 android:endColor="#00000000"
                 android:type="linear" />
         </shape>
     </item>
 
-    <!-- Frosted Obsidian Acrylic Base Plate -->
+    <!-- Translucent Frosted White Acrylic Base Plate -->
     <item android:top="2dp">
         <shape android:shape="rectangle">
             <corners
@@ -22,12 +22,13 @@
                 android:topRightRadius="30dp" />
             <gradient
                 android:angle="270"
-                android:startColor="#EE111522"
-                android:endColor="#F80A0C13"
+                android:startColor="#F5FFFFFF"
+                android:centerColor="#E8F4F6F9"
+                android:endColor="#DDF0F2F6"
                 android:type="linear" />
             <stroke
                 android:width="1.5dp"
-                android:color="#4DFFFFFF" />
+                android:color="#FFFFFFFF" />
         </shape>
     </item>
 </layer-list>

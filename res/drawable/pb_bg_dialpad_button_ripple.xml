@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
-    android:color="#50FFFFFF">
+    android:color="#40E9012A">
     <item>
         <selector>
-            <!-- Pressed State: Radiant Liquid Crimson Illuminated Glass -->
+            <!-- Pressed State: Illuminated Liquid Crimson Glass -->
             <item android:state_pressed="true">
                 <inset
                     android:insetLeft="8dp"
@@ -14,34 +14,64 @@
                         <corners android:radius="26dp" />
                         <gradient
                             android:angle="270"
-                            android:startColor="#80FF264E"
+                            android:startColor="#80FF2A52"
                             android:endColor="#60E9012A"
                             android:type="linear" />
                         <stroke
                             android:width="1.5dp"
-                            android:color="#80FFFFFF" />
+                            android:color="#FFFFFFFF" />
                     </shape>
                 </inset>
             </item>
 
-            <!-- Normal State: Convex Liquid Glass Lens with Specular Rim -->
+            <!-- Normal State: 3D Convex Crystal Glass Lens with Specular Rim -->
             <item>
                 <inset
                     android:insetLeft="8dp"
                     android:insetRight="8dp"
                     android:insetTop="2dp"
                     android:insetBottom="2dp">
-                    <shape android:shape="rectangle">
-                        <corners android:radius="26dp" />
-                        <gradient
-                            android:angle="270"
-                            android:startColor="#2CFFFFFF"
-                            android:endColor="#15FFFFFF"
-                            android:type="linear" />
-                        <stroke
-                            android:width="1.2dp"
-                            android:color="#48FFFFFF" />
-                    </shape>
+                    <layer-list>
+                        <!-- Soft Ambient Glass Drop Glow -->
+                        <item>
+                            <shape android:shape="rectangle">
+                                <corners android:radius="26dp" />
+                                <solid android:color="#0CE9012A" />
+                            </shape>
+                        </item>
+
+                        <!-- Translucent White Glass Core -->
+                        <item android:inset="1dp">
+                            <shape android:shape="rectangle">
+                                <corners android:radius="25dp" />
+                                <gradient
+                                    android:angle="270"
+                                    android:startColor="#F8FFFFFF"
+                                    android:centerColor="#E4FFFFFF"
+                                    android:endColor="#D0F0F2F5"
+                                    android:type="linear" />
+                                <stroke
+                                    android:width="1.5dp"
+                                    android:color="#E0FFFFFF" />
+                            </shape>
+                        </item>
+
+                        <!-- Top Specular Highlight Arc -->
+                        <item
+                            android:insetLeft="10dp"
+                            android:insetRight="10dp"
+                            android:insetTop="2dp"
+                            android:insetBottom="30dp">
+                            <shape android:shape="rectangle">
+                                <corners android:radius="12dp" />
+                                <gradient
+                                    android:angle="270"
+                                    android:startColor="#80FFFFFF"
+                                    android:endColor="#00FFFFFF"
+                                    android:type="linear" />
+                            </shape>
+                        </item>
+                    </layer-list>
                 </inset>
             </item>
         </selector>

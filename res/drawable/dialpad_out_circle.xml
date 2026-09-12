@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-    <size
-        android:width="@dimen/oplus_numeric_keyboard_circle_diameter"
-        android:height="@dimen/oplus_numeric_keyboard_circle_diameter" />
-    <corners android:radius="@dimen/oplus_numeric_keyboard_circle_radius" />
-    <gradient
-        android:angle="270"
-        android:startColor="#30FFFFFF"
-        android:endColor="#14FFFFFF"
-        android:type="linear" />
-    <stroke
-        android:width="1.2dp"
-        android:color="#50FFFFFF" />
-</shape>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer Ambient Crimson Glass Glow -->
+    <item>
+        <shape android:shape="rectangle">
+            <size
+                android:width="@dimen/oplus_numeric_keyboard_circle_diameter"
+                android:height="@dimen/oplus_numeric_keyboard_circle_diameter" />
+            <corners android:radius="@dimen/oplus_numeric_keyboard_circle_radius" />
+            <solid android:color="#0CE9012A" />
+        </shape>
+    </item>
+
+    <!-- Translucent White Glass Core -->
+    <item android:inset="1dp">
+        <shape android:shape="rectangle">
+            <size
+                android:width="@dimen/oplus_numeric_keyboard_circle_diameter"
+                android:height="@dimen/oplus_numeric_keyboard_circle_diameter" />
+            <corners android:radius="@dimen/oplus_numeric_keyboard_circle_radius" />
+            <gradient
+                android:angle="270"
+                android:startColor="#F8FFFFFF"
+                android:centerColor="#E8FFFFFF"
+                android:endColor="#D5F0F2F5"
+                android:type="linear" />
+            <stroke
+                android:width="1.5dp"
+                android:color="#E0FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Top Specular Arc -->
+    <item
+        android:insetLeft="12dp"
+        android:insetRight="12dp"
+        android:insetTop="2dp"
+        android:insetBottom="38dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <gradient
+                android:angle="270"
+                android:startColor="#80FFFFFF"
+                android:endColor="#00FFFFFF"
+                android:type="linear" />
+        </shape>
+    </item>
+</layer-list>

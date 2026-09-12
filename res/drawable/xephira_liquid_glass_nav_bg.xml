@@ -1,38 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Frosted Dark Acrylic Navigation Dock -->
+    <!-- Outer Ambient Crimson Refraction Glow -->
     <item>
         <shape android:shape="rectangle">
-            <gradient
-                android:angle="270"
-                android:startColor="#EE111522"
-                android:endColor="#F80A0C13"
-                android:type="linear" />
+            <corners
+                android:topLeftRadius="24dp"
+                android:topRightRadius="24dp" />
+            <solid android:color="#18E9012A" />
         </shape>
     </item>
 
-    <!-- Ambient Crimson Backlight Strip beneath specular edge -->
-    <item
-        android:top="0dp"
-        android:bottom="52dp">
+    <!-- Translucent Frosted White Acrylic Dock -->
+    <item android:top="1.5dp">
         <shape android:shape="rectangle">
+            <corners
+                android:topLeftRadius="23dp"
+                android:topRightRadius="23dp" />
             <gradient
                 android:angle="270"
-                android:startColor="#28E9012A"
-                android:endColor="#00000000"
+                android:startColor="#F6FFFFFF"
+                android:centerColor="#ECF4F6F9"
+                android:endColor="#DEECEFF4"
                 android:type="linear" />
-        </shape>
-    </item>
-
-    <!-- Top Specular Glass Rim -->
-    <item
-        android:bottom="-2dp"
-        android:left="-2dp"
-        android:right="-2dp">
-        <shape android:shape="rectangle">
             <stroke
                 android:width="1.5dp"
-                android:color="#40FFFFFF" />
+                android:color="#FFFFFFFF" />
         </shape>
     </item>
 </layer-list>
